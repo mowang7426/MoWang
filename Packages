@@ -16,6 +16,22 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: NoPreferencesTips电池提醒-Rootless
 Sponsor: 搬运工
 
+Package: com.charlieleung.liquidify
+Version: 1.3.7-4
+Architecture: iphoneos-arm64
+Maintainer: Charlie Leung
+Installed-Size: 40120
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Liquidify_1.3.7-4-rootless.deb
+Size: 10667380
+MD5sum: 0031cb5f36caeb667181a9167f336283
+SHA1: a6ae29ee6e9f673bac0ad715072a16e3bc7027c0
+SHA256: 6eed3794dd21fed9c79b93fa2e0b0b36046ead5de3cb5d818bbcf77f6b0cb5fe
+Section: Tweaks
+Description: 为 iOS 界面注入液态玻璃质感。
+Author: Charlie Leung
+Name: Liquidify
+
 Package: com.example.hellotweak
 Version: 1.0-1
 Architecture: iphoneos-arm
@@ -43,4 +59,58 @@ Section: Tweaks
 Priority: optional
 Description: 示例插件包（rootless/arm64 版，用于测试你的软件源）
  这是一个占位示例包，替换为你自己的 .deb 即可。
+
+Package: com.mlgm.pulloverx
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/PullOverX-魔改版-横屏键盘放大.deb
+Size: 265190
+MD5sum: 1520c08d8748ff020f724dca620f1a72
+SHA1: 147c3bf9fdc21aaeefbb2f7b647c89026bc96f70
+SHA256: f4845b5f1fc98e7b20698371ba7cf306063cec112a33246edc757ecc1a674f31
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.niceios.aperture-roothide
+Version: 1.0.3.6-32
+Architecture: iphoneos-arm64e
+Maintainer: niceios
+Installed-Size: 9020
+Depends: mobilesubstrate,com.niceios.nicehelper-roothide(>=6.9),preferenceloader
+Filename: debs/com.niceios.aperture-roothide_1.0.3.6-32_iphoneos-arm64e.deb
+Size: 782
+MD5sum: 892e216798ff1ff1affe97d0a50d71bd
+SHA1: 742313ce3c604b8dd4068243a9cb717b2d0563f0
+SHA256: a0b3e988f2a8129517412f5f44870859411b1f424354b925981d6a226267740f
+Section: Tweaks
+Description: 一款真正的灵动岛插件,不止通知上岛.
+Author: niceios
+Name: Nice真灵动岛【Roothide】
+Sponsor: niceios
+
+Package: dylv.deepliquid
+Version: 0.1.93b
+Architecture: iphoneos-arm64e
+Maintainer: Ai
+Installed-Size: 5320
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: debs/Ai液态玻璃_0.1.93barm64e.deb
+Size: 1753502
+MD5sum: 10f4b06fe418a291bedda0a12a1ca30d
+SHA1: a1e8b02a5b2bf2ddf17d1812ff39b5e8643e43d3
+SHA256: 88728c7328d486fff4e3d86d272807323ee6dcd50a165cf77c179fda97fc1973
+Section: Tweaks
+Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数量预算，告别发烫
+Author: Ai
+Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
+Name: Ai液态玻璃
 
