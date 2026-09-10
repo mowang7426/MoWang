@@ -97,6 +97,38 @@ Author: niceios
 Name: Nice真灵动岛【Roothide】
 Sponsor: niceios
 
+Package: com.sbcpu.floating
+Version: 3.6.2
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 1800
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/SBCPUFloating-V3.0-roothide.deb
+Size: 244524
+MD5sum: fcf6545ad9f5e16690990c40dbba2fee
+SHA1: 5d77ebbb6a45ec5b67e19600304182e69ccc2d73
+SHA256: 1a8ac108b40e8567f48723f47bdc91b996fb95629897c1550d06061dd89feedb
+Section: Tweaks
+Description: 修复 bug，新增横屏胶囊开关。
+Author: MoWang
+Name: SB CPU Floating
+
+Package: com.sbcpu.floating
+Version: 3.6.2
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 1816
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/SBCPUFloating-V3.0-rootless.deb
+Size: 246342
+MD5sum: 49152d4e867ca76d12304152efb7537d
+SHA1: 27175c0ec7f68aa08129e89e15129e5f291c8cb9
+SHA256: f8f4fe05d41b1399ea109e5978bed8eb1deb4268b28c919e62ef26dba07b1cb6
+Section: Tweaks
+Description: 修复 bug，新增横屏胶囊开关。
+Author: MoWang
+Name: SB CPU Floating
+
 Package: dylv.deepliquid
 Version: 0.1.93b
 Architecture: iphoneos-arm64e
@@ -113,4 +145,36 @@ Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数�
 Author: Ai
 Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
 Name: Ai液态玻璃
+
+Package: dylv.sbliquidglass
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 4132
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: debs/sbliquidglassv0.1-rootless.deb
+Size: 1398210
+MD5sum: cd891fd57e7473bd15f0af28dfa0989a
+SHA1: 647ea170530da4098de03b7313df874d2408a8b8
+SHA256: 67879246bb644f195bda878b828906f243497c7c998a171c3e48f030acff3ebe
+Section: Tweaks
+Description: A staged Liquid Glass system UI tweak with a safe surface architecture.
+Author: MoWang
+Name: SBLiquidGlass
+
+Package: dylv.sbliquidglass
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 4100
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: debs/sbliquidglassv0.1-roothide.deb
+Size: 1396012
+MD5sum: 13cb80fc88a7a30f2f7f4664abc3e6c7
+SHA1: 54e50bc6349d56a3c58daaa4c9eacb54116d910a
+SHA256: 806fbd7dc9c10f184a382656f3cab7b6b98967031c911ea21dd8c61526a7fcd4
+Section: Tweaks
+Description: A staged Liquid Glass system UI tweak with a safe surface architecture.
+Author: MoWang
+Name: SBLiquidGlass
 
