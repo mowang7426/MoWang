@@ -1,0 +1,40 @@
+name: 重建软件源索引
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'debs/**'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装工具
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev gzip bzip2 xz-utils zstd
+
+      - name: 生成并压缩 Packages
+        run: |
+          dpkg-scanpackages -m debs > Packages
+          gzip -9c Packages > Packages.gz
+          bzip2 -kf Packages
+          xz -9c Packages > Packages.xz
+          zstd -19 Packages -o Packages.zst
+
+      - name: 提交索引变更
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Packages Packages.gz Packages.bz2 Packages.xz Packages.zst
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: 重建软件源索引"
+            git push
+          fi
