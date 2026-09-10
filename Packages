@@ -1,16 +1,20 @@
-Package: com.example.hellotweak
-Version: 1.0-1
+Package: byg.iosios.net.nopreferencetips
+Version: 1.0.4
 Architecture: iphoneos-arm64
-Maintainer: Example Dev <example@example.com>
-Filename: debs/com.example.hellotweak_1.0-1_iphoneos-arm64.deb
-Size: 832
-MD5sum: e849c5a65a05069905bece5f1167e1ef
-SHA1: 7bb6affaee4e71dcfb8ebe14f59e6bf1dcd1fff4
-SHA256: cceba157f41787e5e3f105e3f930bd4bfe544867abb2a3255f1096c646f0bd3d
-Section: Tweaks
-Priority: optional
-Description: 示例插件包（rootless/arm64 版，用于测试你的软件源）
- 这是一个占位示例包，替换为你自己的 .deb 即可。
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: debs/NoPreferencesTips电池提醒-Rootless-1.0.4-iphoneos-arm64.deb
+Size: 5630
+MD5sum: 05630c45b02e201daa6a53a58e774964
+SHA1: e576bdc3ef832458363c5687e93469b0b27c3462
+SHA256: 9214182a18aee3a663a1130fdff89b8b09604cce11fffdd49ef87cff419b0fa4
+Section: 系统增强
+Description: 此插件偏向于更换非官方电池的用户(一“件”全包)* 支持 iOS15-iOS16* 移除“设置-电池-电池健康与充电”的提醒并显示健康值* 移除桌面上的设置角标（只显示 15 天）* 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）非常的不错，nice！
+Author: 苏苏
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: NoPreferencesTips电池提醒-Rootless
+Sponsor: 搬运工
 
 Package: com.example.hellotweak
 Version: 1.0-1
@@ -24,5 +28,19 @@ SHA256: 1b4d00197b2c46cef570676596dc7758452238756122c473d5a773907ed5a086
 Section: Tweaks
 Priority: optional
 Description: 示例插件包（用于测试你的软件源）
+ 这是一个占位示例包，替换为你自己的 .deb 即可。
+
+Package: com.example.hellotweak
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Example Dev <example@example.com>
+Filename: debs/com.example.hellotweak_1.0-1_iphoneos-arm64.deb
+Size: 832
+MD5sum: e849c5a65a05069905bece5f1167e1ef
+SHA1: 7bb6affaee4e71dcfb8ebe14f59e6bf1dcd1fff4
+SHA256: cceba157f41787e5e3f105e3f930bd4bfe544867abb2a3255f1096c646f0bd3d
+Section: Tweaks
+Priority: optional
+Description: 示例插件包（rootless/arm64 版，用于测试你的软件源）
  这是一个占位示例包，替换为你自己的 .deb 即可。
 
