@@ -32,34 +32,6 @@ Description: 为 iOS 界面注入液态玻璃质感。
 Author: Charlie Leung
 Name: Liquidify
 
-Package: com.example.hellotweak
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: Example Dev <example@example.com>
-Filename: debs/com.example.hellotweak_1.0-1_iphoneos-arm64.deb
-Size: 832
-MD5sum: e849c5a65a05069905bece5f1167e1ef
-SHA1: 7bb6affaee4e71dcfb8ebe14f59e6bf1dcd1fff4
-SHA256: cceba157f41787e5e3f105e3f930bd4bfe544867abb2a3255f1096c646f0bd3d
-Section: Tweaks
-Priority: optional
-Description: 示例插件包（rootless/arm64 版，用于测试你的软件源）
- 这是一个占位示例包，替换为你自己的 .deb 即可。
-
-Package: com.example.hellotweak
-Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: Example Dev <example@example.com>
-Filename: debs/com.example.hellotweak_1.0-1_iphoneos-arm.deb
-Size: 912
-MD5sum: 1f2064323d92c26890b2e2969054d9ef
-SHA1: a164075b0523fab70dbd374e4b90ea9cf2b8c219
-SHA256: 1b4d00197b2c46cef570676596dc7758452238756122c473d5a773907ed5a086
-Section: Tweaks
-Priority: optional
-Description: 示例插件包（用于测试你的软件源）
- 这是一个占位示例包，替换为你自己的 .deb 即可。
-
 Package: com.mlgm.pulloverx
 Version: 1.3.1
 Architecture: iphoneos-arm64e
@@ -79,23 +51,6 @@ Author: mlgm
 Dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 Name: PullOver X
-
-Package: com.niceios.aperture-roothide
-Version: 1.0.3.6-32
-Architecture: iphoneos-arm64e
-Maintainer: niceios
-Installed-Size: 9020
-Depends: mobilesubstrate,com.niceios.nicehelper-roothide(>=6.9),preferenceloader
-Filename: debs/com.niceios.aperture-roothide_1.0.3.6-32_iphoneos-arm64e.deb
-Size: 782
-MD5sum: 892e216798ff1ff1affe97d0a50d71bd
-SHA1: 742313ce3c604b8dd4068243a9cb717b2d0563f0
-SHA256: a0b3e988f2a8129517412f5f44870859411b1f424354b925981d6a226267740f
-Section: Tweaks
-Description: 一款真正的灵动岛插件,不止通知上岛.
-Author: niceios
-Name: Nice真灵动岛【Roothide】
-Sponsor: niceios
 
 Package: com.sbcpu.floating
 Version: 3.6.2
