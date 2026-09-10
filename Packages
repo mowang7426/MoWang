@@ -32,6 +32,38 @@ Description: 为 iOS 界面注入液态玻璃质感。
 Author: Charlie Leung
 Name: Liquidify
 
+Package: com.go.mango
+Version: 1.0-Beta6-1
+Architecture: iphoneos-arm64
+Maintainer: go
+Installed-Size: 3236
+Depends: mobilesubstrate
+Filename: debs/com.go.mango_1.0-Beta6-1_iphoneos-arm64.deb
+Size: 930912
+MD5sum: 57895f0868f0ab2aecda0e386bae9352
+SHA1: 291943304625c1231950536a753dc0c0e4c46034
+SHA256: 85ecf2d0b7263c0be7f3fd38b9c44c5491fa60414ec2347bc63e19f927ef31df
+Section: Tweaks
+Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
+Author: go
+Name: mango
+
+Package: com.go.mango
+Version: 1.0-Beta6-1
+Architecture: iphoneos-arm64e
+Maintainer: go
+Installed-Size: 3236
+Depends: mobilesubstrate
+Filename: debs/com.go.mango_1.0-Beta6-1_iphoneos-arm64e.deb
+Size: 929026
+MD5sum: ad3bd66511e2b581524245095a0cde68
+SHA1: 0eb801a8896729215077dd908591ddf67cb31478
+SHA256: b6365f04ec9cdbdbd5b81a7e756f709e85135e3a36e9a22a9059b03505c24978
+Section: Tweaks
+Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
+Author: go
+Name: mango
+
 Package: com.mlgm.pulloverx
 Version: 1.3.1
 Architecture: iphoneos-arm64e
