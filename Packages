@@ -12,3 +12,17 @@ Priority: optional
 Description: 示例插件包（用于测试你的软件源）
  这是一个占位示例包，替换为你自己的 .deb 即可。
 
+Package: com.example.hellotweak
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Example Dev <example@example.com>
+Filename: debs/com.example.hellotweak_1.0-1_iphoneos-arm64.deb
+Size: 832
+MD5sum: e849c5a65a05069905bece5f1167e1ef
+SHA1: 7bb6affaee4e71dcfb8ebe14f59e6bf1dcd1fff4
+SHA256: cceba157f41787e5e3f105e3f930bd4bfe544867abb2a3255f1096c646f0bd3d
+Section: Tweaks
+Priority: optional
+Description: 示例插件包（rootless/arm64 版，用于测试你的软件源）
+ 这是一个占位示例包，替换为你自己的 .deb 即可。
+

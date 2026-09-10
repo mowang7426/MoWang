@@ -8,8 +8,9 @@
 ```
 jailbreak-repo/
 ├── debs/                      # 放 .deb 插件包
-│   └── com.example.hellotweak_1.0-1_iphoneos-arm.deb   # 示例包（可删除）
-├── Packages                   # 包索引
+│   ├── com.example.hellotweak_1.0-1_iphoneos-arm.deb      # 示例包：rootful 版（可删除）
+│   └── com.example.hellotweak_1.0-1_iphoneos-arm64.deb    # 示例包：rootless/arm64 版（可删除）
+├── Packages                   # 包索引（含两种架构）
 ├── Packages.gz / .bz2 / .xz   # 压缩索引
 ├── Release                    # 源描述（含校验和）
 ├── build.sh                   # 一键重建索引脚本
@@ -66,6 +67,7 @@ gpg --export --armor > apt-key.gpg # 公钥放到仓库根目录
 
 ## 注意事项
 
+- **架构说明**：本源同时声明 `iphoneos-arm`（rootful）和 `iphoneos-arm64`（rootless），对应架构的包分别放在 `debs/` 中；添加插件时记得给两种架构各准备一个 `.deb`（架构写在包名里）。客户端会自动挑选匹配自己设备的架构。
 - **只放你自己开发或有授权分发的插件。** 收录盗版、破解应用违反 GitHub 服务条款，仓库会被下架、账号可能被封，并有法律风险。
 - GitHub Pages 适合个人小规模源；包很多、体积大时建议换自己的服务器或 Cloudflare Pages。
 - 源地址由 GitHub 用户名和仓库名决定，改名后地址会变，需重新添加。

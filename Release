@@ -3,16 +3,16 @@ Label: 我的越狱源
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: 我的越狱软件源
 MD5Sum:
- 017d2f63a6196e7402d51b7d91f29468 518 Packages
- aa4e0bb2ade0d61c4b1111437b5cd890 446 Packages.gz
- 9b68af7cbfef96076ddfc75d21368595 464 Packages.bz2
- 279c773ed418b8414bcace8b62b8fb4b 468 Packages.xz
+ b3e00c336e900d9de6f51b6d8c149a69 1061 Packages
+ 62dd9aa4e1db8bd6de12c43bc791a2b8 575 Packages.gz
+ d71726cae2a2a4d04af224ada4b798dd 650 Packages.bz2
+ 4fb414b5256ed090a2353b3370cdb9ba 596 Packages.xz
 SHA256:
- 6dd37e1899e9bbc272a2f3c5cde9d3a5f11699fba23f3a7e93562966e455d851 518 Packages
- b352659db6f26f565f2c92e61807d0fb86841faca4816f6c3dd4482ea1a891dd 446 Packages.gz
- 29f860ac4caeff99601dbb7419fc5630be348f297057afc9ed9da6dc71bce896 464 Packages.bz2
- 76c5584862ea72fb77531db153cb0d6ebc69b126107a553882b56e941e59d0ed 468 Packages.xz
+ 921b8f174f15054f2ac6017b765a81fc9a64d1f96bd2918ee81446fe1d8a7146 1061 Packages
+ a96db6629c4b3e5a9794b198d52597c95521c676447f839998f052972e8c7a72 575 Packages.gz
+ 9d090d938015b879cbf0fcc9df8b5b6c2dba7dfc70737b69d4226141a8d5a029 650 Packages.bz2
+ eaaf5ad3710e6ff7f1bb187d5e733efe7bd2cd3a03ef9449b481a9aca01ee743 596 Packages.xz
