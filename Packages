@@ -64,6 +64,22 @@ Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
 Author: go
 Name: mango
 
+Package: com.go.mango
+Version: 1.0-Beta7-1
+Architecture: iphoneos-arm64e
+Maintainer: go
+Installed-Size: 3888
+Depends: mobilesubstrate
+Filename: debs/com.go.mango_1.0-Beta7-1_iphoneos-arm64e.deb
+Size: 1067480
+MD5sum: ab6fd44c12610ff017b79efb629613ad
+SHA1: 0a9b526bb9e3373ee28ab4fc424599f90a423201
+SHA256: c59459000fea9996cf19fae8b879106b4cf7e03a353079e989d95ed5614ac6b5
+Section: Tweaks
+Description: 分屏，微信小液，真液态玻璃，视频壁纸等一些实用功能。
+Author: go
+Name: mango
+
 Package: com.mlgm.pulloverx
 Version: 1.3.1
 Architecture: iphoneos-arm64e
