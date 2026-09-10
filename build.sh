@@ -22,7 +22,7 @@ gzip -9c Packages > Packages.gz
 bzip2 -kf Packages
 xz -9c Packages > Packages.xz
 if command -v zstd >/dev/null 2>&1; then
-  zstd -19 Packages -o Packages.zst
+  zstd -19 -f Packages -o Packages.zst
 else
   echo "提示：未安装 zstd，跳过 Packages.zst（不影响 Cydia；Sileo 也可读 gz）"
 fi
