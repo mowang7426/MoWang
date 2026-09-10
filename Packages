@@ -34,20 +34,6 @@ Name: Liquidify
 
 Package: com.example.hellotweak
 Version: 1.0-1
-Architecture: iphoneos-arm
-Maintainer: Example Dev <example@example.com>
-Filename: debs/com.example.hellotweak_1.0-1_iphoneos-arm.deb
-Size: 912
-MD5sum: 1f2064323d92c26890b2e2969054d9ef
-SHA1: a164075b0523fab70dbd374e4b90ea9cf2b8c219
-SHA256: 1b4d00197b2c46cef570676596dc7758452238756122c473d5a773907ed5a086
-Section: Tweaks
-Priority: optional
-Description: 示例插件包（用于测试你的软件源）
- 这是一个占位示例包，替换为你自己的 .deb 即可。
-
-Package: com.example.hellotweak
-Version: 1.0-1
 Architecture: iphoneos-arm64
 Maintainer: Example Dev <example@example.com>
 Filename: debs/com.example.hellotweak_1.0-1_iphoneos-arm64.deb
@@ -58,6 +44,20 @@ SHA256: cceba157f41787e5e3f105e3f930bd4bfe544867abb2a3255f1096c646f0bd3d
 Section: Tweaks
 Priority: optional
 Description: 示例插件包（rootless/arm64 版，用于测试你的软件源）
+ 这是一个占位示例包，替换为你自己的 .deb 即可。
+
+Package: com.example.hellotweak
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Example Dev <example@example.com>
+Filename: debs/com.example.hellotweak_1.0-1_iphoneos-arm.deb
+Size: 912
+MD5sum: 1f2064323d92c26890b2e2969054d9ef
+SHA1: a164075b0523fab70dbd374e4b90ea9cf2b8c219
+SHA256: 1b4d00197b2c46cef570676596dc7758452238756122c473d5a773907ed5a086
+Section: Tweaks
+Priority: optional
+Description: 示例插件包（用于测试你的软件源）
  这是一个占位示例包，替换为你自己的 .deb 即可。
 
 Package: com.mlgm.pulloverx
