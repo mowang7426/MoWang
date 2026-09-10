@@ -84,6 +84,22 @@ Dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 Name: PullOver X
 
+Package: com.mowang.kbglow
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 180
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/KBGlow-iOS17-roothide(2).deb
+Size: 24694
+MD5sum: 503b44527d86ed0831e68eb8d06015f0
+SHA1: d53d6f68f1adfaa94a63af6f5010efcb0d76627f
+SHA256: 9952e2482faa98f93043b2cd3f20d18032a1e826ee1d64e1096f4a025bac1c6f
+Section: Tweaks
+Description: 第三方键盘按键发光效果插件
+Author: MoWang
+Name: KBGlow
+
 Package: com.sbcpu.floating
 Version: 3.6.2
 Architecture: iphoneos-arm64e
