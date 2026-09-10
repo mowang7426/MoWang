@@ -27,7 +27,7 @@ jobs:
           gzip -9c Packages > Packages.gz
           bzip2 -kf Packages
           xz -9c Packages > Packages.xz
-          zstd -19 Packages -o Packages.zst
+          zstd -19 -f Packages -o Packages.zst
 
       - name: 提交索引变更
         run: |
