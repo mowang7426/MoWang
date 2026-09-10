@@ -19,7 +19,7 @@ jobs:
       - name: 安装工具
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev gzip bzip2 xz-utils zstd
+          sudo apt-get install -y dpkg-dev gzip bzip2 xz-utils
 
       - name: 生成并压缩 Packages
         run: |
@@ -27,13 +27,41 @@ jobs:
           gzip -9c Packages > Packages.gz
           bzip2 -kf Packages
           xz -9c Packages > Packages.xz
-          zstd -19 -f Packages -o Packages.zst
+          rm -f Packages.zst
+
+      - name: 重建 Release（含最新校验和）
+        run: |
+          python3 - <<'PY'
+          import hashlib, os
+          names = ['Packages', 'Packages.gz', 'Packages.bz2', 'Packages.xz']
+          if os.path.exists('Packages.zst'):
+              names.append('Packages.zst')
+          lines = [
+              'Origin: 你的名字',
+              'Label: 我的越狱源',
+              'Suite: stable',
+              'Version: 1.0',
+              'Codename: ios',
+              'Architectures: iphoneos-arm iphoneos-arm64',
+              'Components: main',
+              'Description: 我的越狱软件源',
+              'MD5Sum:',
+          ]
+          for n in names:
+              d = open(n, 'rb').read()
+              lines.append(' %s %d %s' % (hashlib.md5(d).hexdigest(), len(d), n))
+          lines.append('SHA256:')
+          for n in names:
+              d = open(n, 'rb').read()
+              lines.append(' %s %d %s' % (hashlib.sha256(d).hexdigest(), len(d), n))
+          open('Release', 'w').write('\n'.join(lines) + '\n')
+          PY
 
       - name: 提交索引变更
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Packages Packages.gz Packages.bz2 Packages.xz Packages.zst
+          git add -A
           if ! git diff --cached --quiet; then
             git commit -m "chore: 重建软件源索引"
             git push
