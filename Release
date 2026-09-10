@@ -1,0 +1,18 @@
+Origin: 你的名字
+Label: 我的越狱源
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: 我的越狱软件源
+MD5Sum:
+ 017d2f63a6196e7402d51b7d91f29468 518 Packages
+ aa4e0bb2ade0d61c4b1111437b5cd890 446 Packages.gz
+ 9b68af7cbfef96076ddfc75d21368595 464 Packages.bz2
+ 279c773ed418b8414bcace8b62b8fb4b 468 Packages.xz
+SHA256:
+ 6dd37e1899e9bbc272a2f3c5cde9d3a5f11699fba23f3a7e93562966e455d851 518 Packages
+ b352659db6f26f565f2c92e61807d0fb86841faca4816f6c3dd4482ea1a891dd 446 Packages.gz
+ 29f860ac4caeff99601dbb7419fc5630be348f297057afc9ed9da6dc71bce896 464 Packages.bz2
+ 76c5584862ea72fb77531db153cb0d6ebc69b126107a553882b56e941e59d0ed 468 Packages.xz
