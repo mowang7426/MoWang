@@ -16,6 +16,24 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: NoPreferencesTips电池提醒-Rootless
 Sponsor: 搬运工
 
+Package: com.callassist.caiphoneduostatus
+Version: 1.5.10
+Architecture: iphoneos-arm64e
+Maintainer: 热心网友CallAssist
+Installed-Size: 204
+Depends: firmware (>= 16.0)
+Conflicts: com.xybp888.caanimatedstatus
+Replaces: com.xybp888.caanimatedstatus
+Filename: debs/com.callassist.caiphoneduostatus_1.5.10_iphoneos-arm64e (1).deb
+Size: 18876
+MD5sum: f74550c327bbf48da1525176d8e32e31
+SHA1: 8f2e7291e0abbe5772604f9f9f736139b11b9c03
+SHA256: 0ecc1cdcb4a569f539356f6006449eded72310e887ffac36cd1e229b5f068306
+Section: Tweaks
+Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
+Author: 热心网友CallAssist
+Name: CAiPhoneDuoStatus
+
 Package: com.charlieleung.liquidify
 Version: 1.3.7-4
 Architecture: iphoneos-arm64
