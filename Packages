@@ -261,6 +261,23 @@ Author: MoWang
 Name: SBLiquidGlass
 
 Package: iya.banana.iphoneduoicon
+Version: 0.1.13
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 616
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iya.banana.iphoneduoicon_0.1.13_iphoneos-arm64.deb
+Size: 81784
+MD5sum: 37453e37fa64259ae26ccb690d9ca85f
+SHA1: e491b75c04158245a367074351ba626cf5d9f0e7
+SHA256: 97da49d0b4e1704c66b33e0c72743303f525193dcb3f5edb172631248af62437
+Section: Tweaks
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Author: Banana
+Name: iPhoneDuoIcon
+
+Package: iya.banana.iphoneduoicon
 Version: 0.1.6
 Architecture: iphoneos-arm64
 Maintainer: Banana
