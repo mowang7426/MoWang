@@ -98,6 +98,23 @@ Description: 分屏，微信小液，真液态玻璃，视频壁纸等一些实�
 Author: go
 Name: mango
 
+Package: com.hang.zzzj
+Version: 0.0.1-8
+Architecture: iphoneos-arm64e
+Maintainer: hang
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/转转找机.deb
+Size: 45136
+MD5sum: fb3971a530855428e9aaaa2b188f2124
+SHA1: ee19330cbb39612acbabde7f92b0b290e6d8a4ea
+SHA256: 2121881516193186337cfe9a84b152e44f622dc895dd639aca1b01807f5b8e74
+Section: Tweaks
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接。温馨提示：直装版Deb安装后要是没有显示悬浮窗就说明插件没有生效，请卸载后改用巨魔注入。
+Author: hang
+Name: 转转找机-Roothide
+
 Package: com.mlgm.pulloverx
 Version: 1.3.1
 Architecture: iphoneos-arm64e
