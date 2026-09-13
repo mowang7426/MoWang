@@ -260,3 +260,20 @@ Description: A staged Liquid Glass system UI tweak with a safe surface architect
 Author: MoWang
 Name: SBLiquidGlass
 
+Package: iya.banana.iphoneduoicon
+Version: 0.1.6
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 556
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iya.banana.iphoneduoicon_0.1.6_iphoneos-arm64.deb
+Size: 67720
+MD5sum: 43affbeebf7f4960eb0da7d28aa3c1af
+SHA1: 23e4db8de92bee67161ac1b2f7cfbe6d2affdd0f
+SHA256: 52520e39b0b0a6d4507c7be740a446886a6341c6b1dc1d0c7363bd07c995e894
+Section: Tweaks
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Author: Banana
+Name: iPhoneDuoIcon
+
