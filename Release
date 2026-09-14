@@ -1,18 +1,18 @@
-Origin: 你的名字
-Label: 我的越狱源
+Origin: 莫忘
+Label: MoWang
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
-Description: 我的越狱软件源
+Description: MoWang 越狱源
 MD5Sum:
  42e5d5b6c845df9bb82f39d0f9bb2e72 16383 Packages
- 2e9251f0214a6544dd02f7b460c2328d 6255 Packages.gz
+ 27c382c6fce40d7ac98904536be346d0 6255 Packages.gz
  868ca5ce2e31719bf844fe97c4bf04ef 5904 Packages.bz2
  6f445fb2e9b1081d72d6e5fc1036d79a 5628 Packages.xz
 SHA256:
  33963a4d61c9e3a45d93f0bbbf66e6fa67c1679468ea88f2ba0b7e7a0f183e63 16383 Packages
- 42862ffe10f1427c424e8b33db7a85ae30ab6e3b4250215acea26acd1951536a 6255 Packages.gz
+ 76e7823086d5a97fa2f144b21706499088725525de2eb1a51925e1cf849fae11 6255 Packages.gz
  a4c885d04d563a8d2c62306a7c22d51dd7a7a8c4e2feb226083187d125a9adc7 5904 Packages.bz2
  48013d0cc00bd7f2d797a3462559c1161694658a1bee5089c24660c41f1cba2b 5628 Packages.xz
