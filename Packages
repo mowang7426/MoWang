@@ -16,6 +16,28 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: NoPreferencesTips电池提醒-Rootless
 Sponsor: 搬运工
 
+Package: com.axs.duostatus
+Version: 5.2.0-75
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.duostatus_5.2.0-75_iphoneos-arm64.deb
+Size: 49202
+MD5sum: 39a05858883f87475ac12f57f9b77ae5
+SHA1: b9637f9439d4b02345b618ff400e82fac2863bf4
+SHA256: 5d1c6c03be7de0dd10e69207acaadb4e5fc5e694a392a011272068d5d1a92d20
+Section: Axs-Tweaks
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新（充电闪电、低电量、飞行模式、无服务）
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回，期间再点按即续期
+ * 4.前景色取系统样式对象（与原生图标同色），尺寸/位移/线宽/配色可调，改动即时生效
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Name: DuoStatus
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
 Package: com.callassist.caiphoneduostatus
 Version: 1.5.10
 Architecture: iphoneos-arm64e
@@ -33,6 +55,23 @@ Section: Tweaks
 Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
 Author: 热心网友CallAssist
 Name: CAiPhoneDuoStatus
+
+Package: com.callassist.duostatusguard
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: CallAssist
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 16.0), ellekit
+Filename: debs/com.callassist.duostatusguard_1.0.0_iphoneos-arm64e.deb
+Size: 960
+MD5sum: 4fad40aee9f874fec9855913c97fdbf2
+SHA1: 6677db08bdaa57ba6acb5118ced3d7c21f1ed4e6
+SHA256: 7587e964e25eeb6ab5167dc9a141199c87d56c0d739223ab568f5fe525cbe476
+Section: Tweaks
+Description: DuoStatus 启动保护器：拦截 SpringBoard 启动早期的 setBatteryMonitoringEnabled: 调用，解决 iOS 17 上 respring 安全模式（EXC_BREAKPOINT）。需与 DuoStatus 同时安装。
+Author: CallAssist
+Name: DuoStatusGuard
 
 Package: com.charlieleung.liquidify
 Version: 1.3.7-4
@@ -306,6 +345,23 @@ Size: 860
 MD5sum: 8293d3e68d6e64a794c94bcdd06ed427
 SHA1: 123f361f1a4f6bb436a8fee0656384c71df500e2
 SHA256: 22475625e1415be6d3811b84466afae788280e343e435c824142797d97cd5fc0
+Section: Tweaks
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Author: Banana
+Name: iPhoneDuoIcon
+
+Package: iya.banana.iphoneduoicon
+Version: 0.1.16
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 632
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iPhoneDuoIcon-0.1.16.deb
+Size: 84408
+MD5sum: 1d8b6a1531f91e7c114b763725a97841
+SHA1: aa44836cc7d1b577b512031848d3e95c0372dcca
+SHA256: 53b1f769ae3358e1e78ed175318d7f75968280ee927310702707d1d6e39b0c3d
 Section: Tweaks
 Description: Combined battery, Wi-Fi and dual-line cellular status icon.
 Author: Banana
