@@ -403,16 +403,16 @@ Author: MoWang
 Name: KBGlow
 
 Package: com.sbcpu.floating
-Version: 4.1
+Version: 4.1.2
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
-Installed-Size: 2068
+Installed-Size: 2100
 Depends: mobilesubstrate, preferenceloader
 Filename: debs/SBCPUFloating-V3.0-roothide.deb
-Size: 271994
-MD5sum: 040397af9e94473e641a81eed9aa22f6
-SHA1: 30d59e3aa48b1c78bc5ef87b03ba3b88171bb2bc
-SHA256: e33ae7153153d9ffed90cf1cc3f3718d9161320e2ef565eb50a0985c7f751a69
+Size: 277906
+MD5sum: cdc5f3f4e6237567dd91a80f506f8439
+SHA1: 9d9d05e97892dba34adf90f655c899aa8ba5e8aa
+SHA256: d0eab02fe6cef253f1fe192d800cc45ffa92e60323b58f25b6192c53d583b7b5
 Section: Tweaks
 Description: 新增插件耗电情况，仅供参考
  新增长按浮窗显示充电详情、充电器瓦数、实际输入瓦数
@@ -422,16 +422,16 @@ Author: MoWang
 Name: SB CPU Floating
 
 Package: com.sbcpu.floating
-Version: 4.1
+Version: 4.1.2
 Architecture: iphoneos-arm64
 Maintainer: MoWang
-Installed-Size: 2084
+Installed-Size: 2116
 Depends: mobilesubstrate, preferenceloader
 Filename: debs/SBCPUFloating-V3.0-rootless.deb
-Size: 276326
-MD5sum: 0f88d7c9e60333069071fbe38e0f9ba5
-SHA1: a3a61cb0b911b21c7cd3c00ddbb07c7d9be1ebfa
-SHA256: a9a763a0561c0f255b7c75af13a99644f42413b8a6ff9c87aed0914661f66d72
+Size: 278184
+MD5sum: cda5bfcfa961647b84df918f75895e28
+SHA1: 1a15569da84ae720d2ac96c63b0d528544d54c81
+SHA256: ab789d53ca92e4d393d40f828f686c5de440d9436c93e4675b8514dc4602f6fb
 Section: Tweaks
 Description: 新增插件耗电情况，仅供参考
  新增长按浮窗显示充电详情、充电器瓦数、实际输入瓦数
