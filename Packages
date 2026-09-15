@@ -403,34 +403,40 @@ Author: MoWang
 Name: KBGlow
 
 Package: com.sbcpu.floating
-Version: 3.7
+Version: 4.1
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
-Installed-Size: 1848
+Installed-Size: 2068
 Depends: mobilesubstrate, preferenceloader
 Filename: debs/SBCPUFloating-V3.0-roothide.deb
-Size: 256530
-MD5sum: 8a54c64a1fb064bbd6780873f6163e32
-SHA1: 11a50c68e464331cb19af13f3272b41ea7ddcc4d
-SHA256: 5ba3463de060026cc2142fa7d5fa80875860b0b95b7f51ce75f1b76752f1312d
+Size: 271994
+MD5sum: 040397af9e94473e641a81eed9aa22f6
+SHA1: 30d59e3aa48b1c78bc5ef87b03ba3b88171bb2bc
+SHA256: e33ae7153153d9ffed90cf1cc3f3718d9161320e2ef565eb50a0985c7f751a69
 Section: Tweaks
-Description: 新增锁屏清理后台开关
+Description: 新增插件耗电情况，仅供参考
+ 新增长按浮窗显示充电详情、充电器瓦数、实际输入瓦数
+ 修复 120 强制帧率，强行注入每个进程，实现满帧率运行
+ 新增充电历史详情
 Author: MoWang
 Name: SB CPU Floating
 
 Package: com.sbcpu.floating
-Version: 3.7
+Version: 4.1
 Architecture: iphoneos-arm64
 Maintainer: MoWang
-Installed-Size: 1848
+Installed-Size: 2084
 Depends: mobilesubstrate, preferenceloader
 Filename: debs/SBCPUFloating-V3.0-rootless.deb
-Size: 259152
-MD5sum: ff7fba7416820f4303f04d10c66d909a
-SHA1: 949d4b412b293da7450dd6b1be4c9216c8b9da9e
-SHA256: 1b7b3dabd8a76579fb25e16be52423db5cffec6e4d30d865cd71503b88c8cdc2
+Size: 276326
+MD5sum: 0f88d7c9e60333069071fbe38e0f9ba5
+SHA1: a3a61cb0b911b21c7cd3c00ddbb07c7d9be1ebfa
+SHA256: a9a763a0561c0f255b7c75af13a99644f42413b8a6ff9c87aed0914661f66d72
 Section: Tweaks
-Description: 新增锁屏清理后台开关
+Description: 新增插件耗电情况，仅供参考
+ 新增长按浮窗显示充电详情、充电器瓦数、实际输入瓦数
+ 修复 120 强制帧率，强行注入每个进程，实现满帧率运行
+ 新增充电历史详情
 Author: MoWang
 Name: SB CPU Floating
 
@@ -580,6 +586,23 @@ Size: 88746
 MD5sum: 3aeddb7bda89a3f0ce78de4729b277ab
 SHA1: 5bf982b2e3be1dcb18049c4229571336728b1866
 SHA256: 1c1f2fe62881dc78c76a13153f8c1d537a9c74fb4bcfb95de89ef08cf0b9e281
+Section: Tweaks
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Author: Banana
+Name: iPhoneDuoIcon
+
+Package: iya.banana.iphoneduoicon
+Version: 0.1.20
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 700
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iPhoneDuoIcon-0.1.20.deb
+Size: 99126
+MD5sum: a8df30fdab83ab535a1a94417f3f6f1b
+SHA1: f55e685d80a72d8c2c02db3ca4f27814669460bf
+SHA256: ce2e307b3c3f92d643d4c6d24cfb41faa2f8ee660f71eba50b04971a4f53132c
 Section: Tweaks
 Description: Combined battery, Wi-Fi and dual-line cellular status icon.
 Author: Banana
