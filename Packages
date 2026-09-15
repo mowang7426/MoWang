@@ -38,6 +38,28 @@ Icon: https://axs66.github.io/pro/icon/duostatus.png
 Name: DuoStatus
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
 
+Package: com.axs.duostatus
+Version: 5.2.0-82
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/DuoStatus-5.2.0-82.deb
+Size: 51102
+MD5sum: b1b72685e1d624b37b32f4668c362480
+SHA1: 3869dfb40eebe34c478b417f98607908d199440a
+SHA256: 17c4aefa0606fb6f0261a2865917497933f8f4effe73080b626119b4fb188e0c
+Section: Axs-Tweaks
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新（充电闪电、低电量红/黄、飞行模式、无服务、WiFi 按强度分档）
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回，期间再点按即续期
+ * 4.前景色取系统样式对象（与原生图标同色），尺寸/位移/线宽/配色可调，改动即时生效
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Name: DuoStatus
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
 Package: com.callassist.caiphoneduostatus
 Version: 1.5.10
 Architecture: iphoneos-arm64e
@@ -298,6 +320,23 @@ Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
 Author: iosdump
 Name: SHELLX
+
+Package: com.mlgm.idata
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 8228
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/iData-1.2.1.deb
+Size: 2461776
+MD5sum: 34943e6b1a4001776b2ee0d386392d2d
+SHA1: 3ac3b4282b9e32534943a06d9aa586bac6aba648
+SHA256: 8cbd58d6ba3266a925e1cf78f3c7724c03c2f754dbbbbeb086f6a58083660a87
+Section: Applications
+Description: 应用、插件数据管理工具，一键备份/恢复
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+Name: iData
 
 Package: com.mlgm.pulloverx
 Version: 1.3.1
