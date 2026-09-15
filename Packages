@@ -530,6 +530,23 @@ Author: Banana
 Name: iPhoneDuoIcon
 
 Package: iya.banana.iphoneduoicon
+Version: 0.1.19
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 636
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iPhoneDuoIcon-0.1.19.deb
+Size: 88746
+MD5sum: 3aeddb7bda89a3f0ce78de4729b277ab
+SHA1: 5bf982b2e3be1dcb18049c4229571336728b1866
+SHA256: 1c1f2fe62881dc78c76a13153f8c1d537a9c74fb4bcfb95de89ef08cf0b9e281
+Section: Tweaks
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Author: Banana
+Name: iPhoneDuoIcon
+
+Package: iya.banana.iphoneduoicon
 Version: 0.1.6
 Architecture: iphoneos-arm64
 Maintainer: Banana
