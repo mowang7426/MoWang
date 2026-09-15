@@ -1,5 +1,5 @@
 Origin: 莫忘
-Label: 莫忘专属源
+Label: MoWang
 Suite: stable
 Version: 1.0
 Codename: ios
@@ -7,12 +7,12 @@ Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: MoWang 越狱源
 MD5Sum:
- 9e611801f5f74e0ce6f074a35e63ccd2 24824 Packages
- 37bb662105352ba1b9d6f292dcf2b4c1 7988 Packages.gz
- 60adfd0f2c7284030a8d009efea395eb 7605 Packages.bz2
- 92962abc79b3e682b5fe843885f495af 7040 Packages.xz
+ f20a810f20b660f7a624570abf766092 25396 Packages
+ c7a19f46b2c58f17df4bd12f03ad2b8f 8106 Packages.gz
+ 41b75bc3e7fcc29999ace10af39a1fb7 7718 Packages.bz2
+ 8650fc0e32e37e7cf19aa47a8be384bf 7132 Packages.xz
 SHA256:
- 5a744cc47888aa1fc0ca35eea35358de387a8fb6c4cd9a9033d817b94649a721 24824 Packages
- 461c8d3be34dce08956846bde700c5736296231e0206525811ffec3667f23d81 7988 Packages.gz
- 87367a8d4134aaf4b0e48efdda561c6002209c3ce9af0415fb5386269c45e963 7605 Packages.bz2
- 3849df2ca60b0718e9268d881df347a94b9e7dc240496060cb5262ca0038ae31 7040 Packages.xz
+ 404c1b69e69be6f70ca2a7b32f14250f3330840b2c8fbd8aa8b10300e89adf48 25396 Packages
+ 3c4b40bee2524259e85f29fbf68702e08e715323ff03f1aa6826cc464b913f04 8106 Packages.gz
+ 54fa55cf8d14a7695f5c211040eef3c55d8112b6be0ec97ea8c2c46b9ca30e0d 7718 Packages.bz2
+ 1c1919adca36757f18d42a5017496e9b2a4660d383cb4ca4897e29b9a322da45 7132 Packages.xz
