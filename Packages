@@ -518,6 +518,23 @@ Description: 新增插件耗电情况，仅供参考
 Author: MoWang
 Name: SB CPU Floating
 
+Package: com.susudear.screencore
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2760
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/ScreenCore-1.1.2.deb
+Size: 418276
+MD5sum: e41980a06ec337a393217fb7bdddfc84
+SHA1: 1d4361ba4949e3e53fdd66d71cfe0224c3e0115b
+SHA256: 50cdb36db2e9e8964b0b8436203e459fea4abb078539cb067fcf4e267021e225
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
 Package: com.susudear.themecore
 Version: 0.3
 Architecture: iphoneos-arm64e
