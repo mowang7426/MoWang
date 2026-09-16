@@ -17,6 +17,30 @@ Name: NoPreferencesTips电池提醒-Rootless
 Sponsor: 搬运工
 
 Package: com.axs.duostatus
+Version: 5.2.0-101
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 548
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/DuoStatus-5.2.0-101.deb
+Size: 59356
+MD5sum: a7676a75cb4699cac35c6c69abae0ec5
+SHA1: 50cc44afdd2720a35934ff6306fcba6cfd625b5d
+SHA256: 654d4e6a1e0b7f01d0721827801c3daeb3fe19c6c9c7eee8c246245d420d9ba4
+Section: Axs-Tweaks
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回
+ * 4.支持自定义元素的尺寸/位移/线宽/配色等参数，改动即时生效
+ * 5. 支持ios15.0~17.3.1系统
+ * 6. 兼容电话助手
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Name: DuoStatus
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
+Package: com.axs.duostatus
 Version: 5.2.0-75
 Architecture: iphoneos-arm64
 Maintainer: Axs <qiaozhani000@163.com>
@@ -750,6 +774,23 @@ Author: Banana
 Name: iPhoneDuoIcon
 
 Package: iya.banana.iphoneduoicon
+Version: 0.1.24
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 864
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iPhoneDuoIcon-0.1.24.deb
+Size: 148620
+MD5sum: ba61e9a07a0495ba046d56fe7356e99c
+SHA1: 3bd0f6b09e8ae451f23f48537368959e51ab8784
+SHA256: af6e345f031c6bdc4032a41f66314990ade423c577f3cb4bb2f128458958d932
+Section: Tweaks
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Author: Banana
+Name: iPhoneDuoIcon
+
+Package: iya.banana.iphoneduoicon
 Version: 0.1.6
 Architecture: iphoneos-arm64
 Maintainer: Banana
@@ -765,4 +806,38 @@ Section: Tweaks
 Description: Combined battery, Wi-Fi and dual-line cellular status icon.
 Author: Banana
 Name: iPhoneDuoIcon
+
+Package: iya.banana.jumpguard
+Version: 0.1.2
+Architecture: iphoneos-arm64e
+Maintainer: hades
+Installed-Size: 560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/JumpGuard-0.1.2.deb
+Size: 66896
+MD5sum: 8f2461505dc9c4a62b4b852fc7d02fb3
+SHA1: 18d12de63116ac2a94ec670f5f5ff231675ddf34
+SHA256: ae21e54e432fafa72d6996d764085e26b2125e16d4db65af3904dbe5829040d9
+Section: Tweaks
+Description: Confirm or block cross-app launch requests on RootHide iOS.
+Author: hades
+Name: JumpGuard
+
+Package: iya.iapple.siri
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: Thijs mussig
+Installed-Size: 2252
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Filename: debs/LiquidSiri-1.1.3.deb
+Size: 986524
+MD5sum: 558324492bde647dca1dc35ff31ea8ef
+SHA1: 8d51e6806565b7b57bf4b74458d352d8fc6efeea
+SHA256: 13fca93f398ddc4d26ea3a7131f44ecd5d2c1e4b7ed8c852207415b20aebe439
+Section: Tweaks
+Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
+Author: Thijs mussig, Banana
+Name: LiquidSiri
 
