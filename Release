@@ -1,5 +1,5 @@
 Origin: 莫忘
-Label: MoWang
+Label: 莫忘的专属源
 Suite: stable
 Version: 1.0
 Codename: ios
@@ -8,11 +8,11 @@ Components: main
 Description: MoWang 越狱源
 MD5Sum:
  35a414406314c4bd8eca6354866b3abc 30032 Packages
- 8dcf0d847902601f12b010492f4777ab 9046 Packages.gz
+ 561259ad990b9fad68e6727789541457 9046 Packages.gz
  c31a62a538695c87e557b18431e23d0b 8508 Packages.bz2
  3f0be398ae1bac4f687709c8964efc1f 7916 Packages.xz
 SHA256:
  342b2cb211a4459bbd00b295c97ced2725c14e62b1fa10abb241c8a3e4e1833b 30032 Packages
- 9eba009c0807f45ba92ae6848ff579280be289d431f22368944e8ca07e1acf37 9046 Packages.gz
+ f48da2e9ffb38c1ba1567cae81241eb5bf884c06fc3ee6aedcf25bc8cdf7b9f4 9046 Packages.gz
  58a81374d2f2d89e930e9bd29f5714a1781b44263f791ddacbd9e91e0a832ace 8508 Packages.bz2
  bc1feba2d677969d4bfcd08f4efb6c915b9ff3a02e27379416f181d1dda22e21 7916 Packages.xz
