@@ -382,6 +382,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图等
 Author: iosdump
 Name: SHELLX
 
+Package: com.iosdump.shellx
+Version: 3.2.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 14436
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/SHELLX-3.2.1.deb
+Size: 3204136
+MD5sum: 54bc3d130788208eb9d11165292420b9
+SHA1: 7c6db86d27992cc43fe2401907a3f7e790b202d5
+SHA256: 997a025d2a4e04ac682cb7da70452b36acf9d4a1f147cf163791bd69b548234d
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
@@ -699,6 +716,23 @@ Size: 105204
 MD5sum: 7495b016c399d183a13c9d93ebe634d1
 SHA1: b38976ee157c9f0bceaba63d0845bbeedc074964
 SHA256: d67423c81189ed369305a6b47494bfc05978ee507202ba7f93694b0d6add04da
+Section: Tweaks
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.
+Author: Banana
+Name: iPhoneDuoIcon
+
+Package: iya.banana.iphoneduoicon
+Version: 0.1.22
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 760
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iPhoneDuoIcon-0.1.22.deb
+Size: 117924
+MD5sum: c452540a6655b814e31f4106003c9e6d
+SHA1: 2f2020e3476ae5db02b2b1279b033d09313e4e07
+SHA256: 5a34978f72f183fcaed9439cc3c03b11160976457b36f21eca0abb1611194f6a
 Section: Tweaks
 Description: Combined battery, Wi-Fi and dual-line cellular status icon.
 Author: Banana
