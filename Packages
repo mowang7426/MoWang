@@ -159,6 +159,45 @@ Description: 为 iOS 界面注入液态玻璃质感。
 Author: Charlie Leung
 Name: Liquidify
 
+Package: com.colorblack.bottomx.floatingball
+Version: 6.53
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 1052
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/Bottom-x悬浮球_6.53最终版_roothide.deb
+Size: 494614
+MD5sum: 3e30f03deda729c09f422291739a0231
+SHA1: 7a3dc3c70e55a446a01f7ad37735dfd13ad15b01
+SHA256: ac00a510bb8df69bfb0a9a523433a940cc52c6e623c06aa8c321bbb0c0510a59
+Section: Tweaks
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Author: kanuo
+Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
+Name: Bottom-x 悬浮球
+
 Package: com.go.mango
 Version: 1.0-Beta6-1
 Architecture: iphoneos-arm64
