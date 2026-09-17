@@ -657,22 +657,6 @@ Description: 第三方键盘按键发光效果插件
 Author: MoWang
 Name: KBGlow
 
-Package: com.sbcpu.floating
-Version: 4.5.6
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/SBCPUFloating-V3.0-rootless.deb
-Size: 379830
-MD5sum: 3f6e36fdb3d638cc4ded1d9fe96df216
-SHA1: 70e984f8a7adcb891ceb1367b370a1427cfa9088
-SHA256: 129461e5335db2d1ab932d65a23f00ffd94dbc047a9936a0a5f837d2244ba5b5
-Section: Tweaks
-Description: V4.5.6 Charge Engine 稳定版：①修复电池事件回调签名错误（3参强转4参导致电量变化收不到通知、80/70 不随电量触发）——改为原生 4 参数 IOServiceInterestCallback 并检查注册返回值；②智能充电改用独立状态变量 gLimitBlocked/gLimitUsesPowerBlock，不再从 CH0C 反推，修复 keepAC=NO 时 CH0I 停充后无法恢复；③SBCPUPowerd 与智能停充完全解耦，只保留满血快充，删除伪造 ChargeInhibit/ChargeBlocked/ChargeLimit/FullyCharged 的 Hook；④overrideOBC/keepAC 真正贯穿 UI→socket→daemon→SMC（不再 drainMode 写死）；⑤socket 读写改为 read_full/write_full 防拆包；⑥补回 10 秒 watchdog 兜底（防 IOKit 通知不可用时 daemon 秒退）；⑦daemon 启动即决策一次，浮窗关闭/respring 后限制仍生效；⑧修复 SMC 读取长度越界风险；⑨修复拔插电/daemon 重启后的 CH0C/CH0I 状态漂移；⑩移除 powerd 对电池状态与充电准入属性的伪装
-Author: MoWang
-Name: SB CPU Floating
-
 Package: com.susudear.screencore
 Version: 1.1.2
 Architecture: iphoneos-arm64
