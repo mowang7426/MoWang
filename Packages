@@ -16,6 +16,24 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: NoPreferencesTips电池提醒-Rootless
 Sponsor: 搬运工
 
+Package: com.Axs.qjsy
+Version: 4.1.6-end
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 2496
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/全局水印Pro-4.1.6-end.deb
+Size: 336972
+MD5sum: 5c2dcf8897397584a70429899235348b
+SHA1: 31a0e16e29867856c33c34b79eb9d60dc93aa870
+SHA256: 997ddca7feea124e2d9571ad45acb392bc5bb7aa5c7b4d5108b8797a240b1200
+Section: Tweaks
+Description: 让简单截图，拥有更多可能。
+Author: 冰蓝
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+Name: 全局水印Pro
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.axs.duostatus
 Version: 5.2.0-101
 Architecture: iphoneos-arm64
