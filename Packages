@@ -809,6 +809,23 @@ Author: MoWang
 Name: KBGlow
 
 Package: com.qianuo.smartdeck.app
+Version: 0.7.11
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 1096
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/SmartDeck_Window_Experimental_0.7.11_roothide.deb
+Size: 345506
+MD5sum: b309a1e7292c47ca16118a0cf8b0f721
+SHA1: 727a2a0cbb5605b69e572d872dd03991c5adc064
+SHA256: c662dfb4678528bca8cc781668056ef23ec5e1f657cb3c6368bd079e3f512615
+Section: Applications
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Author: kanuo
+Name: SmartDeck App
+
+Package: com.qianuo.smartdeck.app
 Version: 0.7.8
 Architecture: iphoneos-arm64e
 Maintainer: Qianuo
