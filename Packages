@@ -1035,6 +1035,299 @@ Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、�
 Author: MoWang
 Name: SB CPU Floating
 
+Package: com.susu.collection
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 520
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.susu.collection_1.1_iphoneos-arm64.deb
+Size: 56444
+MD5sum: 95cda364d5d23acbc886eac7e34c64f5
+SHA1: 1659e7d32782e4a0ce0aa6b57366048a3cc586ab
+SHA256: 45c644268c37c17b8f20213585527a84ed1d299bec051ffe49a8f9122bca5c48
+Section: Tweaks
+Description: 自用合集插件
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/SuCollection.png
+Name: SuCollection
+
+Package: com.susu.collection
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 520
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.susu.collection_1.1_iphoneos-arm64e.deb
+Size: 55236
+MD5sum: 84552e8897f3082013acdbd9cf6c20a7
+SHA1: b0fc3b55d81a5160e3bda27d595ac9a8c23d754e
+SHA256: 58c243865e6ad7140b929cb74664d37fb5d0797e1f8d15a34b6b3c45b00670f9
+Section: Tweaks
+Description: 自用合集插件
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/SuCollection.png
+Name: SuCollection
+
+Package: com.susu.snapper3.pictapro
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 180
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susu.snapper3.pictapro_1.0.1_iphoneos-arm64.deb
+Size: 10620
+MD5sum: 642e9176c818d33172e5a64406364120
+SHA1: db788e2d87875b5eb379ca0907701cce7ba80edb
+SHA256: d2c94af2fd040bc74674621dad7e701e15a992f3cc6569ce2c4ed1d93e31f5f4
+Section: Tweaks
+Description: PictaPro适配 Snapper3 的插件
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/PictaPro.png
+Name: PictaPro
+
+Package: com.susu.snapper3.pictapro
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susu.snapper3.pictapro_1.0.1_iphoneos-arm64e.deb
+Size: 10368
+MD5sum: 4f5367c2cea15918afcbb227a810a5d5
+SHA1: d7e2aef88bfaed573479a2e349a4503e07e12980
+SHA256: a04fd7307f9c4e4201653f34bf1457609e2fbb0b435cfca567adc96970d94d4e
+Section: Tweaks
+Description: PictaPro适配 Snapper3 的插件
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/PictaPro.png
+Name: PictaPro
+
+Package: com.susudear.appdata
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Maintainer: Fouad Raheb & SuSuDear
+Installed-Size: 1084
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.susudear.appdata_1.3.6_iphoneos-arm64.deb
+Size: 525586
+MD5sum: 8f5b23f1af3beda9d5d542f6d1e12428
+SHA1: 3526e0a83e2db2c9be8c8551a6d7c0be3e6bc8d7
+SHA256: 306730a5e20d4f827afc53618525d7baddfe2e68115b2f5a022eb31926d3470f
+Section: Tweaks
+Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
+Author: Fouad Raheb & SuSuDear
+Icon: https://repo.susubaby.cn/icons/AppData.png
+Name: AppData
+
+Package: com.susudear.appdata
+Version: 1.3.6
+Architecture: iphoneos-arm64e
+Maintainer: Fouad Raheb & SuSuDear
+Installed-Size: 1084
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.susudear.appdata_1.3.6_iphoneos-arm64e.deb
+Size: 524586
+MD5sum: 99e3de76a1e29c11b64575924a648bab
+SHA1: 42e9138c8a3df1610dad1d704cfd7854c1217526
+SHA256: 24ac7b15a612e5607aea43884b2cb6efe4a0f1d1dd740aaf3255c179db40f08c
+Section: Tweaks
+Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
+Author: Fouad Raheb & SuSuDear
+Icon: https://repo.susubaby.cn/icons/AppData.png
+Name: AppData
+
+Package: com.susudear.appdata
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: Fouad Raheb & SuSuDear
+Installed-Size: 1084
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.susudear.appdata_1.4.1_iphoneos-arm64e.deb
+Size: 524778
+MD5sum: 46e3fda959f801c16c39ec9f2a49ecb1
+SHA1: 5f5a95609ce94d60e1244d49d59299549130c763
+SHA256: 6fa75747f09e84153a5f925f3fd507303afcb5e69eb281bdf6c0810a550d56e2
+Section: Tweaks
+Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
+Author: Fouad Raheb & SuSuDear
+Icon: https://repo.susubaby.cn/icons/AppData.png
+Name: AppData
+
+Package: com.susudear.appdata
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: Fouad Raheb & SuSuDear
+Installed-Size: 1084
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.susudear.appdata_1.4.1_iphoneos-arm64.deb
+Size: 525948
+MD5sum: 991a8860b3b6f80088d976c5701f459c
+SHA1: eb4d1b8d5657899e7f433ea151309bdbe29dea0d
+SHA256: ca2c4183ddd9e4d9fd7c1d6cf90a3c20315b9c42289dc2780301270cbb33af83
+Section: Tweaks
+Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
+Author: Fouad Raheb & SuSuDear
+Icon: https://repo.susubaby.cn/icons/AppData.png
+Name: AppData
+
+Package: com.susudear.crash
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 2732
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.susudear.crash_1.0.6_iphoneos-arm64e.deb
+Size: 587854
+MD5sum: 7e4dafdaa887960364c9507c983b9922
+SHA1: 1c2d3eab8b8f4b25774da78781a6c3e89b8a985a
+SHA256: a720af50baa036321c1789794b7827209fbb77bc7fa788f87f4b2a5836737b41
+Section: Tweaks
+Description: 轻量级崩溃日志查看器
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/SuCrash.png
+Name: SuSuCrash
+
+Package: com.susudear.crash
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 2732
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.susudear.crash_1.0.6_iphoneos-arm64.deb
+Size: 586256
+MD5sum: cdd9de935fce7a0c63ef1a33990fab5a
+SHA1: 9cf75aa59584da52b356b1d0abb5fdec6e21982e
+SHA256: e7fceebfa31a6cbdd2d94728e7d08aac3c91639ef345e2410d97aa56c28674b4
+Section: Tweaks
+Description: 轻量级崩溃日志查看器
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/SuCrash.png
+Name: SuSuCrash
+
+Package: com.susudear.screencore
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2540
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_1.0.7_iphoneos-arm64e.deb
+Size: 370272
+MD5sum: bed6072b47b6bc9faac465b325f1fe3d
+SHA1: 503a4d4b6e0a3c4b208e4f12edb959277b06b4cb
+SHA256: 4a8606db21fc94bd13c58f9cbd8c1f3d54c245feb909d8d5141ade4aa0a6e7c4
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2540
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_1.0.7_iphoneos-arm64.deb
+Size: 374480
+MD5sum: 9ceaa80a029ca7bee7a3272e0c478327
+SHA1: 87e2c928ce1f000202f22bda1228a5571437da9c
+SHA256: ea36323370fb7ce08f9b663f311d9346c5c0448c43cdc6e6c9d113e1b3859bb7
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 1.0.7-1
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2644
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_1.0.7-1_iphoneos-arm64.deb
+Size: 383310
+MD5sum: 749a66760ef92ac9f5b7f1a8d62bb6f5
+SHA1: 720adb2a78c8699df5de6d5b019526b066e9cee1
+SHA256: 41fcf0ed504a5ac0ae9f0b8ffae94e0a0b8571fc2253272f02463b1b3406b96a
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 1.0.7-1
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2640
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_1.0.7-1_iphoneos-arm64e.deb
+Size: 381350
+MD5sum: e67e9e2f58df65aad1d92012c0a78bf7
+SHA1: e26864e6d7d14ca74ab8637fa260fbd40b86bb58
+SHA256: f250201fc2dece70fe6b9f154c54bad46bc83ef26beb96cfe18a8c598c2b3fe6
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2720
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_1.1.1_iphoneos-arm64e.deb
+Size: 415588
+MD5sum: b055e8233d35c7a1dbff6386ad923b33
+SHA1: aedddc1541b51567fea7be6a4523689ef0fa5636
+SHA256: dd29d29976051746931734f80be262d1252075d7dbdd671d939b4342254ff59b
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2752
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_1.1.1_iphoneos-arm64.deb
+Size: 419878
+MD5sum: 78bbdf65a3c4834b6586492f14ce5575
+SHA1: d920811facc6d847fedd42cdb8a5c886f2c84242
+SHA256: 15cec854aa61c784fbaac0a88abb9c102146e4f04e4e6f0f208756e62684255b
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.screencore
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2760
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_1.1.2_iphoneos-arm64.deb
+Size: 418276
+MD5sum: e41980a06ec337a393217fb7bdddfc84
+SHA1: 1d4361ba4949e3e53fdd66d71cfe0224c3e0115b
+SHA256: 50cdb36db2e9e8964b0b8436203e459fea4abb078539cb067fcf4e267021e225
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
 Package: com.susudear.screencore
 Version: 1.1.2
 Architecture: iphoneos-arm64
@@ -1052,6 +1345,571 @@ Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Name: ScreenCore
 
+Package: com.susudear.screencore
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2760
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.susudear.screencore_1.1.2_iphoneos-arm64e.deb
+Size: 419558
+MD5sum: 392a8961de8c346a6b85149247ad1b5c
+SHA1: 2e6a5361621f6fa1fb59aca38e546c2e4ecf3fd1
+SHA256: 7ba22da321144b3b1f6e16ddb22d2a70be5c864aa2cf918d914da955f08a7383
+Section: Tweaks
+Description: 分屏而已
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore
+
+Package: com.susudear.sharingdalertwatchdog
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.susudear.sharingdalertwatchdog_1.0.8_iphoneos-arm64.deb
+Size: 11754
+MD5sum: af803b30bdceca5713d8d2eab05f0818
+SHA1: 95443e826905e4fe1811e8be9739d654c6c90ea7
+SHA256: a922d1c176df5869be7e21d37349c32e736748692ab2fa092b01d44427c42d66
+Section: Tweaks
+Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/airdrop.png
+Name: SharingdAlertWatchdog
+
+Package: com.susudear.sharingdalertwatchdog
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.susudear.sharingdalertwatchdog_1.0.8_iphoneos-arm64e.deb
+Size: 11704
+MD5sum: e8e9e8ec350a6e89664228c2279a3aa8
+SHA1: ad0d3701c26c7d173f9f66c023e94de2446a78e3
+SHA256: 0f91d992e7e98a792a06c1b092cb21e2c7944960dab45fb968c7d23ebfc2ee66
+Section: Tweaks
+Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/airdrop.png
+Name: SharingdAlertWatchdog
+
+Package: com.susudear.stayshot
+Version: 0.5.2
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 2324
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Filename: debs/com.susudear.stayshot_0.5.2_iphoneos-arm64.deb
+Size: 226294
+MD5sum: c83f34fb2aa225d6ca63b05448a1d335
+SHA1: dadfcd71ca6ba26b9f5f29ebfd21b16ce3199fd9
+SHA256: 6c84bcb4803caa6d85c4d7ca6bfc4b229055b41c8f95e742afbd0a31a80788d9
+Section: Tweaks
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot
+Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
+
+Package: com.susudear.stayshot
+Version: 0.5.2
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 2324
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Filename: debs/com.susudear.stayshot_0.5.2_iphoneos-arm64e.deb
+Size: 226974
+MD5sum: 13606fdd6aaa3f7f92d35a4d9bb9d762
+SHA1: 8b2526fedc879f5a3a96711b89860ebabddbb458
+SHA256: dc3d920e7bc040b3ddf5bf294dc809f744dbdd353df4524a4cd1fa98a20e0887
+Section: Tweaks
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot
+Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
+
+Package: com.susudear.stayshot
+Version: 0.5.3
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 2340
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Filename: debs/com.susudear.stayshot_0.5.3_iphoneos-arm64e.deb
+Size: 228710
+MD5sum: 7cd9cbf0448fda4ca3c7c57da8e7aae4
+SHA1: b67bd309ca327fd144bb3824a23a7775cd5bdc09
+SHA256: dc35e1ebf87668fc0288e38bc3d687d09785fd1193e047d849585781cdfa389a
+Section: Tweaks
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot
+Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
+
+Package: com.susudear.stayshot
+Version: 0.5.3
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 2340
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Filename: debs/com.susudear.stayshot_0.5.3_iphoneos-arm64.deb
+Size: 228584
+MD5sum: be61341ccf776e9b601fc2a17e3e7b35
+SHA1: 07d139aef290a8d8485ce5d44909580e1eac726d
+SHA256: e71a5153ec09b4951d130531b8da9a73b8b2f2ef48163e00519ee98c9bae1876
+Section: Tweaks
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot
+Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
+
+Package: com.susudear.stayshot.long-screenshot
+Version: 1.5.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 784
+Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), dev.theos.orion (>= 1.0.0)
+Filename: debs/com.susudear.stayshot.long-screenshot_1.5.0_iphoneos-arm64e.deb
+Size: 155890
+MD5sum: 54d410c2bf37a9023a9072bd4f336df4
+SHA1: 1c8e1b6b903a548ff41ddd170f41f2ee19782b1c
+SHA256: b3d56d35b65314cc7536453ac3ee6b233352a89680cd482104716656e24ea234
+Section: Tweaks
+Description: Long screenshot action and capture controller for StayShot.
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot Long Screenshot
+
+Package: com.susudear.stayshot.long-screenshot
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 784
+Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), dev.theos.orion (>= 1.0.0)
+Filename: debs/com.susudear.stayshot.long-screenshot_1.5.0_iphoneos-arm64.deb
+Size: 156110
+MD5sum: 2895c02c0aaf8c23bb763a54588a07d8
+SHA1: 5f75abb8a41b46ddfa185920c437a43f58f06f43
+SHA256: 75cef11271d41803771fc0696345d8fef49de97efda7c8654efa604d6424122d
+Section: Tweaks
+Description: Long screenshot action and capture controller for StayShot.
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot Long Screenshot
+
+Package: com.susudear.stayshot.markup
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 640
+Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
+Filename: debs/com.susudear.stayshot.markup_1.6.1_iphoneos-arm64.deb
+Size: 152460
+MD5sum: 0524b3b2d6cb8cc3f4c6dfc244491296
+SHA1: 9776d5bc813f0137eea2fbc31d39dc2992fe6adc
+SHA256: 9ca6bb6dc4a4806a3aa1b0e544d86cbc7e6e05d5d6d6a3a82e8a47939c2e951a
+Section: Tweaks
+Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot Edit
+Sileodepiction: https://repo.susubaby.cn/json/stayshotedit.json
+
+Package: com.susudear.stayshot.markup
+Version: 1.6.1
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 640
+Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
+Filename: debs/com.susudear.stayshot.markup_1.6.1_iphoneos-arm64e.deb
+Size: 153344
+MD5sum: bbb33c0e1872c845ed10ce945dce8d6a
+SHA1: 2262300f152e7a6878e670938d8b0b11c366d242
+SHA256: 404464cabe970a1e13cc2d1b8202663f7fc933789fb13fa50cfafd91b45e5245
+Section: Tweaks
+Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Name: StayShot Edit
+Sileodepiction: https://repo.susubaby.cn/json/stayshotedit.json
+
+Package: com.susudear.susuocr
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.0_iphoneos-arm64e_roothide.deb
+Size: 68168
+MD5sum: 7b523e3397c05d38183e6812b53116c6
+SHA1: d92d66c4dc305c343a7b9b8880b89916d585c05d
+SHA256: 1efe6fb83b82e0f922a57cf0dff7e2ee4dc14fd411a59b2386c440b4b62f4d4f
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.0_iphoneos-arm64_rootless.deb
+Size: 67902
+MD5sum: 528e145afc7d2d41762d65458f3450ac
+SHA1: f33cfc369f472a38f36e93685132388cc19b0373
+SHA256: 246db27b8202269b98a7053a4288dfc71f605134d4380686599b0d1f9eb96f50
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.1_iphoneos-arm64.deb
+Size: 71040
+MD5sum: 509cac16f2e251a38ef521bf44f2c80e
+SHA1: dd0534775df7958b5f10edbd38c04ab4c5c1aa59
+SHA256: 9516b27aef8ac6f72a9eff6254412cef70fa8cc08c4210cb2b3aa0c572033ae6
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.1_iphoneos-arm64e.deb
+Size: 71774
+MD5sum: d083a0068805a23683a46dc28ff50e1e
+SHA1: 8303606fdf2b30bcdadfd5c4fc88ed8d1d46b7e5
+SHA256: 6ed05ac9303c4097edca452d9761eaf62ad916abd9231567253fce81104d6f9f
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.2_iphoneos-arm64e.deb
+Size: 71756
+MD5sum: e2127cf348d161409f7632061deb7e1f
+SHA1: 8d2e08040c906cbd4dbbdad938f37c598d8397fa
+SHA256: 8eed1667c7f6972d30e07a3c8cbeae4410f99c524d29f07e546505ed2a0d0f07
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.2_iphoneos-arm64.deb
+Size: 71752
+MD5sum: 2b120799be84d0dad16a3da65249cadf
+SHA1: fcdacd3a57c142197b40200ce9c2d287f6c50140
+SHA256: 8df1eab335036699eccf9c5abf5a6ce52759a587b46fdee472d54b52388fc821
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.22
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 792
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.susudear.susuocr_1.0.22_iphoneos-arm64.deb
+Size: 126284
+MD5sum: cef41853faa25ba013304772d41e2187
+SHA1: cbe19b252f6b49a7f5fb9ca4599bd7d6916b1e93
+SHA256: 2c09a84f6e9f3496da346e9529a4c411612a867c5ec8c39da123ebc00fa47d4d
+Section: Tweaks
+Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.22
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 792
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.susudear.susuocr_1.0.22_iphoneos-arm64e.deb
+Size: 126680
+MD5sum: 9891789692c710e0cdedd22e49dd4774
+SHA1: b6fd5f6340c569695051d9259ef4331deec64c76
+SHA256: 77f945bda8676707d9cdae38fda0b90cc8022a19b6f4827c22342fab6702825a
+Section: Tweaks
+Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.4
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 600
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.4_iphoneos-arm64e.deb
+Size: 76526
+MD5sum: 0d79ec469bf921a1bd92e9f100db9a50
+SHA1: d9f4987a6cca6a80060bffca15ac61d322fd915c
+SHA256: ea41b92ef342d7a575af4f83aded90b5c3704dc5af8f0d5463a03fd43886b092
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 600
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.4_iphoneos-arm64.deb
+Size: 77296
+MD5sum: aa33fac548f1161bf2973c6d316ef303
+SHA1: 56e89b62c44a81f0816c5c7dda622a3be75e47c2
+SHA256: 38bf6aa1e38957159d3479fe1fbcb362c46a1b0db263e8a3a686f279bb03fe78
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 600
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.5_iphoneos-arm64e.deb
+Size: 78994
+MD5sum: 4f9f90f3a665d8d5374d10dec795e8b4
+SHA1: a614d09764559acc3c4a3f6975ec8c1fbb3b26a0
+SHA256: 3d7fd8fbd948917fc5f5cb79e9dbdc43d7e9117d91a996d3400d78b3420ab451
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 600
+Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
+Filename: debs/com.susudear.susuocr_1.0.5_iphoneos-arm64.deb
+Size: 78862
+MD5sum: 6ebbbed27c980e2ccce36b362980d9b2
+SHA1: 1e3488aef0c023d56e717d56ac9a9142eb8ab3a3
+SHA256: bda821c13999b3b6c7f4afffd28e2e2e3d74e9a2d5306e84bf7511bb989d669a
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 600
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.susudear.susuocr_1.0.6_iphoneos-arm64e.deb
+Size: 78944
+MD5sum: 69d11722d12b8ebfbbd62cac6a0e9421
+SHA1: a18a067dbc62d9caa5e526650d0f4a076ee2773a
+SHA256: f351870365b91e8debd85465444a1313ba2d57ea4a01155ac44c8c030f8b3e8f
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 600
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.susudear.susuocr_1.0.6_iphoneos-arm64.deb
+Size: 78836
+MD5sum: 08a5351b74bb938e851ea72b29b72c28
+SHA1: 5e493361dfc41055121362e8a0154fa84ed907ff
+SHA256: 6b30d956bc95616d37887f5a24505a12d4132f7c21fceca71ef45a147ba32668
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.susuocr
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 600
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.susudear.susuocr_1.0.7_iphoneos-arm64e.deb
+Size: 85120
+MD5sum: fb8992d2964ca9b57663c5051349c294
+SHA1: aabc946bb46db83ac6caf268c13ec2475220cb7a
+SHA256: 4e3fb3d64d5ec63fba8a2ae9d31041121c8078078fb27779687d4e3057cfc94d
+Section: Tweaks
+Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Name: SuSuOCR
+
+Package: com.susudear.themecore
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 684
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.susudear.themecore_0.1.0_iphoneos-arm64e.deb
+Size: 116924
+MD5sum: 413b8d51fdac0a2d1135a946e8660c62
+SHA1: c97bbb5122eb1455caf0d0dfb3fe3bc84e6d837f
+SHA256: 055c87ce9b42d22f9edeeae7c79a4ab5f227708c06eac3fed80ffd792d5b3a4c
+Section: Tweaks
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Name: ThemeCore
+
+Package: com.susudear.themecore
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 684
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.susudear.themecore_0.1.0_iphoneos-arm64.deb
+Size: 118644
+MD5sum: 4884ae2e9714b9773f6a769e53d9b490
+SHA1: 0e934402ef07b5ef5ba2d9c1cfa1a97153f6b38d
+SHA256: 6c8840e1b72f4e8f6b2158144cedc0600d141c5dccf0560354cc30cefbce03e8
+Section: Tweaks
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Name: ThemeCore
+
+Package: com.susudear.themecore
+Version: 0.2.0
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 684
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.susudear.themecore_0.2.0_iphoneos-arm64e.deb
+Size: 116788
+MD5sum: 7e7680675d00e47fac94f69197b103a9
+SHA1: beb5be266580d37da1fa8cdf8a2b8ed9fa3585db
+SHA256: 9839bc29a4c318634517f5177e8a31e60bc0980867958b03334f2eeb514ae72b
+Section: Tweaks
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Name: ThemeCore
+
+Package: com.susudear.themecore
+Version: 0.2.1
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 736
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.susudear.themecore_0.2.1_iphoneos-arm64.deb
+Size: 128972
+MD5sum: 927df20d098a3fda6de12d93caa2ff91
+SHA1: 9e810f167d966a4583854e403247b275f64b7e55
+SHA256: 2f7d55c6d309c93d94dd6b68466d9dd1b574172de917beb9aeb8c559f16ea45b
+Section: Tweaks
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Name: ThemeCore
+
+Package: com.susudear.themecore
+Version: 0.2.1
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 736
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.susudear.themecore_0.2.1_iphoneos-arm64e.deb
+Size: 126868
+MD5sum: 41e91d6f887501a549fe2d471951d7b0
+SHA1: 0acc623c6bf23a464ffd84497db4192004852e95
+SHA256: dba7c48afb089f9f82244d338b95519fcfc81a70d2793b5ad3ccdd6cc1a1ad9b
+Section: Tweaks
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Name: ThemeCore
+
+Package: com.susudear.themecore
+Version: 0.3
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 736
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.susudear.themecore_0.3_iphoneos-arm64.deb
+Size: 127196
+MD5sum: 3d63e574e5e802ff2296fe3821929f62
+SHA1: bf586d40383cbbd305774aa1aff3d94b1a5c9b60
+SHA256: 6313cd183ce227cec3e0eef89564f9f1772fbd7c2a0b3063427266a08a1d518d
+Section: Tweaks
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Name: ThemeCore
+
 Package: com.susudear.themecore
 Version: 0.3
 Architecture: iphoneos-arm64e
@@ -1060,6 +1918,24 @@ Installed-Size: 736
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Filename: debs/ThemeCore-0.3.deb
+Size: 125366
+MD5sum: d06b1451b2411af253214fc68219648d
+SHA1: 3ba418dccf52ac6678c05f2f560b06b313fbe570
+SHA256: 0e8656c5771e5a9f61bcd4661ed7dfc606f3cc2f649b4f23aad991e3b041ac57
+Section: Tweaks
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Name: ThemeCore
+
+Package: com.susudear.themecore
+Version: 0.3
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 736
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.susudear.themecore_0.3_iphoneos-arm64e.deb
 Size: 125366
 MD5sum: d06b1451b2411af253214fc68219648d
 SHA1: 3ba418dccf52ac6678c05f2f560b06b313fbe570
