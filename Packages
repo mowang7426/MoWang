@@ -309,6 +309,86 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 Name: Bottom-x 悬浮球
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.colorblack.bottomx.floatingball
+Version: 6.59
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 1084
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/com.colorblack.bottomx.floatingball-6.59-roothide-1.deb
+Size: 413280
+MD5sum: fb33eae2f12ba8ea6923a3e2a65a9fa7
+SHA1: 5f1b0309898a187c4e0560fe6335bc2f80e603b3
+SHA256: d0b1def03da9c9198de2e40de65f05c2ffe3bc1d953fcdb95371d48941861dc9
+Section: Tweaks
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+Name: Bottom-x 悬浮球
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.colorblack.bottomx.floatingball
+Version: 6.59
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 1084
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/com.colorblack.bottomx.floatingball-6.59-rootless.deb
+Size: 413004
+MD5sum: 483df3d5dc22ecd4539232e1968f4b9a
+SHA1: 8adfa3283d97bebb906a688d6db3036402fe879d
+SHA256: 1dba6c831bcc79d0a37345b86e1da3209edc6de105967bff1749035e96e8191f
+Section: Tweaks
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.59 SmartDeck Home】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+Name: Bottom-x 悬浮球
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
 Package: com.go.mango
 Version: 1.0-Beta6-1
 Architecture: iphoneos-arm64
@@ -727,6 +807,23 @@ Section: Tweaks
 Description: 第三方键盘按键发光效果插件
 Author: MoWang
 Name: KBGlow
+
+Package: com.qianuo.smartdeck.app
+Version: 0.7.8
+Architecture: iphoneos-arm64e
+Maintainer: Qianuo
+Installed-Size: 1080
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/SmartDeck_Window_Experimental_0.7.8_roothide.deb
+Size: 334830
+MD5sum: be1d096e43c097127ef9a05c49421674
+SHA1: 2848493554faabd4d1387cc3c3e1d0423b0d4fe3
+SHA256: 4add276a56ddef703fdae891efb93a0c01fe6fcee6785db12150a331847f8d68
+Section: Applications
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Author: Qianuo
+Name: SmartDeck App
 
 Package: com.sbcpu.floating
 Version: 4.61
@@ -2285,4 +2382,20 @@ Section: Tweaks
 Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
 Author: Thijs mussig, Banana
 Name: LiquidSiri
+
+Package: local.notifybubbles
+Version: 0.4.1
+Architecture: iphoneos-arm64e
+Maintainer: NotifyBubbles
+Installed-Size: 436
+Depends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate, preferenceloader
+Filename: debs/local.notifybubbles_0.4.1_iphoneos-arm64e.deb
+Size: 38318
+MD5sum: 06b8a4d2bf168555d1bfd7f87dc2ac07
+SHA1: a8ced756d2c45a98764a4fa5e58facacacf43432
+SHA256: 93106c67a4170bbd112ed915c7035c7976469fcb40294543a8a05ca3fed67754
+Section: Tweaks
+Description: Notification bubbles for iOS 16 and Dopamine RootHide. Experimental first build.
+Author: NotifyBubbles
+Name: 通知悬浮气泡
 
