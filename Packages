@@ -676,6 +676,22 @@ Icon: https://huayuarc.github.io/icon/cputhermal.png
 Name: CPU 解除温控
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/CustomCCBg-0.0.1.deb
+Size: 47200
+MD5sum: e7822a620b5e9053c7cadd308f8db245
+SHA1: 1da91e0b614caf220c8a13d02c47d5ee73ddd31b
+SHA256: 4d86b21c9604c0a076d7f4d00b0a9886c66a88c7ee3be5451a39808c4e60a4b2
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
 Package: com.iosdump.shellx
 Version: 3.1.1
 Architecture: iphoneos-arm64
