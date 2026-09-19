@@ -3,16 +3,20 @@ Label: 莫忘的专属源
 Suite: stable
 Version: 1.0
 Codename: ios
-ArchiArchitectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: MoWang 越狱源
+
 MD5Sum:
  c73c777c948bc980284cbfdca961112d 109566 Packages
- 55cdad21a4ea48cb30685d7d412208b8 23158 Packages.gz
+ 10a54ad0236c1ba603d8971ce7adfe36 23158 Packages.gz
  e69449462e275a7ac50b5f90514ba9b2 21209 Packages.bz2
  d5014fb6eaaa05fcf3d1d37e9c4e199c 19516 Packages.xz
+ 23b14c14dcc6cf03c9fb0855364e066d 20808 Packages.zst
+
 SHA256:
  638605d5b73210cb55aade1c8a55614edc8cf2b484df85eb058996cc5ae810be 109566 Packages
- 8a5072a8f83d12f3b5bb9150f1362d2704dd57950786effe7cdadcc342c8e9c2 23158 Packages.gz
+ d45529729e0f1520838af7c9e51dc7ba787ce8fc62359965cc702219839b356a 23158 Packages.gz
  d0198a94d4f75756f94171bdd58162bca1dc9daaa3d7aa5214a9c4979b862c91 21209 Packages.bz2
  a4ca544c689c639685d420e448bdddd1a73f36c7ad34effa137b54124c2c7fa4 19516 Packages.xz
+ 31bcd821740105ac425047dd33675f1a224ead982e73d9555f396bb1f33e1e9d 20808 Packages.zst
