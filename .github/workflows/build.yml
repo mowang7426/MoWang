@@ -1,68 +1,137 @@
 name: 重建软件源索引
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
       - 'debs/**'
+      - 'build.sh'
       - '.github/workflows/build.yml'
+
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
+
   build:
+
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
+
+      # ==========================================
+      # 1. 检出仓库
+      # ==========================================
+
       - name: 检出代码
         uses: actions/checkout@v4
+
+      # ==========================================
+      # 2. 安装依赖
+      # ==========================================
 
       - name: 安装工具
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev gzip bzip2 xz-utils
+          sudo apt-get install -y \
+            dpkg-dev \
+            gzip \
+            bzip2 \
+            xz-utils \
+            zstd
 
-      - name: 生成并压缩 Packages
-        run: |
-          dpkg-scanpackages -m debs > Packages
-          gzip -9c Packages > Packages.gz
-          bzip2 -kf Packages
-          xz -9c Packages > Packages.xz
-          rm -f Packages.zst
+      # ==========================================
+      # 3. 执行统一的 build.sh
+      #
+      # 不再让 Actions 自己维护另一套
+      # Packages / Release 生成逻辑。
+      #
+      # 以后本地和 GitHub Actions 使用完全相同
+      # 的生成规则。
+      # ==========================================
 
-      - name: 重建 Release（含最新校验和）
+      - name: 生成软件源索引
         run: |
-          python3 - <<'PY'
-          import hashlib, os
-          names = ['Packages', 'Packages.gz', 'Packages.bz2', 'Packages.xz']
-          if os.path.exists('Packages.zst'):
-              names.append('Packages.zst')
-          lines = [
-              'Origin: 莫忘',
-              'Label: 莫忘的专属源',
-              'Suite: stable',
-              'Version: 1.0',
-              'Codename: ios',
-              'Architectures: iphoneos-arm iphoneos-arm64',
-              'Components: main',
-              'Description: MoWang 越狱源',
-              'MD5Sum:',
-          ]
-          for n in names:
-              d = open(n, 'rb').read()
-              lines.append(' %s %d %s' % (hashlib.md5(d).hexdigest(), len(d), n))
-          lines.append('SHA256:')
-          for n in names:
-              d = open(n, 'rb').read()
-              lines.append(' %s %d %s' % (hashlib.sha256(d).hexdigest(), len(d), n))
-          open('Release', 'w').write('\n'.join(lines) + '\n')
-          PY
+          chmod +x build.sh
+          ./build.sh
+
+      # ==========================================
+      # 4. 检查 Release
+      # ==========================================
+
+      - name: 检查 Release
+        run: |
+          echo "========== Release =========="
+          cat Release
+
+          echo
+          echo "========== 检查 Architectures =========="
+
+          if grep -q '^Architectures:' Release; then
+            echo "✓ Architectures 字段存在"
+          else
+            echo "❌ Release 缺少 Architectures 字段"
+            exit 1
+          fi
+
+          if grep -q '^ArchiArchitectures:' Release; then
+            echo "❌ 发现错误字段 ArchiArchitectures"
+            exit 1
+          fi
+
+          if grep -q 'iphoneos-arm64e' Release; then
+            echo "✓ 已包含 iphoneos-arm64e"
+          else
+            echo "❌ Release 没有 iphoneos-arm64e"
+            exit 1
+          fi
+
+      # ==========================================
+      # 5. 检查 Packages
+      # ==========================================
+
+      - name: 检查 Packages
+        run: |
+          echo "========== Packages 架构检查 =========="
+
+          echo
+          echo "iphoneos-arm："
+          grep -c '^Architecture: iphoneos-arm$' Packages || true
+
+          echo
+          echo "iphoneos-arm64："
+          grep -c '^Architecture: iphoneos-arm64$' Packages || true
+
+          echo
+          echo "iphoneos-arm64e："
+          grep -c '^Architecture: iphoneos-arm64e$' Packages || true
+
+      # ==========================================
+      # 6. 提交生成后的索引
+      # ==========================================
 
       - name: 提交索引变更
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
+
+          git add \
+            Packages \
+            Packages.gz \
+            Packages.bz2 \
+            Packages.xz \
+            Release
+
+          if [ -f Packages.zst ]; then
+            git add Packages.zst
+          fi
+
           if ! git diff --cached --quiet; then
-            git commit -m "chore: 重建软件源索引"
+            git commit -m "chore: rebuild repository indexes"
             git push
+          else
+            echo "索引没有变化，无需提交"
           fi
