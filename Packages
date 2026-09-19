@@ -2224,6 +2224,23 @@ Author: SuSuDear
 Icon: https://repo.susubaby.cn/icons/ThemeCore.png
 Name: ThemeCore
 
+Package: com.susudear.themecore
+Version: 0.5.0
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 736
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/ThemeCore-0.5.0.deb
+Size: 129302
+MD5sum: e4c9610b933e2b8202d434ec270ca59a
+SHA1: 9d453fe0f3c6de79f197c2868ba4dd1e45f57925
+SHA256: f5716bef079997f6f613f4e613d97417a76b695e965915669e6037866cad4c32
+Section: Tweaks
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+Name: ThemeCore
+
 Package: dylv.deepliquid
 Version: 0.1.93b
 Architecture: iphoneos-arm64e
