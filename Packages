@@ -743,6 +743,40 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Author: iosdump
 Name: SHELLX
 
+Package: com.iosdump.shellx
+Version: 6.0.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 14628
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/com.iosdump.shellx_6.0.0_iphoneos-arm64.deb
+Size: 3248944
+MD5sum: d6b663cdc02b628fe374945efca6cfe6
+SHA1: bd8052be58ecffc3839cd10b6413f0d4679d2d61
+SHA256: b9433b737ebea02ce855032346a98bf65cd229c985e07c6963e9a2fbe7ad5069
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 6.0.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 14628
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/com.iosdump.shellx_6.0.0_iphoneos-arm64e.deb
+Size: 3242852
+MD5sum: d2c584a53326f810fd6aca7cbd0c490e
+SHA1: add6965f549a1c5ad1b43f9f1f448fab6b02ad6e
+SHA256: 8e81fab25eb6a84544df6dd5d69b591b8fa0cad2fa13790f8d97e437356eca1a
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
