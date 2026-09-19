@@ -842,6 +842,25 @@ Author: kanuo
 Name: SmartDeck App
 
 Package: com.qianuo.smartdeck.app
+Version: 0.7.12
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 1112
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/SmartDeck App-0.7.12.deb
+Size: 353774
+MD5sum: 828355c5b7b8c9b9f9ee93f123c0232f
+SHA1: 985bec6945e2fd692ac2b1b9d59f85977dc2df93
+SHA256: fc0e0e437772b8d80b564aff3c4afce608a274bb26cd75cf6778a32366e8e01d
+Section: Applications
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
+Name: SmartDeck App
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
+
+Package: com.qianuo.smartdeck.app
 Version: 0.7.8
 Architecture: iphoneos-arm64e
 Maintainer: Qianuo
