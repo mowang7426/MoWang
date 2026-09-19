@@ -858,6 +858,31 @@ Description: Experimental standalone desktop with a SpringBoard scene-hosting co
 Author: Qianuo
 Name: SmartDeck App
 
+Package: com.qianuo.soulpaste
+Version: 0.2.0
+Architecture: iphoneos-arm64e
+Maintainer: qianuo
+Installed-Size: 212
+Depends: firmware (>= 17.0)
+Filename: debs/SoulPaste_0.2.0.deb
+Size: 40380
+MD5sum: ee72ebde61b8911fb9fb5762075bca57
+SHA1: d4a525e0b5ebbd8994ecb485b1f71431acd6e9ee
+SHA256: 4a28fe9d453d8c790e4a112f16fb2ce8d98045dc19a4de43d2571c054d8a5866
+Section: Tweaks
+Description: Soul 私聊直接粘贴图片：在 Soul 私聊输入框直接粘贴剪贴板里的图片发送，无需先存相册再选图。
+ 【核心功能】
+  - 私聊直接粘贴：复制或截图图片后，在 Soul 私聊输入框直接粘贴发送
+  - 省去存相册步骤：不用先把图片保存到系统相册再从相册选择
+  - 通用兼容：不绑定 Soul 特定版本号，App 更新后一般仍可用
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 适用 iOS 17 及以上
+  - 使用方式：复制/截图图片后，进入 Soul 私聊，在输入框长按选择粘贴即可
+  - 本包为 RootHide（arm64e）版
+Author: qianuo
+Name: SoulPaste
+
 Package: com.sbcpu.floating
 Version: 4.61
 Architecture: iphoneos-arm64
