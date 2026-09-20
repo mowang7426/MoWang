@@ -906,6 +906,35 @@ Description: 第三方键盘按键发光效果插件
 Author: MoWang
 Name: KBGlow
 
+Package: com.qianuo.chatassist
+Version: 0.1.39
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 2016
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/ChatAssist0.3.9.deb
+Size: 865574
+MD5sum: ab5983ffa813f1b6f291897bb0646a16
+SHA1: 546d3fb366544f43249e25bd6c069e41f5d04c0f
+SHA256: abde8330b83b4d3bb4a447936ff1f2edd0a6ef11e38f2f34212abe55bf5cb2cb
+Section: Tweaks
+Description: 聊伴 ChatAssist：区域 OCR + AI 智能回复助手。悬浮窗框选聊天区域识别文字，AI 自动生成多条候选回复，一键复制粘贴。
+ 【核心功能】
+  - 区域识别：框选聊天区域进行 OCR 文字识别，自动读取上下文
+  - AI 候选回复：按设置数量生成多条候选回复，挑选后直接使用
+  - 智能粘贴：复制后自动粘贴到输入框，并可自动收起窗口
+  - 智能清理：自动清理界面杂项、标记消息左右归属（自己/对方）
+  - 悬浮窗外观：液态玻璃皮肤，可自定义灰度、透明度、窗口宽高与位置
+  - 多种呼出：支持手势与 URL 地址呼出、切换、收起、退出
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 适用 iOS 15 及以上（roothide / arm64e）
+  - 设置路径：设置 → 聊伴 ChatAssist，先"启用聊伴"，再按"打开助手窗口"或手势呼出
+  - API 与提示词在"API 与提示词设置"中配置
+  - 本包为 RootHide（arm64e）实验版
+Author: kanuo
+Name: ChatAssist
+
 Package: com.qianuo.smartdeck.app
 Version: 0.7.11
 Architecture: iphoneos-arm64e
