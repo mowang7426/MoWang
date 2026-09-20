@@ -777,6 +777,38 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Author: iosdump
 Name: SHELLX
 
+Package: com.minis.rainbowkeyboard
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 172
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-roothide 22.deb
+Size: 12696
+MD5sum: 9e76db61d9638761ced13eeb5ee2125e
+SHA1: b6de77a68dd3565ef78762010940cbacef6c7094
+SHA256: 7c4b8a0d8c1fda19a2a89d24acf131e4c6e536025b712f604c279f83099cf4e5
+Section: Tweaks
+Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 172
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-rootless.deb
+Size: 12724
+MD5sum: 4481dc0708e4028f8b8b51427c4ec42e
+SHA1: 26753b0177ec5e1347e8b4151359ab58c00afbf6
+SHA256: f0f070c41de77ab976ad3c10ee82962db0e717d6fe5929dd7579a1bcdee86139
+Section: Tweaks
+Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
+Author: MoWang
+Name: 彩虹键盘光效
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
