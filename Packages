@@ -809,6 +809,22 @@ Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入�
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.rainbowkeyboard
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 204
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-1.1.0.deb
+Size: 20840
+MD5sum: 32f588b3c43a459cd6142c0dd82569e1
+SHA1: de4f2b889dcac598a1c0fbcd56036f016620ad38
+SHA256: 64e6075c2b3fb21f6893f1f7708df329f7f4cf153657f172dc93baf1bbad9ee6
+Section: Tweaks
+Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
+Author: MoWang
+Name: 彩虹键盘光效
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
@@ -889,6 +905,22 @@ Section: Tweaks
 Description: 第三方键盘按键发光效果插件
 Author: MoWang
 Name: KBGlow
+
+Package: com.qianuo.chatassist
+Version: 0.1.39
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 2016
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/ChatAssist_Experimental_0.1.39_roothide.deb
+Size: 864952
+MD5sum: ad016992206fb2e8f0ff464fbb7fb7da
+SHA1: 38e866ca9ba96b6772b27f033431da3c0b48bbd3
+SHA256: aa0dc51326bbad3730799831640a1d1394b7747e9cf0e9faf51abb345ed5f9f3
+Section: Tweaks
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Author: kanuo
+Name: ChatAssist
 
 Package: com.qianuo.smartdeck.app
 Version: 0.7.11
