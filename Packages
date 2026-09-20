@@ -825,6 +825,22 @@ Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入�
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.rainbowkeyboard
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 232
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-1.1.1-roothide.deb.deb
+Size: 38174
+MD5sum: 2bd9a4942d2a4a61cff150978de2203b
+SHA1: 41502889218eb40b798f81066da9d4944589baa4
+SHA256: 2756b2350fc378f8f30d7aa4c771290221bbde5b3d6904109c085294a05a7f17
+Section: Tweaks
+Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
+Author: MoWang
+Name: 彩虹键盘光效
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
