@@ -906,22 +906,6 @@ Description: 第三方键盘按键发光效果插件
 Author: MoWang
 Name: KBGlow
 
-Package: com.qianuo.chatassist
-Version: 0.1.39
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 2016
-Depends: firmware (>= 15.0), preferenceloader, uikittools
-Filename: debs/ChatAssist_Experimental_0.1.39_roothide.deb
-Size: 864952
-MD5sum: ad016992206fb2e8f0ff464fbb7fb7da
-SHA1: 38e866ca9ba96b6772b27f033431da3c0b48bbd3
-SHA256: aa0dc51326bbad3730799831640a1d1394b7747e9cf0e9faf51abb345ed5f9f3
-Section: Tweaks
-Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
-Author: kanuo
-Name: ChatAssist
-
 Package: com.qianuo.smartdeck.app
 Version: 0.7.11
 Architecture: iphoneos-arm64e
