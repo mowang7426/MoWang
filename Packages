@@ -941,6 +941,66 @@ Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生�
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.rainbowkeyboard
+Version: 1.1.3
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 948
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-1.1.3-roothide.deb
+Size: 593632
+MD5sum: ea26d577a34da78fcf189a5ebb57a4fd
+SHA1: 2e6a3caa0ece1c4698e9729a1fe0521254fbf42d
+SHA256: ec935cd6b45defa0b6cefb303e4ab0c828b482b38fb5e19af25edcb563f70595
+Section: Tweaks
+Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
+ 【本次更新】
+  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
+  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
+ 【核心功能】
+  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
+  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
+  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 948
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-1.1.3-rootless.deb
+Size: 593070
+MD5sum: 2c20004b2fbc2aced78bfc3696337598
+SHA1: 1d17184fc9d0b99daf7d03809aaba15f43bc9d81
+SHA256: b6ebc2c97a16be3b67f030cae61e6cd4ce9252f3d68130de075b20859f05969e
+Section: Tweaks
+Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
+ 【本次更新】
+  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
+  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
+ 【核心功能】
+  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
+  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
+  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Author: MoWang
+Name: 彩虹键盘光效
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
