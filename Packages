@@ -3070,6 +3070,23 @@ Description: Combined battery, Wi-Fi and dual-line cellular status icon.
 Author: Banana
 Name: iPhoneDuoIcon
 
+Package: iya.banana.iphoneduoicon
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 2208
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora-1.0.0.deb
+Size: 395628
+MD5sum: 2cfd1e25409c1806fb45702c68bb0f80
+SHA1: 955c3feb9d13e5fda2fe254c9b4912bdeead091b
+SHA256: 1b20b8cc7c042bbf1c98c8a7aab96faae60b6491d0905debcda7fa805fc58a48
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
 Package: iya.banana.jumpguard
 Version: 0.1.2
 Architecture: iphoneos-arm64e
