@@ -179,6 +179,23 @@ Icon: https://axs66.github.io/pro/icon/duostatus.png
 Name: DuoStatus
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
 
+Package: com.be-huge.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e(1).deb
+Size: 1771730
+MD5sum: cba48e5bea1e58f68bdb28b3b73e4c23
+SHA1: 0036b0f68922138498230c48df959572383a651a
+SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
 Package: com.callassist.caiphoneduostatus
 Version: 1.5.10
 Architecture: iphoneos-arm64e
