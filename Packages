@@ -3017,6 +3017,54 @@ Description: A staged Liquid Glass system UI tweak with a safe surface architect
 Author: MoWang
 Name: SBLiquidGlass
 
+Package: dylv.sbliquidglass
+Version: 1.8
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 4100
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: debs/SBLiquidGlass-1.8-roothide.deb
+Size: 1395254
+MD5sum: 3d440f2328257cb8534f55f8269a304a
+SHA1: e3295e497081dac033ac0d4d4b89c09143cf281b
+SHA256: ced0f46d9749fc452b7012a842412d1502d0e92e5eef3eb087e809706ccc612b
+Section: Tweaks
+Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段渲染的液态玻璃材质，安全表层架构，全局生效。
+ 【核心功能】
+  - 系统液态玻璃：为通知中心、控制中心、Dock、状态栏等系统界面套用 iOS 26 风格透明折射玻璃材质
+  - 安全表层架构：分层渲染，降低白屏/重启风险，稳定运行
+  - 多进程注入：覆盖 Backboardd、Dock 等多个系统进程，效果全局统一
+ 【使用说明】
+  - 安装后请 Respring 一次（建议注销后观察是否稳定）
+  - 设置路径：设置 → SBLiquidGlass
+  - 本包为 RootHide（arm64e）版
+Author: MoWang
+Name: SBLiquidGlass
+
+Package: dylv.sbliquidglass
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 4132
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: debs/SBLiquidGlass-1.8-rootless.deb
+Size: 1397586
+MD5sum: c1ec43828f1b7a37527632215f632422
+SHA1: 2b5c973574b6981d9bc4e40046ddc227e9dd6b18
+SHA256: 9b476b5ede86f9f19928feb11bcf257530bd9492fb40d50aa507d8f361b331d3
+Section: Tweaks
+Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段渲染的液态玻璃材质，安全表层架构，全局生效。
+ 【核心功能】
+  - 系统液态玻璃：为通知中心、控制中心、Dock、状态栏等系统界面套用 iOS 26 风格透明折射玻璃材质
+  - 安全表层架构：分层渲染，降低白屏/重启风险，稳定运行
+  - 多进程注入：覆盖 Backboardd、Dock 等多个系统进程，效果全局统一
+ 【使用说明】
+  - 安装后请 Respring 一次（建议注销后观察是否稳定）
+  - 设置路径：设置 → SBLiquidGlass
+  - 本包为 Rootless（arm64）版
+Author: MoWang
+Name: SBLiquidGlass
+
 Package: iya.banana.iphoneduoicon
 Version: 0.1.13
 Architecture: iphoneos-arm64
