@@ -1002,6 +1002,28 @@ Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生�
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.rainbowkeyboard
+Version: 1.1.4
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 384
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/rainbowkeyboard-V1.1.4-roothide.deb
+Size: 93084
+MD5sum: 0db0582807a18a673a5728662489759a
+SHA1: 29c9a9dca40069ceb9871f197eea4a6bdea6460f
+SHA256: 8ce5e791f50df027ceeb826c405caa09a984344fde36ce44c2391e9fa3ce2124
+Section: Tweaks
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式。
+ 自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
+ 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
+ 移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+Author: MoWang
+Name: 彩虹键盘 · 轻量版
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
