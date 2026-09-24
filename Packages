@@ -462,6 +462,22 @@ Description: 为指定App开启守护后台，将任务角色注册为Inactive(�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.crctdd.stayalivelite
+Version: 0.2.4
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 1008
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/StayAlive Lite-0.2.4.deb
+Size: 110080
+MD5sum: f031a81c06c2719a1686707e2f1ee6a1
+SHA1: a929f3a1b0df00d3c6c9df8cf47ef8a5f40d94d3
+SHA256: 00cd130d79e907caf7e35f30f926266bb698dc49683d21b8cec64a3fb49de6bd
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
 Package: com.go.mango
 Version: 1.0-Beta6-1
 Architecture: iphoneos-arm64e
