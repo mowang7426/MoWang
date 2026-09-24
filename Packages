@@ -478,6 +478,22 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.crctdd.stayalivelite
+Version: 0.2.5
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 1040
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/StayAlive Lite-0.2.5.deb
+Size: 116384
+MD5sum: 3a49f0fa57d7061df38b461a83bc6967
+SHA1: ac65f1f064c0c77b6c6082b0863f1b9a146aa1bf
+SHA256: f0157a76a6ccbec7c1e5258fd97110ab1d6bdb8f981ec0a939d17ca462f47e9b
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
 Package: com.go.mango
 Version: 1.0-Beta6-1
 Architecture: iphoneos-arm64e
@@ -1256,6 +1272,66 @@ Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微�
   - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
   - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
   - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.7
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-rootless-1.1.7.deb
+Size: 598658
+MD5sum: ec331267b6b9056284606a1632f957ad
+SHA1: eba2e4aab066e0c70d50658ff749264a5a5bdb4d
+SHA256: 49aeb800f429ad741cdbc08672e716e2708c8d5caa3ae9e81680162a25eb2203
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新 V1.1.7】
+  - 高级设置里的候选词颜色已删除，移到主页"候选词"里面
+  - 修复不跟手问题
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.7
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 968
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-roothid1.1.7.deb
+Size: 599344
+MD5sum: 3717ae0fbf9135aa5002e52e6c52d466
+SHA1: 5898472f626f8b00fc801ad497af587850b20bb5
+SHA256: 0774ce89bf13165ac11acfe0b2f00a3fc8d92b30d78efc75ec9db1c6c42de462
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新 V1.1.7】
+  - 高级设置里的候选词颜色已删除，移到主页"候选词"里面
+  - 修复不跟手问题
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
 Author: MoWang
 Name: 彩虹键盘光效
 
