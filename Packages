@@ -810,6 +810,47 @@ Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132
 Name: CPU智能温控
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.huayuarc.pulloverplus
+Version: 1.0.426
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.huayuarc.pulloverplus_1.0.426_iphoneos-arm64.deb
+Size: 609320
+MD5sum: 10a1d0269ca5d525ec3db9b975c5b883
+SHA1: 74ce7509f1a15c3623935d9b58bfc73e31b32c10
+SHA256: 4346d0e42a2dceab9a7ac921eb876c95800b8d294aec4af2293cca155bae9671
+Section: Tweaks
+Priority: optional
+Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改。
+Author: Huayuarc（原版作者 mlgm）
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver Plus
+
+Package: com.huayuarc.pulloverplus
+Version: 1.0.426
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.huayuarc.pulloverplus_1.0.426_iphoneos-arm64e-2.deb
+Size: 533600
+MD5sum: 3d39ca340c6c2f71c510634ca0cc66b4
+SHA1: 00f97f338cdf9cfc7e6bad2bd96ce24ad5d076e3
+SHA256: b428c524a1ae6365f4588b8051dc39ef1c2d8e7102e9bbe77f3de250afd75e7c
+Section: Tweaks
+Priority: optional
+Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改。
+Author: Huayuarc（原版作者 mlgm）
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver Plus
+
 Package: com.iosdump.customccbg
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1190,6 +1231,33 @@ Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输�
  移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
 Author: MoWang
 Name: 彩虹键盘 · 轻量版
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-roothide-1.1.6.deb
+Size: 596662
+MD5sum: b5feedf5a8d7878a0b9666b6ab9e9e9d
+SHA1: ba4efa9bc42b621be4b2eaca8a44d3252ca70fcc
+SHA256: e47eda568eefa5b2b077448b253199a366eea0ee940598f1f326b18966073ba2
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新】
+  - 修复 26 键光效问题
+  - 新增动态候选渐变
+  - 新增主题光效
+  - 修复不跟手问题
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+Author: MoWang
+Name: 彩虹键盘光效
 
 Package: com.mlgm.idata
 Version: 1.2.1
