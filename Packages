@@ -196,6 +196,39 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.be-huge.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3360
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64.deb
+Size: 660352
+MD5sum: e91f85d6bdbbc1935353dd63d6500c1e
+SHA1: 28efee7dd0ca595d676e8291e2fdee8e2c0cab7d
+SHA256: 3b0aeb4f465e13dc077ca06c5c04ee5437b3a1cbbd048b3fede84183bb40fa71
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
+Package: com.be-huge.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 1771730
+MD5sum: cba48e5bea1e58f68bdb28b3b73e4c23
+SHA1: 0036b0f68922138498230c48df959572383a651a
+SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
 Package: com.callassist.caiphoneduostatus
 Version: 1.5.10
 Architecture: iphoneos-arm64e
@@ -389,6 +422,22 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 Name: Bottom-x 悬浮球
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.crctdd.stayalivelite
+Version: 0.1.9
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 816
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/StayAlive Lite-0.1.9.deb
+Size: 98814
+MD5sum: ee400ae08e58d56cf27c897249c2a892
+SHA1: ef98b15536c45e414070220c05001cd5b24fab29
+SHA256: aba9ccbd5ed02b1063e3cd479464754ac57ca0e40862b7454fd95ec90628edbf
+Section: Tweaks
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Author: crctdd
+Name: StayAlive Lite
 
 Package: com.go.mango
 Version: 1.0-Beta6-1
