@@ -1458,6 +1458,70 @@ Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微�
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.rainbowkeyboard
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 984
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-rootless-1.2.0.deb
+Size: 604374
+MD5sum: 98717ac855a1b729cb76fbdd3b53d56c
+SHA1: 9dd0d588bcd5212e2d30d33755cbe80f21283e86
+SHA256: 8f81d33845c447fecb65626528455400ff10961edb76267b1bbc0b77ff1b4968
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新】
+  - 修复光效卡顿问题
+  - 修复波纹光效
+  - 修复扩散光效
+  - 新增流光底韵光效
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效、智能模式、流光底韵光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 984
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-roothide-1.2.0.deb
+Size: 605008
+MD5sum: 664ea6aa92bccd2689fc6398c10eab3a
+SHA1: 6162fce3b3819c1bcefc89708ae0a22410614699
+SHA256: 93b0ce1f746896b866c54768db5aeb8aaf350bb1cc866d013e73f52c660e6a1b
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新】
+  - 修复光效卡顿问题
+  - 修复波纹光效
+  - 修复扩散光效
+  - 新增流光底韵光效
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效、智能模式、流光底韵光效
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Author: MoWang
+Name: 彩虹键盘光效
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
