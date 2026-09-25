@@ -952,6 +952,40 @@ Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.shellx
+Version: 10.2.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 19948
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/com.iosdump.shellx_10.2.0_iphoneos-arm64.deb
+Size: 4392868
+MD5sum: f0efe83cb1c93d1519a457c7ae184ab1
+SHA1: 66773125588bd454b14b134e1cf6f2f3a48adc26
+SHA256: 32a260e72ba16aeb4683f16b3eaf6629e3e4f29895fd2e67cec41c3fa2026742
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 10.2.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 19916
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/com.iosdump.shellx_10.2.0_iphoneos-arm64e.deb
+Size: 4391588
+MD5sum: cabb83f827fb9e8c1b595c5f078c78df
+SHA1: 1092ec5c29cdf7fb94912272cf4f8ded97df6901
+SHA256: 8228e6d26143f1c03d7d94d4ebcf03cb100c8abafb6a41c294888eb62ed13078
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
 Version: 3.1.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
@@ -1392,6 +1426,35 @@ Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微�
   - 安装后请 Respring 一次
   - 设置路径：设置 → 彩虹键盘光效
   - 本包为 Rootless（arm64）版
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.9
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 984
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-V1.1.9-roothide.deb
+Size: 605008
+MD5sum: d6f4e19a1cc5aa99eb1115fba13b1515
+SHA1: 62955385e01c9f67c173787a9852e24708537623
+SHA256: 51d8c9a3bc86eea9d40d478b450077b7dab77be196fc10e0588f1f9cf47a0ca4
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
+ 【本次更新 V1.1.9】
+  - 新增智能模式
+ 【核心功能】
+  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变及独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 动态候选渐变、主题光效、智能模式
+  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
+  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
 Author: MoWang
 Name: 彩虹键盘光效
 
