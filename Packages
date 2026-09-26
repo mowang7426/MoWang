@@ -1070,6 +1070,38 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Author: iosdump
 Name: SHELLX
 
+Package: com.minis.lockscreengradientclock
+Version: 1.5.1
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/LockScreenGradientClock-rootless.deb
+Size: 181744
+MD5sum: 69b18c70c4db4e472383e39f3aeff693
+SHA1: 81279e4dd985b3b923353d050f15a21928de85a4
+SHA256: 1b4a472fa79bcc88262c4ab04609b9969cf44b406930a379f4e0f3cb0ee84bff
+Section: Tweaks
+Description: Configurable Lock Screen clock gradient.
+Author: MoWang
+Name: LockScreen Gradient Clock
+
+Package: com.minis.lockscreengradientclock
+Version: 1.5.1
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/LockScreenGradientClock-roothide.deb
+Size: 181776
+MD5sum: 04062c5c3d97b4cfa5b0b20f374fb5e3
+SHA1: 39a8a1785d352f5ace97b8ff41e40be21e0714ab
+SHA256: 077a7614bad3f8936016e11cfaa9360ee41ce709f05a4128d64cf8b0b966076f
+Section: Tweaks
+Description: Configurable Lock Screen clock gradient.
+Author: MoWang
+Name: LockScreen Gradient Clock
+
 Package: com.minis.rainbowkeyboard
 Version: 1.0.8
 Architecture: iphoneos-arm64
