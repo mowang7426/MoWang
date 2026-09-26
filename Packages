@@ -1113,22 +1113,6 @@ Name: LockScreen Gradient Clock
 
 Package: com.minis.lockscreengradientclock
 Version: 1.5.1
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 652
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/LockScreenGradientClock-roothide.deb
-Size: 181776
-MD5sum: 04062c5c3d97b4cfa5b0b20f374fb5e3
-SHA1: 39a8a1785d352f5ace97b8ff41e40be21e0714ab
-SHA256: 077a7614bad3f8936016e11cfaa9360ee41ce709f05a4128d64cf8b0b966076f
-Section: Tweaks
-Description: Configurable Lock Screen clock gradient.
-Author: MoWang
-Name: LockScreen Gradient Clock
-
-Package: com.minis.lockscreengradientclock
-Version: 1.5.1
 Architecture: iphoneos-arm64
 Maintainer: MoWang
 Installed-Size: 652
