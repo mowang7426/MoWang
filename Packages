@@ -1070,6 +1070,56 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Author: iosdump
 Name: SHELLX
 
+Package: com.minis.lockscreengradientclock
+Version: 1.5.1
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/ Lockscreen Gradient Clock-roothide-1.51.deb
+Size: 182060
+MD5sum: 6b008b899fea3b487741733b72f18529
+SHA1: 8d58feebc89f17f7085b2a28e817097ce9a57ddf
+SHA256: fc6b887e408bc8d98ba300e578341dfc9a58dba86f02e689ed95b4dac7ca94e4
+Section: Tweaks
+Description: 可自定义锁屏时钟渐变色的美化插件。
+ 【注意】
+  - 本插件只适配「兔子 88 液态锁屏时间」，其他锁屏样式请自测
+ 【核心功能】
+  - 为锁屏时间字体添加自定义渐变配色
+  - 可调节渐变方向与颜色
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → LockScreen Gradient Clock
+  - 本包为 RootHide（arm64e）版
+Author: MoWang
+Name: LockScreen Gradient Clock
+
+Package: com.minis.lockscreengradientclock
+Version: 1.5.1
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/ Lockscreen Gradient Clock-rootless-1.5.1.deb
+Size: 182028
+MD5sum: c17b81b57ccf746243c9fb750774f246
+SHA1: 9d7b446be1e424aea5e681e59115e377f3bc7347
+SHA256: 68302b43a81fd0fed9222ce853b8db71bc07e95516b0ea1f913f648ead29babb
+Section: Tweaks
+Description: 可自定义锁屏时钟渐变色的美化插件。
+ 【注意】
+  - 本插件只适配「兔子 88 液态锁屏时间」，其他锁屏样式请自测
+ 【核心功能】
+  - 为锁屏时间字体添加自定义渐变配色
+  - 可调节渐变方向与颜色
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → LockScreen Gradient Clock
+  - 本包为 Rootless（arm64）版
+Author: MoWang
+Name: LockScreen Gradient Clock
+
 Package: com.minis.rainbowkeyboard
 Version: 1.0.8
 Architecture: iphoneos-arm64
