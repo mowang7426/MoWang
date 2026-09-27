@@ -1,3 +1,19 @@
+Package: axssb666
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: JJ
+Installed-Size: 296
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/axssb666_1.0.0_iphoneos-arm64.deb
+Size: 40690
+MD5sum: 1fec19e11cec7ac8e1211e8d0d2a2f90
+SHA1: 0627c90e13be282a80f745d2309f458ea57819c1
+SHA256: 493879b30298a28541b9b6d2b9eee2b8838a7f2ee4ef7097787c8c91fe3dc232
+Section: 微信插件
+Description: A狗微信全局圆角破解组件 安装此组件即可解锁授权 需要配合全局圆角主插件使用
+Author: JJ
+Name: 微信全局圆角（免授权）
+
 Package: byg.iosios.net.mango
 Version: 1.0-Beta4-2
 Architecture: iphoneos-arm64
