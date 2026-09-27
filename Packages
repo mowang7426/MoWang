@@ -1,0 +1,584 @@
+Package: byg.iosios.net.nopreferencetips
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: debs/NoPreferencesTips电池提醒-Rootless-1.0.4-iphoneos-arm64.deb
+Size: 5630
+MD5sum: 05630c45b02e201daa6a53a58e774964
+SHA1: e576bdc3ef832458363c5687e93469b0b27c3462
+SHA256: 9214182a18aee3a663a1130fdff89b8b09604cce11fffdd49ef87cff419b0fa4
+Section: 系统增强
+Description: 此插件偏向于更换非官方电池的用户(一“件”全包)* 支持 iOS15-iOS16* 移除“设置-电池-电池健康与充电”的提醒并显示健康值* 移除桌面上的设置角标（只显示 15 天）* 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）非常的不错，nice！
+Author: 苏苏
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: NoPreferencesTips电池提醒-Rootless
+Sponsor: 搬运工
+
+Package: cn.octoforce.copyvault
+Version: 1.9.0-1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 6868
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/CopyVault-1.9.0.deb
+Size: 1851892
+MD5sum: 2ffbc30ad8eff34496e81772acb86ff8
+SHA1: 13454bbcb1861bfddf5e2bf4a1dcd21411a25cb6
+SHA256: 3927bfd93f10c022f8c774d3989a1c784766945570e7a2f40bd49b29975e7c21
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard  [本包已内嵌 CCrack：安装后自动生成离线授权，无需激活码。CCrack 仅注入 SpringBoard。]
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: com.axs.duostatus
+Version: 5.2.0-101
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 548
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/DuoStatus-5.2.0-101.deb
+Size: 59356
+MD5sum: a7676a75cb4699cac35c6c69abae0ec5
+SHA1: 50cc44afdd2720a35934ff6306fcba6cfd625b5d
+SHA256: 654d4e6a1e0b7f01d0721827801c3daeb3fe19c6c9c7eee8c246245d420d9ba4
+Section: Axs-Tweaks
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回
+ * 4.支持自定义元素的尺寸/位移/线宽/配色等参数，改动即时生效
+ * 5. 支持ios15.0~17.3.1系统
+ * 6. 兼容电话助手
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Name: DuoStatus
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
+Package: com.axs.duostatus
+Version: 5.2.0-82
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/DuoStatus-5.2.0-82.deb
+Size: 51102
+MD5sum: b1b72685e1d624b37b32f4668c362480
+SHA1: 3869dfb40eebe34c478b417f98607908d199440a
+SHA256: 17c4aefa0606fb6f0261a2865917497933f8f4effe73080b626119b4fb188e0c
+Section: Axs-Tweaks
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新（充电闪电、低电量红/黄、飞行模式、无服务、WiFi 按强度分档）
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回，期间再点按即续期
+ * 4.前景色取系统样式对象（与原生图标同色），尺寸/位移/线宽/配色可调，改动即时生效
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Name: DuoStatus
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
+Package: com.axs.duostatus
+Version: 5.2.0-99
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 532
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/DuoStatus-5.2.0-99.deb
+Size: 56618
+MD5sum: 2b74946bf2135bf35429e727bd215ff4
+SHA1: 40724b21303daa24ab96d75b80ad7a9c9d344587
+SHA256: fa6907e95a521f68d9695cba45e9ac44f400e99f0f82d2b36cb1ad9002ce7e42
+Section: Axs-Tweaks
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回
+ * 4.支持自定义元素的尺寸/位移/线宽/配色等参数，改动即时生效
+ * 5. 支持ios15.0~17.3.1系统
+ * 6. 兼容电话助手
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Name: DuoStatus
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
+Package: com.axs.keyboardtools
+Version: 5.2.0-85
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 792
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.axs.colorfulkeyboard
+Filename: debs/KeyboardTools-5.2.0-85.deb
+Size: 128028
+MD5sum: bd214d7018cb5a15addec9004fc9d816
+SHA1: 7b725fc4a66804fa40878a8e10624619a67b135d
+SHA256: 1661b3d52941e692d656543625c75a37a3966d357787c3816e0c5288625e4c05
+Section: Axs-Tweaks
+Description: 键盘文本编辑工具栏（键盘上方复制/粘贴/剪切/撤销/全选等快捷操作）+ 炫彩键盘（点击光效、键盘背景配色、候选词变色）。
+ * 1. 工具栏动作：全选、复制、粘贴、剪贴板、剪切、撤销、清空、光标左移、光标右移、换行、收起键盘
+ * 2. 每个按钮的点击与四个滑动方向可各自绑定动作，动作显示名可自定义，改动立即生效、无需注销
+ * 3. 键盘外观：点击光效、候选词变色；键盘背景色分浅色/深色设置，点行用系统取色器选色（可调透明度）
+ * 4. 剪贴板需要安装 Clipboard 插件，才能调出面板
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/keyboardtools.png
+Name: KeyboardTools
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
+
+Package: com.colorblack.bottomx.floatingball
+Version: 6.53
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 1052
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/Bottom-x悬浮球_6.53最终版_roothide.deb
+Size: 494614
+MD5sum: 3e30f03deda729c09f422291739a0231
+SHA1: 7a3dc3c70e55a446a01f7ad37735dfd13ad15b01
+SHA256: ac00a510bb8df69bfb0a9a523433a940cc52c6e623c06aa8c321bbb0c0510a59
+Section: Tweaks
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Author: kanuo
+Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
+Name: Bottom-x 悬浮球
+
+Package: com.colorblack.bottomx.floatingball
+Version: 6.56
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 1052
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/Bottom-x悬浮球_6.56_修安全模式_隐根.deb
+Size: 499470
+MD5sum: 082eec62f41ad4662e46423ba8e658e9
+SHA1: c6b21fe64af2ddfc9735ddfe54d14778bd9e3ede
+SHA256: d531f02ac28730eb3255520c56604a381c7225717dcc7facc00841ddcbb4592a
+Section: Tweaks
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+Name: Bottom-x 悬浮球
+Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
+
+Package: com.iosdump.customccbg
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 388
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/CustomCCBg-0.0.1.deb
+Size: 47200
+MD5sum: e7822a620b5e9053c7cadd308f8db245
+SHA1: 1da91e0b614caf220c8a13d02c47d5ee73ddd31b
+SHA256: 4d86b21c9604c0a076d7f4d00b0a9886c66a88c7ee3be5451a39808c4e60a4b2
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
+Package: com.minis.lockscreengradientclock
+Version: 1.5.1
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/ Lockscreen Gradient Clock-roothide-1.51.deb
+Size: 182060
+MD5sum: 6b008b899fea3b487741733b72f18529
+SHA1: 8d58feebc89f17f7085b2a28e817097ce9a57ddf
+SHA256: fc6b887e408bc8d98ba300e578341dfc9a58dba86f02e689ed95b4dac7ca94e4
+Section: Tweaks
+Description: 可自定义锁屏时钟渐变色的美化插件。
+ 【注意】
+  - 本插件只适配「兔子 88 液态锁屏时间」，其他锁屏样式请自测
+ 【核心功能】
+  - 为锁屏时间字体添加自定义渐变配色
+  - 可调节渐变方向与颜色
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → LockScreen Gradient Clock
+  - 本包为 RootHide（arm64e）版
+Author: MoWang
+Name: LockScreen Gradient Clock
+
+Package: com.minis.lockscreengradientclock
+Version: 1.5.1
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/ Lockscreen Gradient Clock-rootless-1.5.1.deb
+Size: 182028
+MD5sum: c17b81b57ccf746243c9fb750774f246
+SHA1: 9d7b446be1e424aea5e681e59115e377f3bc7347
+SHA256: 68302b43a81fd0fed9222ce853b8db71bc07e95516b0ea1f913f648ead29babb
+Section: Tweaks
+Description: 可自定义锁屏时钟渐变色的美化插件。
+ 【注意】
+  - 本插件只适配「兔子 88 液态锁屏时间」，其他锁屏样式请自测
+ 【核心功能】
+  - 为锁屏时间字体添加自定义渐变配色
+  - 可调节渐变方向与颜色
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → LockScreen Gradient Clock
+  - 本包为 Rootless（arm64）版
+Author: MoWang
+Name: LockScreen Gradient Clock
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 204
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-1.1.0.deb
+Size: 20840
+MD5sum: 32f588b3c43a459cd6142c0dd82569e1
+SHA1: de4f2b889dcac598a1c0fbcd56036f016620ad38
+SHA256: 64e6075c2b3fb21f6893f1f7708df329f7f4cf153657f172dc93baf1bbad9ee6
+Section: Tweaks
+Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 232
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-1.1.1-roothide.deb.deb
+Size: 38174
+MD5sum: 2bd9a4942d2a4a61cff150978de2203b
+SHA1: 41502889218eb40b798f81066da9d4944589baa4
+SHA256: 2756b2350fc378f8f30d7aa4c771290221bbde5b3d6904109c085294a05a7f17
+Section: Tweaks
+Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 948
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-1.1.3-rootless.deb
+Size: 593070
+MD5sum: 2c20004b2fbc2aced78bfc3696337598
+SHA1: 1d17184fc9d0b99daf7d03809aaba15f43bc9d81
+SHA256: b6ebc2c97a16be3b67f030cae61e6cd4ce9252f3d68130de075b20859f05969e
+Section: Tweaks
+Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
+ 【本次更新】
+  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
+  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
+ 【核心功能】
+  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
+  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
+  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 Rootless（arm64）版
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.1.3
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 948
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/RainbowKeyboard-1.1.3-roothide.deb
+Size: 593632
+MD5sum: ea26d577a34da78fcf189a5ebb57a4fd
+SHA1: 2e6a3caa0ece1c4698e9729a1fe0521254fbf42d
+SHA256: ec935cd6b45defa0b6cefb303e4ab0c828b482b38fb5e19af25edcb563f70595
+Section: Tweaks
+Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
+ 【本次更新】
+  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
+  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
+ 【核心功能】
+  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
+  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
+  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
+  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
+  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
+  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → 彩虹键盘光效
+  - 本包为 RootHide（arm64e）版
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.mlgm.pulloverx
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/PullOverX-魔改版-横屏键盘放大.deb
+Size: 265190
+MD5sum: 1520c08d8748ff020f724dca620f1a72
+SHA1: 147c3bf9fdc21aaeefbb2f7b647c89026bc96f70
+SHA256: f4845b5f1fc98e7b20698371ba7cf306063cec112a33246edc757ecc1a674f31
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
+Package: com.mowang.kbglow
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 180
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/KBGlow-iOS17-roothide(2).deb
+Size: 24694
+MD5sum: 503b44527d86ed0831e68eb8d06015f0
+SHA1: d53d6f68f1adfaa94a63af6f5010efcb0d76627f
+SHA256: 9952e2482faa98f93043b2cd3f20d18032a1e826ee1d64e1096f4a025bac1c6f
+Section: Tweaks
+Description: 第三方键盘按键发光效果插件
+Author: MoWang
+Name: KBGlow
+
+Package: com.qianuo.chatassist
+Version: 0.1.39
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 2016
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/ChatAssist0.3.9.deb
+Size: 865574
+MD5sum: ab5983ffa813f1b6f291897bb0646a16
+SHA1: 546d3fb366544f43249e25bd6c069e41f5d04c0f
+SHA256: abde8330b83b4d3bb4a447936ff1f2edd0a6ef11e38f2f34212abe55bf5cb2cb
+Section: Tweaks
+Description: 聊伴 ChatAssist：区域 OCR + AI 智能回复助手。悬浮窗框选聊天区域识别文字，AI 自动生成多条候选回复，一键复制粘贴。
+ 【核心功能】
+  - 区域识别：框选聊天区域进行 OCR 文字识别，自动读取上下文
+  - AI 候选回复：按设置数量生成多条候选回复，挑选后直接使用
+  - 智能粘贴：复制后自动粘贴到输入框，并可自动收起窗口
+  - 智能清理：自动清理界面杂项、标记消息左右归属（自己/对方）
+  - 悬浮窗外观：液态玻璃皮肤，可自定义灰度、透明度、窗口宽高与位置
+  - 多种呼出：支持手势与 URL 地址呼出、切换、收起、退出
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 适用 iOS 15 及以上（roothide / arm64e）
+  - 设置路径：设置 → 聊伴 ChatAssist，先"启用聊伴"，再按"打开助手窗口"或手势呼出
+  - API 与提示词在"API 与提示词设置"中配置
+  - 本包为 RootHide（arm64e）实验版
+Author: kanuo
+Name: ChatAssist
+
+Package: com.sbcpu.floating
+Version: 4.61
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 2852
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/8acf4babdb0d42508f73b38bc53a0ad4 2.deb
+Size: 381562
+MD5sum: 7aecaccce3d3a0f1c8b86a3fadc78e18
+SHA1: e11cfc1b101b206fd7fb3d0a0f566789354571e7
+SHA256: 8aebbbadb840e00ba05de169f266d5b905e18e527547f3e0a7fa8c147c13134e
+Section: Tweaks
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Author: MoWang
+Name: SB CPU Floating
+
+Package: com.sbcpu.floating
+Version: 4.61
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 2852
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/8acf4babdb0d42508f73b38bc53a0ad4.deb
+Size: 381562
+MD5sum: 7aecaccce3d3a0f1c8b86a3fadc78e18
+SHA1: e11cfc1b101b206fd7fb3d0a0f566789354571e7
+SHA256: 8aebbbadb840e00ba05de169f266d5b905e18e527547f3e0a7fa8c147c13134e
+Section: Tweaks
+Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
+ 【核心功能】
+  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
+  - 电池/温度：读取真实电量、硬件级温度与充放电电流
+  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
+  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
+  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
+  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
+ 【手势操作】
+  - 单击浮窗：展开胶囊 / 消息直达
+  - 双击浮窗：进入高级设置中心
+  - 长按浮窗：查看详细硬件状态
+  - 拖动浮窗：自由移动并自动边缘吸附
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
+  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
+  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
+  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
+Author: MoWang
+Name: SB CPU Floating
+
+Package: dylv.deepliquid
+Version: 0.1.93b
+Architecture: iphoneos-arm64e
+Maintainer: Ai
+Installed-Size: 5320
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: debs/Ai液态玻璃_0.1.93barm64e.deb
+Size: 1753502
+MD5sum: 10f4b06fe418a291bedda0a12a1ca30d
+SHA1: a1e8b02a5b2bf2ddf17d1812ff39b5e8643e43d3
+SHA256: 88728c7328d486fff4e3d86d272807323ee6dcd50a165cf77c179fda97fc1973
+Section: Tweaks
+Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数量预算，告别发烫
+Author: Ai
+Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
+Name: Ai液态玻璃
+
+Package: iya.banana.iphoneduoicon
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 2208
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora-1.0.0.deb
+Size: 395628
+MD5sum: 2cfd1e25409c1806fb45702c68bb0f80
+SHA1: 955c3feb9d13e5fda2fe254c9b4912bdeead091b
+SHA256: 1b20b8cc7c042bbf1c98c8a7aab96faae60b6491d0905debcda7fa805fc58a48
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
+Package: iya.banana.iphoneduoicon
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 2524
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/Lunora-1.0.1.deb
+Size: 448206
+MD5sum: 9eb5ff3ce39024c82814ec61054b560c
+SHA1: fe832f9961eb54a77f66abf0f745ee6b48323c14
+SHA256: acfdd79f72447dc503919d5e471fb66d93e84374633251f2308e9c2a3999826d
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
+Package: iya.banana.jumpguard
+Version: 0.1.2
+Architecture: iphoneos-arm64e
+Maintainer: hades
+Installed-Size: 560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/JumpGuard-0.1.2.deb
+Size: 66896
+MD5sum: 8f2461505dc9c4a62b4b852fc7d02fb3
+SHA1: 18d12de63116ac2a94ec670f5f5ff231675ddf34
+SHA256: ae21e54e432fafa72d6996d764085e26b2125e16d4db65af3904dbe5829040d9
+Section: Tweaks
+Description: Confirm or block cross-app launch requests on RootHide iOS.
+Author: hades
+Name: JumpGuard
+
+Package: iya.iapple.siri
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: Thijs mussig
+Installed-Size: 2252
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourcompany.liquidsiri
+Replaces: com.yourcompany.liquidsiri
+Filename: debs/LiquidSiri-1.1.3.deb
+Size: 986524
+MD5sum: 558324492bde647dca1dc35ff31ea8ef
+SHA1: 8d51e6806565b7b57bf4b74458d352d8fc6efeea
+SHA256: 13fca93f398ddc4d26ea3a7131f44ecd5d2c1e4b7ed8c852207415b20aebe439
+Section: Tweaks
+Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
+Author: Thijs mussig, Banana
+Name: LiquidSiri
+
