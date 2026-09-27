@@ -1,5223 +1,730 @@
 Package: axssb666
+Name: 微信全局圆角（免授权）
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Maintainer: JJ
-Installed-Size: 296
+Section: 微信插件
 Depends: mobilesubstrate (>= 0.9.5000)
+Description: A狗微信全局圆角破解组件 安装此组件即可解锁授权 需要配合全局圆角主插件使用
 Filename: debs/axssb666_1.0.0_iphoneos-arm64.deb
 Size: 40690
 MD5sum: 1fec19e11cec7ac8e1211e8d0d2a2f90
-SHA1: 0627c90e13be282a80f745d2309f458ea57819c1
 SHA256: 493879b30298a28541b9b6d2b9eee2b8838a7f2ee4ef7097787c8c91fe3dc232
-Section: 微信插件
-Description: A狗微信全局圆角破解组件 安装此组件即可解锁授权 需要配合全局圆角主插件使用
+Maintainer: JJ
 Author: JJ
-Name: 微信全局圆角（免授权）
+Installed-Size: 296
 
-Package: byg.iosios.net.mango
-Version: 1.0-Beta4-2
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 3548
-Depends: mobilesubstrate
+Package: byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64
+Name: byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64
 Filename: debs/byg.iosios.net.mango_1.0-Beta4-2_iphoneos-arm64.deb
 Size: 904644
 MD5sum: 76291513efba709c4110734c7cd15f81
-SHA1: e0c5fe5a15f117f0966eab401c447e9f92d3760d
 SHA256: 9b3a9b38b0f4bcd131d704facfe19acfa84a802a1e2baa6ad3679507ff025d01
-Section: 分屏插件
-Description: 一款非常不错的分屏插件，需要授权才能使用，但是免费功能可以液态玻璃 视频壁纸 双击锁屏 音量键锁屏等等，还是可以的，大家可以自行看看是否是自己需要的，觉得不错的可以支持一下！
-Author: go
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 芒果分屏1.0-Beta4-2（免授权）
-Sponsor: 搬运工
 
-Package: byg.iosios.net.nopreferencetips
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/NoPreferencesTips电池提醒-Rootless-1.0.4-iphoneos-arm64.deb
-Size: 5630
-MD5sum: 05630c45b02e201daa6a53a58e774964
-SHA1: e576bdc3ef832458363c5687e93469b0b27c3462
-SHA256: 9214182a18aee3a663a1130fdff89b8b09604cce11fffdd49ef87cff419b0fa4
-Section: 系统增强
-Description: 此插件偏向于更换非官方电池的用户(一“件”全包)* 支持 iOS15-iOS16* 移除“设置-电池-电池健康与充电”的提醒并显示健康值* 移除桌面上的设置角标（只显示 15 天）* 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）非常的不错，nice！
-Author: 苏苏
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: NoPreferencesTips电池提醒-Rootless
-Sponsor: 搬运工
-
-Package: cn.octoforce.copyvault
-Version: 1.9.0-1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6868
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.squidforce.copyvault
-Filename: debs/CopyVault-1.9.0.deb
-Size: 1851892
-MD5sum: 2ffbc30ad8eff34496e81772acb86ff8
-SHA1: 13454bbcb1861bfddf5e2bf4a1dcd21411a25cb6
-SHA256: 3927bfd93f10c022f8c774d3989a1c784766945570e7a2f40bd49b29975e7c21
-Section: Tweaks
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard  [本包已内嵌 CCrack：安装后自动生成离线授权，无需激活码。CCrack 仅注入 SpringBoard。]
-Author: SquidForce, Backup
-Name: CopyVault(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-
-Package: cn.octoforce.copyvault
-Version: 1.9.0-1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6868
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.squidforce.copyvault
+Package: cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64
+Name: cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64
 Filename: debs/cn.octoforce.copyvault_1.9.0-1_iphoneos-arm64.deb
 Size: 1852780
 MD5sum: a34b23362229f3b5d28b7dd4c334a5cb
-SHA1: 3f5932264b43801edc281ebe2aef4af35b241dfc
 SHA256: c55ca5456c95172f3dea96bca075479342bd859cb680881c7747286bf2418b2b
-Section: 工具
-Description: 正版乌贼剪贴板
-Author: SquidForce, Backup
-Name: CopyVault(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-
-Package: cn.octoforce.squidextender
-Version: 3.7.4-2
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: com.squidforce.squidextender
-Filename: debs/cn.octoforce.squidextender_3.7.4-2_iphoneos-arm64.deb
-Size: 2622882
-MD5sum: 25db1858d08741917e52d5a5edf06bf7
-SHA1: 489a1ba69987fbe7e4e71fc0c25f67b0a191efb8
-SHA256: b2f5c878719d0a4510e05928156abd9bc61537ef48a123d671b3961f72cf76cb
-Section: 手势键盘
-Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
-Author: SquidForce, Backup
-Name: 乌贼键盘无根（免授权）
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-
-Package: cn.octoforce.squidextender
-Version: 3.7.4-2
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: com.squidforce.squidextender
-Filename: debs/乌贼键盘-3.7.4-2无根破解.deb
-Size: 2622902
-MD5sum: 5c201a5cf6c8c07cbe54dea18349864d
-SHA1: 3dd38f41a7010026964166e0a2a1bb06ba8bb0d9
-SHA256: ad1c70e74a6a7bc9c6ef645ab63226f5573275460b5edffeaf8df2a92d2b0536
-Section: Tweaks
-Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
-Author: SquidForce, Backup
-Name: SquidExtender(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 
 Package: cn.octoforce.squidextender.roothide
+Name: 乌贼键盘隐根（免授权）
 Version: 3.7.4+offline.1
 Architecture: iphoneos-arm64e
-Maintainer: SquidForce, Backup
-Installed-Size: 10254
+Section: 手势键盘
 Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
-Conflicts: cn.octoforce.squidextender, com.squidforce.squidextender
+Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
 Filename: debs/cn.octoforce.squidextender.roothide_3.7.4+offline.1_iphoneos-arm64e.deb
 Size: 2306814
 MD5sum: d3f1116347f1ab664626eba4cf192776
-SHA1: cdd532c77946b7587f41852fd2835822d8d46a49
 SHA256: 244b0395bfb31aecbb2e69f775f0c758c0cbeea839620b67c14deeba3240b14f
-Section: 手势键盘
-Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
-Author: SquidForce, Backup
-Name: 乌贼键盘隐根（免授权）
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-
-Package: cn.octoforce.squidgesturepro
-Version: 2.7.6-2
-Architecture: iphoneos-arm64
 Maintainer: SquidForce, Backup
-Installed-Size: 7347
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: debs/乌贼手势-2.7.6-2无根破解.deb
-Size: 1930372
-MD5sum: 57c54db0683ee2cc78ef2a32fd683885
-SHA1: 9a0bf4ca48c58f8540f2e599cc87b57868c7e5a9
-SHA256: db37edc980bd8de426878150374786b3faac58c0b534439f60accc0e6e4bb6ea
-Section: Tweaks
-Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
 Author: SquidForce, Backup
-Name: SquidGesturePro(激活码)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+Conflicts: cn.octoforce.squidextender, com.squidforce.squidextender
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+Installed-Size: 10254
 
-Package: cn.octoforce.squidgesturepro
-Version: 2.7.6-2
+Package: cn.octoforce.squidextender
+Name: 乌贼键盘无根（免授权）
+Version: 3.7.4-2
 Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 7347
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: debs/cn.octoforce.squidgesturepro_2.7.6-2_iphoneos-arm64.deb
-Size: 1930346
-MD5sum: 8331746087c37d5879052f14da48049a
-SHA1: 52f45722be6379fe3494282e3db869937628c76f
-SHA256: 7b9f31be141c2f6556e92b2cf75e93478b8e42886401d1e898af536a2696799f
 Section: 手势键盘
-Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
+Filename: debs/cn.octoforce.squidextender_3.7.4-2_iphoneos-arm64.deb
+Size: 2622882
+MD5sum: 25db1858d08741917e52d5a5edf06bf7
+SHA256: b2f5c878719d0a4510e05928156abd9bc61537ef48a123d671b3961f72cf76cb
+Maintainer: SquidForce, Backup
 Author: SquidForce, Backup
-Name: 乌贼手势无根（免授权）
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+Conflicts: com.squidforce.squidextender
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 
 Package: cn.octoforce.squidgesturepro.roothide
+Name: 乌贼手势隐根（免授权）
 Version: 2.7.6-1
 Architecture: iphoneos-arm64e
-Maintainer: 刀哥
-Installed-Size: 6762
+Section: 手势键盘
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: cn.octoforce.squidgesturepro, com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
 Filename: debs/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb
 Size: 1795552
 MD5sum: 727a69f71f43ae70cb81ccb0397dcbf0
-SHA1: 15352adbadd25d43535b33a8f1850617650a1f17
 SHA256: dd30d81acfa4cefcb8d8f1864bb6322dab623c18e71fad4c5ef71bf590fed909
-Section: 手势键盘
-Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
+Conflicts: cn.octoforce.squidgesturepro, com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Maintainer: 刀哥
 Author: 刀哥
-Name: 乌贼手势隐根（免授权）
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+Installed-Size: 6762
 
-Package: com.Axs.floating-view
-Version: 1.6.0-6
+Package: cn.octoforce.squidgesturepro
+Name: 乌贼手势无根（免授权）
+Version: 2.7.6-2
 Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 2700
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Section: 手势键盘
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
+Filename: debs/cn.octoforce.squidgesturepro_2.7.6-2_iphoneos-arm64.deb
+Size: 1930346
+MD5sum: 8331746087c37d5879052f14da48049a
+SHA256: 7b9f31be141c2f6556e92b2cf75e93478b8e42886401d1e898af536a2696799f
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+Installed-Size: 7347
+
+Package: com.Axs.floating-view_1.6.0-6_iphoneos-arm64
+Name: com.Axs.floating-view_1.6.0-6_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.Axs.floating-view_1.6.0-6_iphoneos-arm64
 Filename: debs/com.Axs.floating-view_1.6.0-6_iphoneos-arm64.deb
 Size: 652836
 MD5sum: f2921f41a4e0c57639181eb9abd90198
-SHA1: fcb5215bde893a83138a47eb6d513f272c53d486
 SHA256: 641e11be7b374fabf9ff212380975f33c1a2f9bde15867edb5d15a8a4149bd0c
-Section: 分屏插件
-Description: 温馨提示:
-  * 1、仅供个人备份与学习研究使用。
-  * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
-  * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
-  * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，请联系原插件作者处理。本人不承担因此产生的任何责任。
-  * 5、安全预警：鉴于越狱圈内部分特定人员（如Fv作者、苏苏、Wkk等）存在发布恶意格机代码、恶意抹黑及录制栽赃嫁祸视频的前科，需要用户自行甄别，从正确渠道下载插件。
-Author: be-huge
-Icon: https://axs66.github.io/pro/icon/svp.png
-Name: FV分屏（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
 
-Package: com.Axs.kongzhidiy
-Version: 2.3.3-end
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 3028
-Depends: mobilesubstrate, firmware (>= 15.0)
+Package: com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64
+Name: com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64
 Filename: debs/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb
 Size: 674340
 MD5sum: e7807c63d35c8436fd53168ceb8558bd
-SHA1: 120b96eb94f8a3524c37fa1b9cc7c76f1292c57b
 SHA256: 48d68ed09941988e4ff622cb855f3924db7d74fa871e82bce7fb9a57eb62159c
-Section: 控制中心
-Description: 这是一个简单的控制中心美化插件。
-Author: binglan
-Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
-Name: 冰蓝控制中心2.3.3-end（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
 
-Package: com.Axs.qjsy
-Version: 4.1.6
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 2496
-Depends: mobilesubstrate, preferenceloader
+Package: com.Axs.qjsy_4.1.6_iphoneos-arm64
+Name: com.Axs.qjsy_4.1.6_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.Axs.qjsy_4.1.6_iphoneos-arm64
 Filename: debs/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb
 Size: 336980
 MD5sum: 165846e289de27614390df65340d308f
-SHA1: 016ab93d30fbc01d80acfbbe2df8f182d82f44c4
 SHA256: 7e2323b3a4a5f5ee8b3b7ffa98370a5de3d091ab9f667475ebdbfcddc758b0a5
-Section: 系统美化
-Description: 让简单截图，拥有更多可能。
-Author: 冰蓝
-Icon: https://axs66.github.io/pro/icon/screenshellpro.png
-Name: 全局水印Pro（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
-Package: com.Axs.qjsy
-Version: 4.1.6-end
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 2496
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/全局水印Pro-4.1.6-end.deb
-Size: 336972
-MD5sum: 5c2dcf8897397584a70429899235348b
-SHA1: 31a0e16e29867856c33c34b79eb9d60dc93aa870
-SHA256: 997ddca7feea124e2d9571ad45acb392bc5bb7aa5c7b4d5108b8797a240b1200
-Section: Tweaks
-Description: 让简单截图，拥有更多可能。
-Author: 冰蓝
-Icon: https://axs66.github.io/pro/icon/screenshellpro.png
-Name: 全局水印Pro
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
-
-Package: com.Axs.xmzs
-Version: 1.1-4C
-Architecture: iphoneos-arm64
-Maintainer: xmmm
-Installed-Size: 3728
-Depends: firmware (>= 5.0), mobilesubstrate
+Package: com.Axs.xmzs_1.1-4C_iphoneos-arm64
+Name: com.Axs.xmzs_1.1-4C_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.Axs.xmzs_1.1-4C_iphoneos-arm64
 Filename: debs/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb
 Size: 1091608
 MD5sum: 8349817d3f3e4a0d935c64405f66b67c
-SHA1: bcc6b9659cde00cbe4eaa8b058ddbecebab51f81
 SHA256: ec9fda06272a8af6478dfdc3db90ee05e4a34fc664b5ae89b013e5867fcc6a19
-Section: 微信插件
-Priority: optional
-Description: 微信功能扩展
-Author: xmmm
-Icon: https://axs66.github.io/pro/icon/wechat.png
-Name: 熊猫助手（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
 
-Package: com.Axs.yuanjiao
-Version: 1.8.6
-Architecture: iphoneos-arm64e
-Maintainer: Axs
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.axs.yuanjiao_1.8.6_iphoneos-arm64e.deb
-Size: 634908
-MD5sum: bf9bed1ad5d4b4e6be4a36259084b00c
-SHA1: af49e9e108361c8f1d7eb2c8d4772b2058b20f61
-SHA256: 08363d1172528f11b9050d61492715b0878d1f3c6578abc542101b5587345330
-Section: 微信插件
-Description: A狗的微信全局圆角插件原版 1.8.6-END 下载源里全局圆角（免授权）插件即可解锁授权
-Author: A
-Icon: https://axs66.github.io/repo/icon/wechat.png
-Name: 微信全局圆角
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
-
-Package: com.axs.duostatus
-Version: 5.2.0-101
-Architecture: iphoneos-arm64
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 548
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/DuoStatus-5.2.0-101.deb
-Size: 59356
-MD5sum: a7676a75cb4699cac35c6c69abae0ec5
-SHA1: 50cc44afdd2720a35934ff6306fcba6cfd625b5d
-SHA256: 654d4e6a1e0b7f01d0721827801c3daeb3fe19c6c9c7eee8c246245d420d9ba4
-Section: Axs-Tweaks
-Description: 状态栏信号/网络/电量三合一圆环图标。
- * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
- * 2.全部取自系统真实数据，实时刷新
- * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回
- * 4.支持自定义元素的尺寸/位移/线宽/配色等参数，改动即时生效
- * 5. 支持ios15.0~17.3.1系统
- * 6. 兼容电话助手
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/duostatus.png
-Name: DuoStatus
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
-
-Package: com.axs.duostatus
-Version: 5.2.0-75
-Architecture: iphoneos-arm64
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 496
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.axs.duostatus_5.2.0-75_iphoneos-arm64.deb
-Size: 49202
-MD5sum: 39a05858883f87475ac12f57f9b77ae5
-SHA1: b9637f9439d4b02345b618ff400e82fac2863bf4
-SHA256: 5d1c6c03be7de0dd10e69207acaadb4e5fc5e694a392a011272068d5d1a92d20
-Section: Axs-Tweaks
-Description: 状态栏信号/网络/电量三合一圆环图标。
- * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
- * 2.全部取自系统真实数据，实时刷新（充电闪电、低电量、飞行模式、无服务）
- * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回，期间再点按即续期
- * 4.前景色取系统样式对象（与原生图标同色），尺寸/位移/线宽/配色可调，改动即时生效
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/duostatus.png
-Name: DuoStatus
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
-
-Package: com.axs.duostatus
-Version: 5.2.0-82
-Architecture: iphoneos-arm64
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 496
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/DuoStatus-5.2.0-82.deb
-Size: 51102
-MD5sum: b1b72685e1d624b37b32f4668c362480
-SHA1: 3869dfb40eebe34c478b417f98607908d199440a
-SHA256: 17c4aefa0606fb6f0261a2865917497933f8f4effe73080b626119b4fb188e0c
-Section: Axs-Tweaks
-Description: 状态栏信号/网络/电量三合一圆环图标。
- * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
- * 2.全部取自系统真实数据，实时刷新（充电闪电、低电量红/黄、飞行模式、无服务、WiFi 按强度分档）
- * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回，期间再点按即续期
- * 4.前景色取系统样式对象（与原生图标同色），尺寸/位移/线宽/配色可调，改动即时生效
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/duostatus.png
-Name: DuoStatus
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
-
-Package: com.axs.duostatus
-Version: 5.2.0-99
-Architecture: iphoneos-arm64
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 532
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/DuoStatus-5.2.0-99.deb
-Size: 56618
-MD5sum: 2b74946bf2135bf35429e727bd215ff4
-SHA1: 40724b21303daa24ab96d75b80ad7a9c9d344587
-SHA256: fa6907e95a521f68d9695cba45e9ac44f400e99f0f82d2b36cb1ad9002ce7e42
-Section: Axs-Tweaks
-Description: 状态栏信号/网络/电量三合一圆环图标。
- * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
- * 2.全部取自系统真实数据，实时刷新
- * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回
- * 4.支持自定义元素的尺寸/位移/线宽/配色等参数，改动即时生效
- * 5. 支持ios15.0~17.3.1系统
- * 6. 兼容电话助手
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/duostatus.png
-Name: DuoStatus
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
-
-Package: com.axs.ios16dao
-Version: 5.2.0-244
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 704
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Package: com.axs.ios16dao_5.2.0-244_iphoneos-arm64
+Name: com.axs.ios16dao_5.2.0-244_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.axs.ios16dao_5.2.0-244_iphoneos-arm64
 Filename: debs/com.axs.ios16dao_5.2.0-244_iphoneos-arm64.deb
 Size: 123852
 MD5sum: 89d00e0bce8f7ec23d2f78116155306a
-SHA1: 4400c694b975535528afd2b7fba4b535397c0c9e
 SHA256: 2e73e5a7eea5f4b85701c815da6c4b00bad11a50cb750b4bdd4881e0bfdb9b9a
-Section: 系统美化
-Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。付费插件，150缘，授权校验联系:VCR66T
- * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
- * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
- * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
- * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
- * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
-Name: A狗150动态岛（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
-Package: com.axs.keyboardtools
-Version: 5.2.0-85
-Architecture: iphoneos-arm64
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 792
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.axs.colorfulkeyboard
-Filename: debs/KeyboardTools-5.2.0-85.deb
-Size: 128028
-MD5sum: bd214d7018cb5a15addec9004fc9d816
-SHA1: 7b725fc4a66804fa40878a8e10624619a67b135d
-SHA256: 1661b3d52941e692d656543625c75a37a3966d357787c3816e0c5288625e4c05
-Section: Axs-Tweaks
-Description: 键盘文本编辑工具栏（键盘上方复制/粘贴/剪切/撤销/全选等快捷操作）+ 炫彩键盘（点击光效、键盘背景配色、候选词变色）。
- * 1. 工具栏动作：全选、复制、粘贴、剪贴板、剪切、撤销、清空、光标左移、光标右移、换行、收起键盘
- * 2. 每个按钮的点击与四个滑动方向可各自绑定动作，动作显示名可自定义，改动立即生效、无需注销
- * 3. 键盘外观：点击光效、候选词变色；键盘背景色分浅色/深色设置，点行用系统取色器选色（可调透明度）
- * 4. 剪贴板需要安装 Clipboard 插件，才能调出面板
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/keyboardtools.png
-Name: KeyboardTools
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
-
-Package: com.axs.screenrecording
-Version: 5.2.0-35
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 508
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Package: com.axs.screenrecording_5.2.0-35_iphoneos-arm64
+Name: com.axs.screenrecording_5.2.0-35_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.axs.screenrecording_5.2.0-35_iphoneos-arm64
 Filename: debs/com.axs.screenrecording_5.2.0-35_iphoneos-arm64.deb
 Size: 46368
 MD5sum: 5adaced470e4de3a3d2d8526ef96c00a
-SHA1: 33a15f3e633e911496b40eff9d0639fc3cc445f0
 SHA256: 83bf4d4f7c9e5ac5e9f4d31d4de1e08cd8f9b13b5f7c4f5c2ec3699bc0e3a1a5
-Section: 系统美化
-Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/screenrecording.png
-Name: A狗截图套壳（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.json
 
 Package: com.axs.snapper3tag
+Name: Snapper3 Expand
 Version: 5.2.0-326
 Architecture: iphoneos-arm64e
-Maintainer: Axs <qiaozhini000@163.com>
-Installed-Size: 1052
-Pre-Depends: rootless-compat (>= 0.9)
+Section: 工具
 Depends: mobilesubstrate
+Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + OCR识别 + 翻译 + AI互译 + AI问答 + Sileo长按翻译，修复了原snapper3主体插件第7个图标遮挡一半的bug；将菜单工具栏最后一个“关闭”图标进行固定，增加滑动视觉效果。
+* 一、【自定义图标】
+* 创建 "/var/mobile/Axs/Snapper3图标/自定义文件夹" ，放入以下对应素材，即可替换默认图标：
+*   标记    ：tag.png   / tag_menu.png
+*   长截图  ：long.png  / long_menu.png
+*   ocr识别 ：ocr.png   / ocr_menu.png
+*   翻译    ：trans.png / trans_menu.png
+*   Ai互译  ：huyi.png  / huyi_menu.png
+*   Ai回答  ：wenda.png / wenda_menu.png
+* 二、【截图标记】
+* 颜色选择：红/黄/蓝/绿/白/黑等6种颜色；
+* 箭头标记：手指拖拽绘制方向箭头；
+* 自由画线：手指跟随绘制任意曲线；
+* 文字标注：点击图片任意位置弹出输入框与键盘，输入文字落点标注，支持字号滑条实时调节；
+* 矩形图标：点击1次是矩形框选+点击2次是矩形填充；
+* 圆形图标：点击1次是圆形框选+点击2次是圆形填充；
+* 高亮图标：点击1次是高亮框选+点击2次是半透明填充；
+* 马赛克图标：网格分块打码，颗粒固定细腻；
+* 撤回操作：一键撤销上一步标注；
+* 删除操作：一键删除所有标注；
+* 保存相册：渲染并写入系统相册；
+* 复制剪贴板：一键复制标注后截图；
+* 三、【长截图 Pro】
+* 两种模式可选：滚动拼接/ 一键到底；
+* 智能帧匹配，自动拼接；
+* 支持保存到相册、复制到剪贴板；
+* 四、【OCR识别】
+* 使用 PaddleOCR模型识别截图文字；
+* 半屏浮层展示，支持涂抹选择、一键复制；
+* 需自备API Token。
+* 五、【翻译】
+* 百度翻译 API，自动检测语言双向翻译；
+* 支持图片翻译和文本翻译两种通道；
+* 半屏浮层展示，支持涂抹选择、一键复制；
+* 需自备百度开发者信息中的 AppID 和 密钥。
+* 六、【Ai互译+问答】
+* 支持中英文互译和中文问答；
+* 半屏浮层展示，支持涂抹选择、一键复制；
+* 需自备阿里云 API Key。
+* 七、【长按音量-冻结】
+* 开启后，长按音量减键约0.2秒即可调出Snapper3冻结模式，适合无手势（不开启悬浮球/手势）的用户，用物理按键直接使用本插件全部标注功能。
 Filename: debs/com.axs.snapper3tag_5.2.0-326_iphoneos-arm64e.deb
 Size: 607086
 MD5sum: d9f7044e76071e2c3ab954a112b32d4f
-SHA1: f597c6068b2d02e963b73f3acf94f09ea43b0590
 SHA256: 9efea4b6265d8bf828ca1c7ead86c62dfb8636ef2f0e8c951a6294da178863ab
-Section: 工具
-Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + OCR识别 + 翻译 + AI互译 + AI问答 + Sileo长按翻译，修复了原snapper3主体插件第7个图标遮挡一半的bug；将菜单工具栏最后一个“关闭”图标进行固定，增加滑动视觉效果。
- * 一、【自定义图标】
- * 创建 "/var/mobile/Axs/Snapper3图标/自定义文件夹" ，放入以下对应素材，即可替换默认图标：
- *   标记    ：tag.png   / tag_menu.png
- *   长截图  ：long.png  / long_menu.png
- *   ocr识别 ：ocr.png   / ocr_menu.png
- *   翻译    ：trans.png / trans_menu.png
- *   Ai互译  ：huyi.png  / huyi_menu.png
- *   Ai回答  ：wenda.png / wenda_menu.png
- * 二、【截图标记】
- * 颜色选择：红/黄/蓝/绿/白/黑等6种颜色；
- * 箭头标记：手指拖拽绘制方向箭头；
- * 自由画线：手指跟随绘制任意曲线；
- * 文字标注：点击图片任意位置弹出输入框与键盘，输入文字落点标注，支持字号滑条实时调节；
- * 矩形图标：点击1次是矩形框选+点击2次是矩形填充；
- * 圆形图标：点击1次是圆形框选+点击2次是圆形填充；
- * 高亮图标：点击1次是高亮框选+点击2次是半透明填充；
- * 马赛克图标：网格分块打码，颗粒固定细腻；
- * 撤回操作：一键撤销上一步标注；
- * 删除操作：一键删除所有标注；
- * 保存相册：渲染并写入系统相册；
- * 复制剪贴板：一键复制标注后截图；
- * 三、【长截图 Pro】
- * 两种模式可选：滚动拼接/ 一键到底；
- * 智能帧匹配，自动拼接；
- * 支持保存到相册、复制到剪贴板；
- * 四、【OCR识别】
- * 使用 PaddleOCR模型识别截图文字；
- * 半屏浮层展示，支持涂抹选择、一键复制；
- * 需自备API Token。
- * 五、【翻译】
- * 百度翻译 API，自动检测语言双向翻译；
- * 支持图片翻译和文本翻译两种通道；
- * 半屏浮层展示，支持涂抹选择、一键复制；
- * 需自备百度开发者信息中的 AppID 和 密钥。
- * 六、【Ai互译+问答】
- * 支持中英文互译和中文问答；
- * 半屏浮层展示，支持涂抹选择、一键复制；
- * 需自备阿里云 API Key。
- * 七、【长按音量-冻结】
- * 开启后，长按音量减键约0.2秒即可调出Snapper3冻结模式，适合无手势（不开启悬浮球/手势）的用户，用物理按键直接使用本插件全部标注功能。
+Installed-Size: 1052
+Maintainer: Axs <qiaozhini000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
 Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
-Name: Snapper3 Expand
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
 
-Package: com.axs.switchicon
-Version: 5.2.0-131
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 836
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Package: com.axs.switchicon_5.2.0-131_iphoneos-arm64
+Name: com.axs.switchicon_5.2.0-131_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.axs.switchicon_5.2.0-131_iphoneos-arm64
 Filename: debs/com.axs.switchicon_5.2.0-131_iphoneos-arm64.deb
 Size: 122512
 MD5sum: 0c27e8141defd28a87ee7ad841c54d23
-SHA1: cddfc68d9b74236c958f4522a5bdb956f78d30e5
 SHA256: dd1b822f326cc6d35a85d32edb492369c97aa03a94eabbfd4db5c418f57ebba0
-Section: 系统美化
-Description: 一个强大的全局 UISwitch 开关控件，让原生开关显示更有个性；付费插件，需要请联系微信：VCR66T
- * 一、纯代码开关组
- * 1. 动态组：昼夜开关、血瞳开关、液态开关，支持流畅的过渡动画与动态视觉效果；
- * 2. 静态组：日月开关、水滴开关、立体开关、温度开关、星月开关，覆盖多种精致静态样式；
- * 3. 液态开关：复刻 iOS 26 风格，并支持开启状态颜色自定义；
- * 4. 日月开关：支持太阳、云朵、月亮、星星颜色自定义，一个开关也能千变万化。
- * 二、素材开关组
- * 1. 素材开关：在指定路径放置 on.png/off.png 开关素材；
- * 2. 支持创建多套，在插件面板自由切换。
- * 三、温馨提示
- * 1. 早买早享受，后续免费更新；
- * 2. 后续增加新样式，新用户可能面临涨价。
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/switchicon.png
-Name: A狗液态开关（免授权）
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
 
-Package: com.be-huge.floating-view
-Version: 1.6.0-6
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 3360
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e(1).deb
-Size: 1771730
-MD5sum: cba48e5bea1e58f68bdb28b3b73e4c23
-SHA1: 0036b0f68922138498230c48df959572383a651a
-SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
+Package: com.axs.yuanjiao_1.8.6_iphoneos-arm64e
+Name: com.axs.yuanjiao_1.8.6_iphoneos-arm64e
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.axs.yuanjiao_1.8.6_iphoneos-arm64e
+Filename: debs/com.axs.yuanjiao_1.8.6_iphoneos-arm64e.deb
+Size: 634908
+MD5sum: bf9bed1ad5d4b4e6be4a36259084b00c
+SHA256: 08363d1172528f11b9050d61492715b0878d1f3c6578abc542101b5587345330
 
-Package: com.be-huge.floating-view
-Version: 1.6.0-6
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 3360
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64.deb
-Size: 660352
-MD5sum: e91f85d6bdbbc1935353dd63d6500c1e
-SHA1: 28efee7dd0ca595d676e8291e2fdee8e2c0cab7d
-SHA256: 3b0aeb4f465e13dc077ca06c5c04ee5437b3a1cbbd048b3fede84183bb40fa71
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
-Package: com.be-huge.floating-view
-Version: 1.6.0-6
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 3360
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
-Size: 1771730
-MD5sum: cba48e5bea1e58f68bdb28b3b73e4c23
-SHA1: 0036b0f68922138498230c48df959572383a651a
-SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
-Package: com.binglan.dynamicfx
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Package: com.binglan.dynamicfx_1.0.7_iphoneos-arm64
+Name: com.binglan.dynamicfx_1.0.7_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.binglan.dynamicfx_1.0.7_iphoneos-arm64
 Filename: debs/com.binglan.dynamicfx_1.0.7_iphoneos-arm64.deb
 Size: 115776
 MD5sum: f49a3dcb658723b8f3dfe0e82727ccac
-SHA1: 15b7f62aed9fc0614ec6206e16125cfaec1ee825
 SHA256: 672995f5094fb955f96f8a3bf3ef6c79c23f83b27086c02c97ded81eab05525c
-Section: 系统美化
-Description: 灵动岛背景？
-Author: 冰蓝
-Name: 冰蓝灵动岛背景（免授权）
 
 Package: com.binglan.kongzhidiy
+Name: 冰蓝控制中心2.3.6-end（免授权）
 Version: 2.3.6-end
 Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 8024
+Section: 控制中心
 Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Description: 控制中心中心美化？
 Filename: debs/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb
 Size: 3740156
 MD5sum: 29dbae95039a8cc339b1767d23ed26d9
-SHA1: 8eb7450286485aa2a005d3912429c4f3a0f089cb
 SHA256: 0431994a7a5d35018034ee9929ddc6b4a2d6342c1278d056340f4cde81524a76
-Section: 控制中心
-Description: 控制中心中心美化？
+Maintainer: binglan
 Author: binglan
 Icon: https://i.imgs.ovh/2026/06/10/dfb8c206be141bb3c7d070b29d0d9d56.jpg
-Name: 冰蓝控制中心2.3.6-end（免授权）
+Installed-Size: 8024
 
-Package: com.binglanqjsy.deb
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 908
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Package: com.binglanqjsy.deb_3.0.0_iphoneos-arm64
+Name: com.binglanqjsy.deb_3.0.0_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.binglanqjsy.deb_3.0.0_iphoneos-arm64
 Filename: debs/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb
 Size: 164700
 MD5sum: f3ff4347f4cec716294d6a175d730e16
-SHA1: dc1f8b704d5ff72f3f38800e92d1662c5f90b33e
 SHA256: 895584d802b95ac9759d77b017201138afac2c74f9617ec7aea259db75533a0d
-Section: 系统美化
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 冰蓝全局水印套壳（免授权）
 
 Package: com.bolilita.free
+Name: 玻璃液态（免授权）
 Version: 2.0.3
 Architecture: iphoneos-arm64
-Maintainer: personal
+Section: 系统美化
 Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Description: 微信液态玻璃（免授权）。内置 ECDSA 公钥离线授权校验，无联网端点，仅自用。
 Filename: debs/com.bolilita.free_2.0.3_iphoneos-arm64.deb
 Size: 1316724
 MD5sum: e5bcd8b2cd7153c4d411830af5c6af91
-SHA1: 2be47b4876264b709c991b891d6e225afbda6eb1
 SHA256: bf92c950379c32a5b7589210b6f187173efcfd37473a59e724974eb0a05d3880
-Section: 系统美化
-Description: 微信液态玻璃（免授权）。内置 ECDSA 公钥离线授权校验，无联网端点，仅自用。
 Author: personal
-Name: 玻璃液态（免授权）
+Maintainer: personal
 
-Package: com.bvm.wuzeililiang
-Version: 1.0.1-1
-Architecture: iphoneos-arm64e
-Maintainer: BVN
-Installed-Size: 328
-Depends: firmware (>= 15.0), mobilesubstrate
+Package: com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e
+Name: com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e
 Filename: debs/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb
 Size: 38092
 MD5sum: edbdb03513b16f3880b7acd7cd0554d9
-SHA1: c5f46ce1816793ee2fc7ca995cb98b92e6e61289
 SHA256: 8026c0829fe9c7b5febe958a962814756ff9bd35ac0c2ff6b706e8e210400960
-Section: 工具
-Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
-Author: BVN
-Icon: https://huayuarc.github.io/icon/wuzeililiang.jpg
-Name: 乌贼本地离线授权
 
-Package: com.bvn.copyvault.rl
-Version: 1.9.0k
-Architecture: iphoneos-arm64e
-Maintainer: SquidForce, Backup
-Installed-Size: 6220
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.bvn.squidforcecrack.rl
-Conflicts: com.squidforce.copyvault
+Package: com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e
+Name: com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e
 Filename: debs/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb
 Size: 1640920
 MD5sum: 3557e6933f0a85ff3d11e2e1b58f8ed2
-SHA1: fdad90089ef2051c66aa62cfa3df5fcf8548400b
 SHA256: dad91deed84e180c33100abf5b4a74c193e2708e0bf1b0bbe72a94bbf8d078f2
-Section: 工具
-Description: 乌贼剪贴板
- 先下载这个版本本地激活一下授权，授权激活成功卸载这个版本和依赖，再去源里下载 CopyVault（激活码版），即可免费使用正版乌贼剪贴板。
-Author: SquidForce, Backup
-Icon: https://huayuarc.github.io/icon/CopyVault@2x.png
-Name: CopyVault（免授权）
 
-Package: com.bvn.squidforcecrack.rl
-Version: 1.0.1-1
-Architecture: iphoneos-arm64e
-Maintainer: BVN
-Installed-Size: 328
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
+Package: com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e
+Name: com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e
 Filename: debs/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb
 Size: 36936
 MD5sum: 3a817babf0231da296be4d9ae76b6573
-SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
 SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
-Section: 工具
-Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
-Author: BVN
-Icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
-Name: SquidForce VIP
-
-Package: com.callassist.caiphoneduostatus
-Version: 1.5.10
-Architecture: iphoneos-arm64e
-Maintainer: 热心网友CallAssist
-Installed-Size: 204
-Depends: firmware (>= 16.0)
-Conflicts: com.xybp888.caanimatedstatus
-Replaces: com.xybp888.caanimatedstatus
-Filename: debs/com.callassist.caiphoneduostatus_1.5.10_iphoneos-arm64e (1).deb
-Size: 18876
-MD5sum: f74550c327bbf48da1525176d8e32e31
-SHA1: 8f2e7291e0abbe5772604f9f9f736139b11b9c03
-SHA256: 0ecc1cdcb4a569f539356f6006449eded72310e887ffac36cd1e229b5f068306
-Section: Tweaks
-Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
-Author: 热心网友CallAssist
-Name: CAiPhoneDuoStatus
-
-Package: com.callassist.duostatusguard
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: CallAssist
-Installed-Size: 168
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 16.0), ellekit
-Filename: debs/com.callassist.duostatusguard_1.0.0_iphoneos-arm64e.deb
-Size: 960
-MD5sum: 4fad40aee9f874fec9855913c97fdbf2
-SHA1: 6677db08bdaa57ba6acb5118ced3d7c21f1ed4e6
-SHA256: 7587e964e25eeb6ab5167dc9a141199c87d56c0d739223ab568f5fe525cbe476
-Section: Tweaks
-Description: DuoStatus 启动保护器：拦截 SpringBoard 启动早期的 setBatteryMonitoringEnabled: 调用，解决 iOS 17 上 respring 安全模式（EXC_BREAKPOINT）。需与 DuoStatus 同时安装。
-Author: CallAssist
-Name: DuoStatusGuard
-
-Package: com.charlieleung.liquidify
-Version: 1.3.7-4+dao88.1
-Architecture: iphoneos-arm64
-Maintainer: 一刀
-Installed-Size: 40597
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb
-Size: 10756064
-MD5sum: 476311bce98b1e595853fde7cf73cc31
-SHA1: ed2c08e17a4d1a82cd73869b6c62ff3c699e60b1
-SHA256: 410a0cf68816de6fb34d809613a735dd4f621db491ceeda5143a53af6129468c
-Section: 系统美化
-Description: 液态玻璃
-Author: 一刀
-Name: 88液态玻璃（免授权）
 
 Package: com.charlieleung.liquidify.roothide
+Name: 88液态玻璃隐根版（免授权）
 Version: 1.3.7-4
 Architecture: iphoneos-arm64e
-Maintainer: 一刀
-Installed-Size: 40967
-Pre-Depends: rootless-compat(>= 0.9)
+Section: 系统美化
 Depends: mobilesubstrate (>= 0.9.5000)
+Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液态玻璃美化，RootHide 隐根兼容。内置本地票据验证，无联网，仅自用。
 Filename: debs/com.charlieleung.liquidify.roothide_1.3.7-4_iphoneos-arm64e.deb
 Size: 15421002
 MD5sum: 6a873a609434b5b3773bcaa8171c9c81
-SHA1: 806fe4d35c837a4b7f6cf3b77522942ac9502188
 SHA256: 0d1170f8ae5bdc982aa6c3b9b504ae21fa951df8351517b226bd9fba069566dc
-Section: 系统美化
-Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液态玻璃美化，RootHide 隐根兼容。内置本地票据验证，无联网，仅自用。
+Maintainer: 一刀
 Author: 一刀
-Name: 88液态玻璃隐根版（免授权）
+Installed-Size: 40967
+Pre-Depends: rootless-compat(>= 0.9)
 
-Package: com.colorblack.bottomx.floatingball
-Version: 6.53
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 1052
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Filename: debs/Bottom-x悬浮球_6.53最终版_roothide.deb
-Size: 494614
-MD5sum: 3e30f03deda729c09f422291739a0231
-SHA1: 7a3dc3c70e55a446a01f7ad37735dfd13ad15b01
-SHA256: ac00a510bb8df69bfb0a9a523433a940cc52c6e623c06aa8c321bbb0c0510a59
-Section: Tweaks
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.53 设置与分屏更新】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Author: kanuo
-Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
-Name: Bottom-x 悬浮球
-
-Package: com.colorblack.bottomx.floatingball
-Version: 6.56
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 1052
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Filename: debs/Bottom-x悬浮球_6.56_修安全模式_隐根.deb
-Size: 499470
-MD5sum: 082eec62f41ad4662e46423ba8e658e9
-SHA1: c6b21fe64af2ddfc9735ddfe54d14778bd9e3ede
-SHA256: d531f02ac28730eb3255520c56604a381c7225717dcc7facc00841ddcbb4592a
-Section: Tweaks
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.53 设置与分屏更新】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-Name: Bottom-x 悬浮球
-Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-
-Package: com.colorblack.bottomx.floatingball
-Version: 6.59
-Architecture: iphoneos-arm64
-Maintainer: kanuo
-Installed-Size: 1084
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Filename: debs/com.colorblack.bottomx.floatingball-6.59-rootless.deb
-Size: 413004
-MD5sum: 483df3d5dc22ecd4539232e1968f4b9a
-SHA1: 8adfa3283d97bebb906a688d6db3036402fe879d
-SHA256: 1dba6c831bcc79d0a37345b86e1da3209edc6de105967bff1749035e96e8191f
-Section: Tweaks
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.59 SmartDeck Home】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-Name: Bottom-x 悬浮球
-Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-
-Package: com.colorblack.bottomx.floatingball
-Version: 6.59
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 1084
-Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
-Conflicts: com.kanuo.floatballx
-Filename: debs/com.colorblack.bottomx.floatingball-6.59-roothide-1.deb
-Size: 413280
-MD5sum: fb33eae2f12ba8ea6923a3e2a65a9fa7
-SHA1: 5f1b0309898a187c4e0560fe6335bc2f80e603b3
-SHA256: d0b1def03da9c9198de2e40de65f05c2ffe3bc1d953fcdb95371d48941861dc9
-Section: Tweaks
-Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
- 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
- .
- 【核心功能】
- - 单击悬浮球返回上一层，到达最底层时自动回到桌面
- - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
- .
- 【使用说明】
- - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
- - 设置路径：设置 > 悬浮球
- - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
- .
- 【6.59 SmartDeck Home】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
- - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
- - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
- .
- 【依赖】
- - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
-Name: Bottom-x 悬浮球
-Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
-
-Package: com.crctdd.shorbar
-Version: 0.0.9
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 460
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.crctdd.shorbar_0.0.9_iphoneos-arm64.deb
-Size: 60174
-MD5sum: de9e81217316c898a8c58ef4054e15c6
-SHA1: a91f23c00ab315a54a0e238ae0389639e758d4da
-SHA256: 62c9d9c17cde7620f3e985db41394f71eab712765ab53ba7576e9d47f0771411
-Section: Tweaks
-Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
-Author: crctdd
-Name: ShortBar
-
-Package: com.crctdd.shorbar
-Version: 0.0.9
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 460
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.crctdd.shorbar_0.0.9_iphoneos-arm64e.deb
-Size: 60246
-MD5sum: 1005cd484a7ec8de74569310dba2de5c
-SHA1: eb8064619b996f88452c001f04183a5b4f8f95bb
-SHA256: 32ab05bb5dd8ec3120433973b9caf6cd9dd6d6ddac4c2c744f4fef45f02bc5b7
-Section: Tweaks
-Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
-Author: crctdd
-Name: ShortBar
+Package: com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64
+Name: com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64
+Filename: debs/com.charlieleung.liquidify_1.3.7-4+dao88.1_iphoneos-arm64.deb
+Size: 10756064
+MD5sum: 476311bce98b1e595853fde7cf73cc31
+SHA256: 410a0cf68816de6fb34d809613a735dd4f621db491ceeda5143a53af6129468c
 
 Package: com.crctdd.stayalivelite
+Name: 后台运行
 Version: 0.1.7
 Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 300
+Section: 工具
 Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
 Filename: debs/com.crctdd.stayalivelite_0.1.7_iphoneos-arm64e.deb
 Size: 65844
 MD5sum: 31b9e4ab8764f3f7c5d1d4425c5e24f8
-SHA1: 9856c32cad99eecce342bba71b4cb53c2a7b0b03
 SHA256: 7a3e44919a3083f0b15c05b2e9d1b60796468ba254eb20bc3e2e5b5ff7dac78a
-Section: 工具
-Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
-Author: crctdd
-Name: 后台运行
-
-Package: com.crctdd.stayalivelite
-Version: 0.1.9
-Architecture: iphoneos-arm64
 Maintainer: crctdd
-Installed-Size: 816
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/StayAlive Lite-0.1.9.deb
-Size: 98814
-MD5sum: ee400ae08e58d56cf27c897249c2a892
-SHA1: ef98b15536c45e414070220c05001cd5b24fab29
-SHA256: aba9ccbd5ed02b1063e3cd479464754ac57ca0e40862b7454fd95ec90628edbf
-Section: Tweaks
-Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
 Author: crctdd
-Name: StayAlive Lite
+Installed-Size: 300
 
-Package: com.crctdd.stayalivelite
-Version: 0.2.4
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 1008
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/StayAlive Lite-0.2.4.deb
-Size: 110080
-MD5sum: f031a81c06c2719a1686707e2f1ee6a1
-SHA1: a929f3a1b0df00d3c6c9df8cf47ef8a5f40d94d3
-SHA256: 00cd130d79e907caf7e35f30f926266bb698dc49683d21b8cec64a3fb49de6bd
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.5
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 1040
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/StayAlive Lite-0.2.5.deb
-Size: 116384
-MD5sum: 3a49f0fa57d7061df38b461a83bc6967
-SHA1: ac65f1f064c0c77b6c6082b0863f1b9a146aa1bf
-SHA256: f0157a76a6ccbec7c1e5258fd97110ab1d6bdb8f981ec0a939d17ca462f47e9b
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.7
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 672
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.crctdd.stayalivelite_0.2.7_iphoneos-arm64e.deb
-Size: 103814
-MD5sum: 60554dbcc8755f40dde50851cfb8ad4b
-SHA1: 5388070eb0740f91c4fe5e8678bac31165006f05
-SHA256: 0aff3695cedf2a4f099ce31730623da318c5242e8b3f906199fbc3eeac56c47b
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.7
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 1360
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.crctdd.stayalivelite_0.2.7_iphoneos-arm64.deb
-Size: 148386
-MD5sum: 1e8b6c9279f0df1b5d0cd4318b1cdc53
-SHA1: 8d222345eb1379b44ae793514ad252e4e998c03a
-SHA256: c775769b460b1d039d13e3461b70a74e18c94893d668bbd0ed11a16f49868b5d
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.8
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 1360
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.crctdd.stayalivelite_0.2.8_iphoneos-arm64.deb
-Size: 149266
-MD5sum: daedec1d44b509a1d72b4811dbe05105
-SHA1: 1dfc40c7fec0e0676b1294b4ad7d1c76c255f3ab
-SHA256: 35c42981ceaf4b5ce7e8c0d07328807329301d283754167b5d1da249df15814d
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.8
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 672
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.crctdd.stayalivelite_0.2.8_iphoneos-arm64e.deb
-Size: 104658
-MD5sum: 2b32a2bd8aaec623207147c78cd54a33
-SHA1: 1f13a5a7e55af4625b305811e92f6a505957ee9a
-SHA256: c51080e1e18678d8d84c381b7ab04affc3d437388dfe3bab22d7974d1fe0889e
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.9
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 672
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.crctdd.stayalivelite_0.2.9_iphoneos-arm64e.deb
-Size: 106548
-MD5sum: 333c54611ae154be823b386dac18281b
-SHA1: 8be617ddf460e0d40f265c9eab36245776679454
-SHA256: 45c5b28f28a18c902e9cbd17e8cd382c0b93c0e46edd53b3a28c54ac2bee6253
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.9
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 1376
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: debs/com.crctdd.stayalivelite_0.2.9_iphoneos-arm64.deb
-Size: 150412
-MD5sum: c1c31d9e036cd08d0c025f8413522d0d
-SHA1: 749d96095f91ca2146304006a17498166d8733e2
-SHA256: 92015b1605a214a027a2a23cec9a593b001eda22e7e087b97d942a58c2e8b647
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.go.mango
-Version: 1.0-Beta6-1
-Architecture: iphoneos-arm64e
-Maintainer: go
-Installed-Size: 3236
-Depends: mobilesubstrate
-Filename: debs/com.go.mango_1.0-Beta6-1_iphoneos-arm64e.deb
-Size: 929026
-MD5sum: ad3bd66511e2b581524245095a0cde68
-SHA1: 0eb801a8896729215077dd908591ddf67cb31478
-SHA256: b6365f04ec9cdbdbd5b81a7e756f709e85135e3a36e9a22a9059b03505c24978
-Section: Tweaks
-Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
-Author: go
-Name: mango
-
-Package: com.go.mango
-Version: 1.0-Beta6-1
-Architecture: iphoneos-arm64
-Maintainer: go
-Installed-Size: 3236
-Depends: mobilesubstrate
-Filename: debs/com.go.mango_1.0-Beta6-1_iphoneos-arm64.deb
-Size: 930912
-MD5sum: 57895f0868f0ab2aecda0e386bae9352
-SHA1: 291943304625c1231950536a753dc0c0e4c46034
-SHA256: 85ecf2d0b7263c0be7f3fd38b9c44c5491fa60414ec2347bc63e19f927ef31df
-Section: Tweaks
-Description: 分屏，真液态玻璃，视频壁纸等一些实用功能。
-Author: go
-Name: mango
-
-Package: com.go.mango
-Version: 1.0-Beta7-1
-Architecture: iphoneos-arm64e
-Maintainer: go
-Installed-Size: 3888
-Depends: mobilesubstrate
-Filename: debs/com.go.mango_1.0-Beta7-1_iphoneos-arm64e.deb
-Size: 1067480
-MD5sum: ab6fd44c12610ff017b79efb629613ad
-SHA1: 0a9b526bb9e3373ee28ab4fc424599f90a423201
-SHA256: c59459000fea9996cf19fae8b879106b4cf7e03a353079e989d95ed5614ac6b5
-Section: Tweaks
-Description: 分屏，微信小液，真液态玻璃，视频壁纸等一些实用功能。
-Author: go
-Name: mango
-
-Package: com.go.mango
-Version: 1.0-Beta7-6
-Architecture: iphoneos-arm64
-Maintainer: go
-Installed-Size: 3284
-Depends: mobilesubstrate
+Package: com.go.mango_1.0-Beta7-6_iphoneos-arm64
+Name: com.go.mango_1.0-Beta7-6_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.go.mango_1.0-Beta7-6_iphoneos-arm64
 Filename: debs/com.go.mango_1.0-Beta7-6_iphoneos-arm64.deb
 Size: 845280
 MD5sum: f4026da9ddd748630a7cfd95c25d0a4f
-SHA1: d9bbffcf89e64ae923258a355e1d21831bec2a54
 SHA256: 9b16f51bea1bf0ed6ba0fabf29d24604c5c93b8e4f0f9bb8ca8433cdaee48a19
-Section: 分屏插件
-Description: V6 = V5全功能解锁+弹窗屏蔽 + 修复OS27样式不生效：原生Beta7的mangoos.plist/MangoOSRendering.plist漏写com.apple.Preferences，导致设置App不注入dylib、OS27样式开关无效。V6补上设置App注入Filter，OS27样式正常生效。已排除微信玻璃组件。
-Author: go
-Name: 芒果分屏1.0-Beta7-6（免授权）
 
-Package: com.hang.zzzj
-Version: 0.0.1-8
-Architecture: iphoneos-arm64e
-Maintainer: hang
-Installed-Size: 180
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/转转找机.deb
-Size: 45136
-MD5sum: fb3971a530855428e9aaaa2b188f2124
-SHA1: ee19330cbb39612acbabde7f92b0b290e6d8a4ea
-SHA256: 2121881516193186337cfe9a84b152e44f622dc895dd639aca1b01807f5b8e74
-Section: Tweaks
-Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接。温馨提示：直装版Deb安装后要是没有显示悬浮窗就说明插件没有生效，请卸载后改用巨魔注入。
-Author: hang
-Name: 转转找机-Roothide
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-103
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 1900
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-103_iphoneos-arm64.deb
-Size: 154182
-MD5sum: 87bc56932a3fed3526ed78405386e325
-SHA1: 7f2867b0bccfb3c5efa1b291cbb8cda70556f700
-SHA256: 906bf61e9bd864d4d7e08cc9a1fbfb760f984462d98bdc4f9bfd17875dc98bcd
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-103
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 1900
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-103_iphoneos-arm64e.deb
-Size: 213990
-MD5sum: 9404d8d54f3e3695d452fbcf36226443
-SHA1: ab9fac0cf135012c6324a3fb610c5b6d93604649
-SHA256: 60b00ff994c44904968b4faa2b5e7141a477902501603db6a185600b2857beac
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-129
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 1936
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-129_iphoneos-arm64e.deb
-Size: 238990
-MD5sum: 453aae3ee0a501aefd2d228dbc2789e0
-SHA1: 17007720cd02d4b8e2d3faf1ef0708d789076531
-SHA256: 487ed44fbeccb457ea5c7899e31acd8e9226597f8d1f375e866187432db894d2
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-129
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 1936
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-129_iphoneos-arm64.deb
-Size: 171552
-MD5sum: 7d0a53d05f86b2dd2af2dcecdf6df140
-SHA1: 305f500101e9b6fb44649435a3d118b26c576941
-SHA256: 6a1479b284d2f57e03d67c4e42b0c9e3829a7dec5d947b05b48f6e8eb200b684
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-134
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 1936
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-134_iphoneos-arm64.deb
-Size: 171196
-MD5sum: 19cd05afae2b7757733497686ee05d4c
-SHA1: cc2b8c6aae7c62bb283b162af47d6df45bb28487
-SHA256: 596d8139555c6db2fa66bec690c24b7ed0df68421966c27a1c336e0079d89aaa
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-134
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 1936
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-134_iphoneos-arm64e.deb
-Size: 237946
-MD5sum: ead687afa462b67b6336f25589ecf40c
-SHA1: 2e7d0f831157a2cd6e99fb5be1bf547e1abc055d
-SHA256: bff21d599bfb929266a40e237f8e93584b2462654664bf6f3abc166824f815c4
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-171
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 1936
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-171_iphoneos-arm64.deb
-Size: 174548
-MD5sum: a4d5a11929c2352b7af4447efe06dfb9
-SHA1: d19db5928739fcc5d0eaa25267a1a1358f0cbc8b
-SHA256: 12c23bbe4fe794bdf58bd0b149856245d6f720a97001c06803fb8af52654ea75
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-171
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 1936
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-171_iphoneos-arm64e.deb
-Size: 242242
-MD5sum: aeb369ea13b58426523188f00517faf5
-SHA1: 652e7c0dab3c6a90959f1fc2556260afba6a4b44
-SHA256: f642be525c90c532918ae65b477417cfa7f905553c1565743818279e791a0e81
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-242
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 1940
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-242_iphoneos-arm64.deb
-Size: 177072
-MD5sum: 39a90b04454cef7b5d8c7aef2ed1f2b3
-SHA1: 19bd2a2656075286b5f7acdcf1acddcfbbcdc067
-SHA256: 925ef256f9e1e3f8e0b5744a07976153721be9253e8f5482aaa9dd89bdcd0e82
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-242
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 1940
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-242_iphoneos-arm64e-1.deb
-Size: 245650
-MD5sum: a316afdb8509a8a200ab6a7c83546486
-SHA1: aebced2e90299691f526ae9eaa0e0ba43c39f195
-SHA256: b88190b0373fc03f4d50a4521a079e30a1e31fb2b8075b8feb265a3725b9d1e3
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-246
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 1972
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-246_iphoneos-arm64.deb
-Size: 182238
-MD5sum: 159b29136a80f4c5ea57532103d45b79
-SHA1: 1a343e938351c924af8e27cf4c9f7de466a3ee34
-SHA256: bb1bb8b91c7b50ceb9b45e4d66e23a7a241c40ff1fe72fa80c618c137696827c
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-246
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 1972
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-246_iphoneos-arm64e-1.deb
-Size: 265866
-MD5sum: d27bf246ef94b94dd55def82b77f2684
-SHA1: 1cb483e5e8a3ba83256fb2b6c5f169b852c47cec
-SHA256: e36d579800b2370884d03686f56e9345a8da7b6cf5395038b95cabaf6d36f006
-Section: Tweaks
-Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，支持解除温控、低功耗、CPU/GPU 功率策略及 /System/Library/ThermalMonitor 运行时配置补丁。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/cputhermal.png
-Name: CPU 解除温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-286
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 2180
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-286_iphoneos-arm64e-1.deb
-Size: 628502
-MD5sum: 79474c48f090404da292b004a066f833
-SHA1: a7ef6ba76dae6e2ad221e66d870c9dc85517c433
-SHA256: 4a0d3915379aecdd745212d64db9e562a38b75f818dce70f8bebb2366fddd1f4
-Section: Tweaks
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Author: Huayuarc
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Name: CPU智能温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-286
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 2180
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-286_iphoneos-arm64.deb
-Size: 234160
-MD5sum: 690f4c31e13f403f64e151468ee9b026
-SHA1: 172620c3218bff0d18a11d47fc3ab4ce42419517
-SHA256: 6c3d082d77bdb723b8e2a4562354f4259190a248ff2f8570b271c6dcc1ad7279
-Section: Tweaks
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Author: Huayuarc
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Name: CPU智能温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-300
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 2320
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-300_iphoneos-arm64.deb
-Size: 272618
-MD5sum: b07a37ca8e47e5b13a2e6f90134dbcc9
-SHA1: 8677045dfd9f9d14e7390ea908c21182cf03633e
-SHA256: 171544f5db5932f7d3b9fb394da56a5976ac579573a01bcbf7f56336f9d69d77
-Section: Tweaks
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Author: Huayuarc
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Name: CPU智能温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-300
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 2320
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-300_iphoneos-arm64e-2.deb
-Size: 747236
-MD5sum: d87d80fca8e79d9130ea24b71bbae899
-SHA1: 7f79b9c3ff34f8113aef5e094586ad22025ef4f8
-SHA256: a8ea1421430b72bbc4a7b0072b7720f70572dd29ebe3e19ef0d05a6d34ec1478
-Section: Tweaks
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Author: Huayuarc
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Name: CPU智能温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-303
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 2320
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-303_iphoneos-arm64.deb
-Size: 273706
-MD5sum: 0ba502bd52503558df93805bbcc52878
-SHA1: 917723fbd45a8b0f9587ecc0210df0462c37151a
-SHA256: 8c0eeafaf9f795a93d4627f634fccd27c96463734690d1c16c93b38bd06ffd07
-Section: Tweaks
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Author: Huayuarc
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Name: CPU智能温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-303
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 2320
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-303_iphoneos-arm64e-1.deb
-Size: 748786
-MD5sum: 9e4739b6f81ddcb845ba4f61eabca686
-SHA1: 729c035b5d6d5f0682934818aaa7cb926e5a1528
-SHA256: 3639e1b6914a79bfa91d11ae4bd15b418afbfb57bdc50d1b2a1ecd8d6f7e5a01
-Section: Tweaks
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Author: Huayuarc
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Name: CPU智能温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-306
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 2340
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-306_iphoneos-arm64.deb
-Size: 275902
-MD5sum: 5be6f7255122f265d90e5b0f5bcf9717
-SHA1: d27a83b24772c4e80f02e9fb18baca3b0ea3d9db
-SHA256: ea253095ae82266e17f48dea4da5545745e6210e4b009b87fd8ddc1c3ab90a7a
-Section: Tweaks
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Author: Huayuarc
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Name: CPU智能温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.cputhermal
-Version: 1.6.2-306
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Installed-Size: 2340
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.huayuarc.cputhermal_1.6.2-306_iphoneos-arm64e-1.deb
-Size: 751832
-MD5sum: 06849ada421ed122b37eeb0336533f5d
-SHA1: f02219efdc0a34128746f5f2480a341dbc6d778b
-SHA256: c1012c3122a14c6897a2a866f9e4453ba17f619a40f25181c8b1944690980d78
-Section: Tweaks
-Description: 三种模式一键切换的智能温控管理。
- 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
- 低功耗：全局省电，可放行个别应用；
- 解除温控：全局满频，可单独压低指定应用；
- 每个应用可单独设置档位。适配 iOS 15-17。
-Author: Huayuarc
-Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
-Name: CPU智能温控
-Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
-
-Package: com.huayuarc.picturemodule16
-Version: 1.3.2
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 1868
-Depends: firmware (>= 16.0), mobilesubstrate
-Conflicts: com.4nni3.picturemodule
+Package: com.huayuarc.picturemodule16_1.3.2_iphoneos-arm64
+Name: com.huayuarc.picturemodule16_1.3.2_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.huayuarc.picturemodule16_1.3.2_iphoneos-arm64
 Filename: debs/com.huayuarc.picturemodule16_1.3.2_iphoneos-arm64.deb
 Size: 68824
 MD5sum: 32fabccf8ebb4017e835c77a38d95c64
-SHA1: 713070f2b29e4b6adc89a16694303f399b260ea2
 SHA256: fc01a6b7817af066aae2c30339933710aabc652c715e6f82013688177ef83ab6
-Section: 控制中心
-Description: 适配 iOS 16 的原版风格图片与视频控制中心模块，内置自动互斥注册桥。
-Author: Huayuarc
-Icon: https://huayuarc.github.io/icon/PictureModule.jpg
-Name: 控制中心视频模块背景
-
-Package: com.huayuarc.pulloverplus
-Version: 1.0.426
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.huayuarc.pulloverplus_1.0.426_iphoneos-arm64.deb
-Size: 609320
-MD5sum: 10a1d0269ca5d525ec3db9b975c5b883
-SHA1: 74ce7509f1a15c3623935d9b58bfc73e31b32c10
-SHA256: 4346d0e42a2dceab9a7ac921eb876c95800b8d294aec4af2293cca155bae9671
-Section: Tweaks
-Priority: optional
-Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改。
-Author: Huayuarc（原版作者 mlgm）
-Dev: mlgm
-Icon: https://mlgm66.github.io/icon/pullover.png
-Name: PullOver Plus
-
-Package: com.huayuarc.pulloverplus
-Version: 1.0.426
-Architecture: iphoneos-arm64e
-Maintainer: Huayuarc
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.huayuarc.pulloverplus_1.0.426_iphoneos-arm64e-2.deb
-Size: 533600
-MD5sum: 3d39ca340c6c2f71c510634ca0cc66b4
-SHA1: 00f97f338cdf9cfc7e6bad2bd96ce24ad5d076e3
-SHA256: b428c524a1ae6365f4588b8051dc39ef1c2d8e7102e9bbe77f3de250afd75e7c
-Section: Tweaks
-Priority: optional
-Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改。
-Author: Huayuarc（原版作者 mlgm）
-Dev: mlgm
-Icon: https://mlgm66.github.io/icon/pullover.png
-Name: PullOver Plus
-
-Package: com.iosdump.customccbg
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 388
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/CustomCCBg-0.0.1.deb
-Size: 47200
-MD5sum: e7822a620b5e9053c7cadd308f8db245
-SHA1: 1da91e0b614caf220c8a13d02c47d5ee73ddd31b
-SHA256: 4d86b21c9604c0a076d7f4d00b0a9886c66a88c7ee3be5451a39808c4e60a4b2
-Section: Tweaks
-Description: iOS 14-17 控制中心背景自定义
-Author: iosdump
-Name: CustomCCBg
-
-Package: com.iosdump.shellx
-Version: 10.0.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 16160
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_10.0.0_iphoneos-arm64.deb
-Size: 3789800
-MD5sum: 62402ba2d1f0bf31ae7d2d185f15fb83
-SHA1: af780fcb519b9dd61f48dca1c96019c22f1beb94
-SHA256: a617e884e6d752f94221815b93496f519960b4ddd3f778dc1381378d0274a9fc
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 10.0.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 16160
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_10.0.0_iphoneos-arm64e.deb
-Size: 3779740
-MD5sum: fc6af96376eab2a514179c1596ae3c2a
-SHA1: c23790adbc8d0dd2729c3a26723dae8848815bc7
-SHA256: a3c4662c0d9c268467ecf55a801bb67bbad45c614eb1077390728798390a645b
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 10.1.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 19492
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_10.1.0_iphoneos-arm64e.deb
-Size: 4279182
-MD5sum: 5d4cbb577120915643e27806a5d87da4
-SHA1: 94a548e0f9fec346a61d22a28bb96a1e8d5a8362
-SHA256: 1aaebbe94938ce18a3c181b8ffccfb2179dc5620705ab6375f5d1d854aafc92b
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 10.1.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 19496
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_10.1.0_iphoneos-arm64.deb
-Size: 4285366
-MD5sum: 1ffa55b2a7604ce74ee0c94c38161bf7
-SHA1: 0f2a947f33a01d665bf18e9658498718162327f7
-SHA256: 7a569ceedf388abb8b7e3f4da06abe1520688c61bc128a04fec304cd5de77b33
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 10.2.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 19948
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_10.2.0_iphoneos-arm64.deb
-Size: 4392868
-MD5sum: f0efe83cb1c93d1519a457c7ae184ab1
-SHA1: 66773125588bd454b14b134e1cf6f2f3a48adc26
-SHA256: 32a260e72ba16aeb4683f16b3eaf6629e3e4f29895fd2e67cec41c3fa2026742
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 10.2.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 19916
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_10.2.0_iphoneos-arm64e.deb
-Size: 4391588
-MD5sum: cabb83f827fb9e8c1b595c5f078c78df
-SHA1: 1092ec5c29cdf7fb94912272cf4f8ded97df6901
-SHA256: 8228e6d26143f1c03d7d94d4ebcf03cb100c8abafb6a41c294888eb62ed13078
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 3.1.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 13896
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_3.1.1_iphoneos-arm64e.deb
-Size: 3072290
-MD5sum: 26e5153cd456a134ebad7950cbd4e152
-SHA1: de6d0a0868a0e47022d19182268800b96f8b00c1
-SHA256: fbe32de30d021c527f9505e46c0bd34507f79db36df9f1604cfbb83846e476e1
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 3.1.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 13912
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_3.1.1_iphoneos-arm64.deb
-Size: 3076012
-MD5sum: 844dc4986969b71623542fd82eadfc4d
-SHA1: 82bf42c4e8e59638513bbe9502fcde7c91055247
-SHA256: fa09ebb97940aef56217e86742af7888ba79a26e2db252c939a936c0adb24372
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 3.2.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 14436
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/SHELLX-3.2.1.deb
-Size: 3204136
-MD5sum: 54bc3d130788208eb9d11165292420b9
-SHA1: 7c6db86d27992cc43fe2401907a3f7e790b202d5
-SHA256: 997a025d2a4e04ac682cb7da70452b36acf9d4a1f147cf163791bd69b548234d
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 6.0.0
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 14628
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_6.0.0_iphoneos-arm64e.deb
-Size: 3242852
-MD5sum: d2c584a53326f810fd6aca7cbd0c490e
-SHA1: add6965f549a1c5ad1b43f9f1f448fab6b02ad6e
-SHA256: 8e81fab25eb6a84544df6dd5d69b591b8fa0cad2fa13790f8d97e437356eca1a
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
-
-Package: com.iosdump.shellx
-Version: 6.0.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 14628
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: debs/com.iosdump.shellx_6.0.0_iphoneos-arm64.deb
-Size: 3248944
-MD5sum: d6b663cdc02b628fe374945efca6cfe6
-SHA1: bd8052be58ecffc3839cd10b6413f0d4679d2d61
-SHA256: b9433b737ebea02ce855032346a98bf65cd229c985e07c6963e9a2fbe7ad5069
-Section: Tweaks
-Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
-Author: iosdump
-Name: SHELLX
 
 Package: com.liquidui.liquidui
+Name: LiquidUI（免授权）
 Version: 1.78
 Architecture: iphoneos-arm64e
-Maintainer: TLzypjy
+Section: 微信插件
 Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。旧版本，供降级使用。
 Filename: debs/com.liquidui.liquidui_1.78_iphoneos-arm64e.deb
 Size: 15816600
 MD5sum: 227648cbb27f60782a8b4e61894eda67
-SHA1: f223b08864ff3cf890127d0248d9ad5d2eed8364
 SHA256: c2dd6878b49b60eb767cdeb8f17307b7a3d549665f95341fbfdaeed34320b61d
-Section: 微信插件
-Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。旧版本，供降级使用。
+Maintainer: TLzypjy
 Author: TLzypjy
-Name: LiquidUI（免授权）
 
 Package: com.liquidui.liquidui
+Name: LiquidUI（免授权）
 Version: 1.80
 Architecture: iphoneos-arm64e
-Maintainer: TLzypjy
+Section: 微信插件
 Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。
 Filename: debs/com.liquidui.liquidui_1.80_iphoneos-arm64e.deb
 Size: 16592608
 MD5sum: c25cdb8e82604d138f7e345b69fc71dc
-SHA1: 385c397f22010d5bd70dbd8d0d4fe9cc6c6426ed
 SHA256: 1aa428f058226b9ec46fdf31fa9b6d8e5f28bd53d91d22b693546d7b76bab591
-Section: 微信插件
-Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。
+Maintainer: TLzypjy
 Author: TLzypjy
-Name: LiquidUI（免授权）
 
-Package: com.minis.lockscreengradientclock
-Version: 1.5.1
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 652
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/ Lockscreen Gradient Clock-roothide-1.51.deb
-Size: 182060
-MD5sum: 6b008b899fea3b487741733b72f18529
-SHA1: 8d58feebc89f17f7085b2a28e817097ce9a57ddf
-SHA256: fc6b887e408bc8d98ba300e578341dfc9a58dba86f02e689ed95b4dac7ca94e4
-Section: Tweaks
-Description: 可自定义锁屏时钟渐变色的美化插件。
- 【注意】
-  - 本插件只适配「兔子 88 液态锁屏时间」，其他锁屏样式请自测
- 【核心功能】
-  - 为锁屏时间字体添加自定义渐变配色
-  - 可调节渐变方向与颜色
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → LockScreen Gradient Clock
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: LockScreen Gradient Clock
-
-Package: com.minis.lockscreengradientclock
-Version: 1.5.1
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 652
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/ Lockscreen Gradient Clock-rootless-1.5.1.deb
-Size: 182028
-MD5sum: c17b81b57ccf746243c9fb750774f246
-SHA1: 9d7b446be1e424aea5e681e59115e377f3bc7347
-SHA256: 68302b43a81fd0fed9222ce853b8db71bc07e95516b0ea1f913f648ead29babb
-Section: Tweaks
-Description: 可自定义锁屏时钟渐变色的美化插件。
- 【注意】
-  - 本插件只适配「兔子 88 液态锁屏时间」，其他锁屏样式请自测
- 【核心功能】
-  - 为锁屏时间字体添加自定义渐变配色
-  - 可调节渐变方向与颜色
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → LockScreen Gradient Clock
-  - 本包为 Rootless（arm64）版
-Author: MoWang
-Name: LockScreen Gradient Clock
-
-Package: com.minis.lockscreengradientclock
-Version: 1.6.0
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 684
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.minis.lockscreengradientclock_1.6.0_iphoneos-arm64.deb
-Size: 299516
-MD5sum: 594b982669faab0f6086b07f6fbdad44
-SHA1: 5e8e0aeac07038216bbc0d49e79498abbafbe2ab
-SHA256: 93174a06b2b79cf935dea41d01672ff4220e0c8b637c235e9f691c5939201c79
-Section: Tweaks
-Description: 更新说明：新增预设功能，内有七八种内置预设 新增贴近壁纸取色 新增会变的钟，自行摸索
-Author: MoWang
-Name: LockScreen Gradient Clock
-
-Package: com.minis.lockscreengradientclock
-Version: 1.6.0
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 684
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.minis.lockscreengradientclock_1.6.0_iphoneos-arm64e.deb
-Size: 299212
-MD5sum: adcca6673e0120d99461559c188ed1fb
-SHA1: c35f4e2ca3d4a8a73a8911380a2193d791361a32
-SHA256: 93c5ea2aec8ac07534d3ce840172e16f1e18f1914119798e831ff82e33171ba3
-Section: Tweaks
-Description: 更新说明：新增预设功能，内有七八种内置预设 新增贴近壁纸取色 新增会变的钟，自行摸索
-Author: MoWang
-Name: LockScreen Gradient Clock
-
-Package: com.minis.lockscreengradientclock
-Version: 1.7.3
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 756
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.minis.lockscreengradientclock_1.7.3_iphoneos-arm64.deb
-Size: 316542
-MD5sum: 05bc514fe6c98d3fe5c26c0f1822245c
-SHA1: b85fad9abe97cbefd1d86d50a51742dc9854db37
-SHA256: 041fe1066aa74fb6fb35cb3a7a250d5f42e8182e8aa292ba938f73621aeb6a81
-Section: Tweaks
-Description: 更新时间预览，新增早晚时间切换预设，注：只适配兔子 88 液态插件时间锁屏，其余自测
-Author: MoWang
-Name: LockScreen Gradient Clock
-
-Package: com.minis.lockscreengradientclock
-Version: 1.7.3
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 756
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.minis.lockscreengradientclock_1.7.3_iphoneos-arm64e.deb
-Size: 316240
-MD5sum: 8fc1a839fb9f98096e0cac36033851d3
-SHA1: 6c17cc7f29afb9c83e3e1eedd173d434ddd6158a
-SHA256: 09f45e7432b2455d9affb0965e11bf6b1b89c425a9dba683aad06dd592eeafe8
-Section: Tweaks
-Description: 更新时间预览，新增早晚时间切换预设，注：只适配兔子 88 液态插件时间锁屏，其余自测
-Author: MoWang
-Name: LockScreen Gradient Clock
-
-Package: com.minis.rainbowkeyboard
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 172
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-rootless.deb
-Size: 12724
-MD5sum: 4481dc0708e4028f8b8b51427c4ec42e
-SHA1: 26753b0177ec5e1347e8b4151359ab58c00afbf6
-SHA256: f0f070c41de77ab976ad3c10ee82962db0e717d6fe5929dd7579a1bcdee86139
-Section: Tweaks
-Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.0.8
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 172
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-roothide 22.deb
-Size: 12696
-MD5sum: 9e76db61d9638761ced13eeb5ee2125e
-SHA1: b6de77a68dd3565ef78762010940cbacef6c7094
-SHA256: 7c4b8a0d8c1fda19a2a89d24acf131e4c6e536025b712f604c279f83099cf4e5
-Section: Tweaks
-Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.0.9
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 232
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-roothide-1.0.9.deb
-Size: 36434
-MD5sum: 7f1c4bf02112364a905915cde3f5ab0f
-SHA1: 9b58ec6e5471e1c6236d438128435dbe21b743d0
-SHA256: 68709e5b7973662a6fc8a55f312fd0c0dd26864c263c6fd543680bb196c54a0a
-Section: Tweaks
-Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.0
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 204
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-1.1.0.deb
-Size: 20840
-MD5sum: 32f588b3c43a459cd6142c0dd82569e1
-SHA1: de4f2b889dcac598a1c0fbcd56036f016620ad38
-SHA256: 64e6075c2b3fb21f6893f1f7708df329f7f4cf153657f172dc93baf1bbad9ee6
-Section: Tweaks
-Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.1
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 232
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-1.1.1-roothide.deb.deb
-Size: 38174
-MD5sum: 2bd9a4942d2a4a61cff150978de2203b
-SHA1: 41502889218eb40b798f81066da9d4944589baa4
-SHA256: 2756b2350fc378f8f30d7aa4c771290221bbde5b3d6904109c085294a05a7f17
-Section: Tweaks
-Description: 三星风格彩虹键盘光效，支持原生键盘和微信输入法
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 904
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-rootless-1.1.2.deb
-Size: 583770
-MD5sum: a85a17a1937c698af98452f3de6c6e09
-SHA1: 1f6cf3097d008d0398b114289a55e87dca3ca33e
-SHA256: 533e6984abff339bea4931bd5d4d09de62c5968f3388dc84443beced3e620d0c
-Section: Tweaks
-Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【核心功能】
-  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
-  - 跨 App 配色同步，每个滑条都附作用与调节说明
-  - 设置内置离线效果预览，实时查看调整效果
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 Rootless（arm64）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.2
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 900
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-roothide-1.1.2.deb
-Size: 584102
-MD5sum: 75f64e0c82aa484f5175637db1f47d04
-SHA1: 108888755668a5c27c9a05bce3fe7766fbbce3f9
-SHA256: 39b558a2e2841be496ba08bdf81365bd773542fdef3833650625caa8badfd7ab
-Section: Tweaks
-Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【核心功能】
-  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
-  - 跨 App 配色同步，每个滑条都附作用与调节说明
-  - 设置内置离线效果预览，实时查看调整效果
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 948
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-1.1.3-rootless.deb
-Size: 593070
-MD5sum: 2c20004b2fbc2aced78bfc3696337598
-SHA1: 1d17184fc9d0b99daf7d03809aaba15f43bc9d81
-SHA256: b6ebc2c97a16be3b67f030cae61e6cd4ce9252f3d68130de075b20859f05969e
-Section: Tweaks
-Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
- 【本次更新】
-  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
-  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
- 【核心功能】
-  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
-  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
-  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 Rootless（arm64）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.3
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 948
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-1.1.3-roothide.deb
-Size: 593632
-MD5sum: ea26d577a34da78fcf189a5ebb57a4fd
-SHA1: 2e6a3caa0ece1c4698e9729a1fe0521254fbf42d
-SHA256: ec935cd6b45defa0b6cefb303e4ab0c828b482b38fb5e19af25edcb563f70595
-Section: Tweaks
-Description: 三星风格纯黑键帽 + 霓虹扩散键盘光效，支持原生键盘、微信输入法与 QQ。
- 【本次更新】
-  - 感谢卡诺（Kanuo）后期持续对本插件的更新与维护
-  - 卡诺的越狱源：https://jimkanuo.github.io/apt-repo/
- 【核心功能】
-  - 纯黑键帽搭配霓虹扩散，自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变，均可独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 跨 App 配色同步，每个滑条都附作用说明，设置内置离线效果预览
-  - 优化配置读取与键盘重刷，兼容 QQ 浅色键盘配色
-  - 优化输入事件路径，减少打字时主线程扫描与整键盘重绘，更流畅省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.4
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 384
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/rainbowkeyboard-V1.1.4-roothide.deb
-Size: 93084
-MD5sum: 0db0582807a18a673a5728662489759a
-SHA1: 29c9a9dca40069ceb9871f197eea4a6bdea6460f
-SHA256: 8ce5e791f50df027ceeb826c405caa09a984344fde36ce44c2391e9fa3ce2124
-Section: Tweaks
-Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
- 四种固定预设、三星风格扩散与霓虹圆环两种样式。
- 自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
- 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
- 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
- 最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
- 移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
-Author: MoWang
-Name: 彩虹键盘 · 轻量版
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.6
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 960
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-roothide-1.1.6.deb
-Size: 596662
-MD5sum: b5feedf5a8d7878a0b9666b6ab9e9e9d
-SHA1: ba4efa9bc42b621be4b2eaca8a44d3252ca70fcc
-SHA256: e47eda568eefa5b2b077448b253199a366eea0ee940598f1f326b18966073ba2
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新】
-  - 修复 26 键光效问题
-  - 新增动态候选渐变
-  - 新增主题光效
-  - 修复不跟手问题
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.7
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 968
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-rootless-1.1.7.deb
-Size: 598658
-MD5sum: ec331267b6b9056284606a1632f957ad
-SHA1: eba2e4aab066e0c70d50658ff749264a5a5bdb4d
-SHA256: 49aeb800f429ad741cdbc08672e716e2708c8d5caa3ae9e81680162a25eb2203
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新 V1.1.7】
-  - 高级设置里的候选词颜色已删除，移到主页"候选词"里面
-  - 修复不跟手问题
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 Rootless（arm64）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.7
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 968
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-roothid1.1.7.deb
-Size: 599344
-MD5sum: 3717ae0fbf9135aa5002e52e6c52d466
-SHA1: 5898472f626f8b00fc801ad497af587850b20bb5
-SHA256: 0774ce89bf13165ac11acfe0b2f00a3fc8d92b30d78efc75ec9db1c6c42de462
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新 V1.1.7】
-  - 高级设置里的候选词颜色已删除，移到主页"候选词"里面
-  - 修复不跟手问题
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.8
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 968
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-1.1.8-roothide.deb
-Size: 599454
-MD5sum: 39481c5e2d5b9ee8585e7e4ed621b256
-SHA1: fca2611c13102503ef8c264613d7a42cb43feec8
-SHA256: 97a5d9155031d7addd7eb98ca9f95c7b4c3c81a5c1d4b87c713c4b4543e9b643
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新 V1.1.8】
-  - 修复已知 bug
-  - 新增未知 bug
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.8
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 968
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-1.1.8-rootless.deb
-Size: 598716
-MD5sum: fef8bad3003c021e10bc00f7f8f728e0
-SHA1: cb582580ad6782997fc3012fe1f09528e4078487
-SHA256: 59b78e36e5e35f51415cfa883bd4fda4da81b3ec92814aaa2ea4084c86caad71
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新 V1.1.8】
-  - 修复已知 bug
-  - 新增未知 bug
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 Rootless（arm64）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.1.9
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 984
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-V1.1.9-roothide.deb
-Size: 605008
-MD5sum: d6f4e19a1cc5aa99eb1115fba13b1515
-SHA1: 62955385e01c9f67c173787a9852e24708537623
-SHA256: 51d8c9a3bc86eea9d40d478b450077b7dab77be196fc10e0588f1f9cf47a0ca4
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新 V1.1.9】
-  - 新增智能模式
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效、智能模式
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 984
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-rootless-1.2.0.deb
-Size: 604374
-MD5sum: 98717ac855a1b729cb76fbdd3b53d56c
-SHA1: 9dd0d588bcd5212e2d30d33755cbe80f21283e86
-SHA256: 8f81d33845c447fecb65626528455400ff10961edb76267b1bbc0b77ff1b4968
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新】
-  - 修复光效卡顿问题
-  - 修复波纹光效
-  - 修复扩散光效
-  - 新增流光底韵光效
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效、智能模式、流光底韵光效
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 Rootless（arm64）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.2.0
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 984
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-roothide-1.2.0.deb
-Size: 605008
-MD5sum: 664ea6aa92bccd2689fc6398c10eab3a
-SHA1: 6162fce3b3819c1bcefc89708ae0a22410614699
-SHA256: 93b0ce1f746896b866c54768db5aeb8aaf350bb1cc866d013e73f52c660e6a1b
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新】
-  - 修复光效卡顿问题
-  - 修复波纹光效
-  - 修复扩散光效
-  - 新增流光底韵光效
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效、智能模式、流光底韵光效
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.2.1
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 984
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-roothide-1.2.1.deb
-Size: 605778
-MD5sum: 206fd7dbb3e66ab1d28d6585652d005b
-SHA1: 850c6bb2870d847850e548775f561175736b3cc8
-SHA256: c511751ef8db54ca6e0843655d00900869d5e1939de8de28130399ee23089c7c
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新】
-  - 修复原生键盘光效 bug
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效、智能模式、流光底韵光效
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.2.2
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 984
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/RainbowKeyboard-roothide-1.2.2.deb
-Size: 608264
-MD5sum: 774fe5f1e637f3f036967e8f4dbfd8b1
-SHA1: 8b6e1c06d2fc09a56ac60e7f93075ff8cb700697
-SHA256: f0eca226861c4f8c66cb2b50fd8797cbab96b6dd373a4863d3f6d42c79910c63
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散键盘光效，支持原生键盘和微信输入法。
- 【本次更新 V1.2.2】
-  - 修复扩散原生键盘光效
- 【核心功能】
-  - 自定义键盘底色、键帽颜色、霓虹亮度与浓淡
-  - 粗彩色键框、键缝背光、候选词渐变及独立开关
-  - 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光到强光，无键内混色
-  - 动态候选渐变、主题光效、智能模式、流光底韵光效
-  - 跨 App 配色同步，每个滑条附作用说明，设置内含离线效果预览
-  - 兼容 QQ 浅色键盘配色；优化输入事件路径，打字更跟手、更省电
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → 彩虹键盘光效
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.minis.rainbowkeyboard
-Version: 1.2.3
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 1016
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.minis.rainbowkeyboard_1.2.3_iphoneos-arm64e.deb
-Size: 720080
-MD5sum: 464ea54fcdbf6c97346ff3addeb0ea0b
-SHA1: c6f01eb0d7f2af23d102e648ca432f56da343d46
-SHA256: 5798c48cab59fc49f60a70d9c8827d83c652d9b9d8bfdae5205c20db693dbaad
-Section: Tweaks
-Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
- 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
- 设置内含离线详情与效果预览。 支持跨 App 配色同步，每个滑条附有作用与调节说明。 霓虹键帽纯色轻弹：单色自选或逐次换色，独立调节暗光至强光，无键内混色。
- 优化配置重复读取与键盘重刷，增加 QQ 浅色键盘配色兼容。
- 优化输入事件路径，减少巨魔/越狱 App 打字时的主线程扫描与整键盘重绘。
- 更新说明：更新键帽主题 and 键盘主题
-Author: MoWang
-Name: 彩虹键盘光效
-
-Package: com.mlgm.idata
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: mlgm
-Installed-Size: 8228
-Depends: firmware (>= 15.0), apt, dpkg
-Filename: debs/iData-1.2.1.deb
-Size: 2461776
-MD5sum: 34943e6b1a4001776b2ee0d386392d2d
-SHA1: 3ac3b4282b9e32534943a06d9aa586bac6aba648
-SHA256: 8cbd58d6ba3266a925e1cf78f3c7724c03c2f754dbbbbeb086f6a58083660a87
-Section: Applications
-Description: 应用、插件数据管理工具，一键备份/恢复
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/idata.png
-Name: iData
-
-Package: com.mlgm.pulloverx
-Version: 1.3.1
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/PullOverX-魔改版-横屏键盘放大.deb
-Size: 265190
-MD5sum: 1520c08d8748ff020f724dca620f1a72
-SHA1: 147c3bf9fdc21aaeefbb2f7b647c89026bc96f70
-SHA256: f4845b5f1fc98e7b20698371ba7cf306063cec112a33246edc757ecc1a674f31
-Section: Tweaks
-Priority: optional
-Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
-Author: mlgm
-Dev: mlgm
-Icon: https://mlgm66.github.io/icon/pullover.png
-Name: PullOver X
-
-Package: com.mlgm.pulloverx
-Version: 1.8.20
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.20_iphoneos-arm64e.deb
-Size: 408788
-MD5sum: 0826aec0e4a0613b731a8059396caa14
-SHA1: f70665399f6da32bd1425e18e16d620566fd87d3
-SHA256: f03420dd17e1df8e6fbc40a4983e2eef2d8ec1ddf9466c661b8c6890e936ade9
-Section: Tweaks
-Priority: optional
-Description: Pullover-X窗口调度版
- 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
- 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
- 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
- 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
- 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
- 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
- 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
-Author: kanuo
-Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
-Name: Pullover-X窗口调度版
-Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
-
-Package: com.mowang.kbglow
-Version: 1.0.3
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 180
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/KBGlow-iOS17-roothide(2).deb
-Size: 24694
-MD5sum: 503b44527d86ed0831e68eb8d06015f0
-SHA1: d53d6f68f1adfaa94a63af6f5010efcb0d76627f
-SHA256: 9952e2482faa98f93043b2cd3f20d18032a1e826ee1d64e1096f4a025bac1c6f
-Section: Tweaks
-Description: 第三方键盘按键发光效果插件
-Author: MoWang
-Name: KBGlow
-
-Package: com.nx.stheno
-Version: 0.1.23-1
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 2988
-Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0)
-Conflicts: com.h.sthenokb, com.nx.stheno.splitlastownerprobe, com.nx.stheno.splitcycleownerprobe, com.nx.stheno.renderresourceprobe, com.nx.stheno.surfaceownerprobe, com.nx.stheno.splittransitionownerprobe, com.nx.stheno.splitcontextunbindfix, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix
-Replaces: com.h.sthenokb, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix
-Provides: com.h.sthenokb (= 1.1.2-59), com.nx.stheno.fix (= 0.1.23-1~defaultscache1)
+Package: com.nx.stheno_0.1.23-1_iphoneos-arm64
+Name: com.nx.stheno_0.1.23-1_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.nx.stheno_0.1.23-1_iphoneos-arm64
 Filename: debs/com.nx.stheno_0.1.23-1_iphoneos-arm64.deb
 Size: 551092
 MD5sum: 7ed596f3d35ffb732ee455c276576311
-SHA1: 2bb6756f159d8eb0a365e0ad136082cf3e9f6d17
 SHA256: 9c992726b747363ecb057522dcb6de9f54bcdb0a6471f4f59ec390b59c3ed50a
-Section: 分屏插件
-Description: Stheno分屏正式版（关闭诊断文件日志） 下拉分屏点击全屏 只支持原生横幅通知。原插件含激活码授权验证，仅自用。
-Author: Crassna
-Name: Stheno奥利奥分屏
 
-Package: com.qianuo.chatassist
-Version: 0.1.39
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 2016
-Depends: firmware (>= 15.0), preferenceloader, uikittools
-Filename: debs/ChatAssist0.3.9.deb
-Size: 865574
-MD5sum: ab5983ffa813f1b6f291897bb0646a16
-SHA1: 546d3fb366544f43249e25bd6c069e41f5d04c0f
-SHA256: abde8330b83b4d3bb4a447936ff1f2edd0a6ef11e38f2f34212abe55bf5cb2cb
-Section: Tweaks
-Description: 聊伴 ChatAssist：区域 OCR + AI 智能回复助手。悬浮窗框选聊天区域识别文字，AI 自动生成多条候选回复，一键复制粘贴。
- 【核心功能】
-  - 区域识别：框选聊天区域进行 OCR 文字识别，自动读取上下文
-  - AI 候选回复：按设置数量生成多条候选回复，挑选后直接使用
-  - 智能粘贴：复制后自动粘贴到输入框，并可自动收起窗口
-  - 智能清理：自动清理界面杂项、标记消息左右归属（自己/对方）
-  - 悬浮窗外观：液态玻璃皮肤，可自定义灰度、透明度、窗口宽高与位置
-  - 多种呼出：支持手势与 URL 地址呼出、切换、收起、退出
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 适用 iOS 15 及以上（roothide / arm64e）
-  - 设置路径：设置 → 聊伴 ChatAssist，先"启用聊伴"，再按"打开助手窗口"或手势呼出
-  - API 与提示词在"API 与提示词设置"中配置
-  - 本包为 RootHide（arm64e）实验版
-Author: kanuo
-Name: ChatAssist
-
-Package: com.qianuo.smartdeck.app
-Version: 0.7.11
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 1096
-Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
-Conflicts: com.qianuo.smartdeck
-Filename: debs/SmartDeck_Window_Experimental_0.7.11_roothide.deb
-Size: 345506
-MD5sum: b309a1e7292c47ca16118a0cf8b0f721
-SHA1: 727a2a0cbb5605b69e572d872dd03991c5adc064
-SHA256: c662dfb4678528bca8cc781668056ef23ec5e1f657cb3c6368bd079e3f512615
-Section: Applications
-Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
-Author: kanuo
-Name: SmartDeck App
-
-Package: com.qianuo.smartdeck.app
-Version: 0.7.12
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 1112
-Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
-Conflicts: com.qianuo.smartdeck
-Filename: debs/SmartDeck App-0.7.12.deb
-Size: 353774
-MD5sum: 828355c5b7b8c9b9f9ee93f123c0232f
-SHA1: 985bec6945e2fd692ac2b1b9d59f85977dc2df93
-SHA256: fc0e0e437772b8d80b564aff3c4afce608a274bb26cd75cf6778a32366e8e01d
-Section: Applications
-Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
-Name: SmartDeck App
-Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
-
-Package: com.qianuo.smartdeck.app
-Version: 0.7.8
-Architecture: iphoneos-arm64e
-Maintainer: Qianuo
-Installed-Size: 1080
-Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
-Conflicts: com.qianuo.smartdeck
-Filename: debs/SmartDeck_Window_Experimental_0.7.8_roothide.deb
-Size: 334830
-MD5sum: be1d096e43c097127ef9a05c49421674
-SHA1: 2848493554faabd4d1387cc3c3e1d0423b0d4fe3
-SHA256: 4add276a56ddef703fdae891efb93a0c01fe6fcee6785db12150a331847f8d68
-Section: Applications
-Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
-Author: Qianuo
-Name: SmartDeck App
-
-Package: com.qianuo.smartdeck.app
-Version: 0.8.19
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 1688
-Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
-Conflicts: com.qianuo.smartdeck
-Filename: debs/SmartDeck_Window_Experimental_0.8.19_roothide.deb
-Size: 594572
-MD5sum: 392635737936018726e5837655b644e6
-SHA1: 2be238d69aa8677dc4bd0973813fc2387ebb3343
-SHA256: c64c048728ca928ed728e1409e3f94ce3c6405e9668f37be08756b49a92ba68b
-Section: Applications
-Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
-Author: kanuo
-Name: SmartDeck App
-
-Package: com.qianuo.soulpaste
-Version: 0.2.0
-Architecture: iphoneos-arm64e
-Maintainer: qianuo
-Installed-Size: 212
-Depends: firmware (>= 17.0)
-Filename: debs/SoulPaste_0.2.0.deb
-Size: 40380
-MD5sum: ee72ebde61b8911fb9fb5762075bca57
-SHA1: d4a525e0b5ebbd8994ecb485b1f71431acd6e9ee
-SHA256: 4a28fe9d453d8c790e4a112f16fb2ce8d98045dc19a4de43d2571c054d8a5866
-Section: Tweaks
-Description: Soul 私聊直接粘贴图片：在 Soul 私聊输入框直接粘贴剪贴板里的图片发送，无需先存相册再选图。
- 【核心功能】
-  - 私聊直接粘贴：复制或截图图片后，在 Soul 私聊输入框直接粘贴发送
-  - 省去存相册步骤：不用先把图片保存到系统相册再从相册选择
-  - 通用兼容：不绑定 Soul 特定版本号，App 更新后一般仍可用
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 适用 iOS 17 及以上
-  - 使用方式：复制/截图图片后，进入 Soul 私聊，在输入框长按选择粘贴即可
-  - 本包为 RootHide（arm64e）版
-Author: qianuo
-Name: SoulPaste
-
-Package: com.qimiao.WCRefine
-Version: 2.1-5beta1
-Architecture: iphoneos-arm64
-Maintainer: 热心网友
-Depends: firmware (>= 14.0), mobilesubstrate
+Package: com.qimiao.WCRefine_2.1-5beta1_iphoneos-arm64
+Name: com.qimiao.WCRefine_2.1-5beta1_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.qimiao.WCRefine_2.1-5beta1_iphoneos-arm64
 Filename: debs/com.qimiao.WCRefine_2.1-5beta1_iphoneos-arm64.deb
 Size: 9312468
 MD5sum: 707ae0dab77f536abe8116282fac0081
-SHA1: 7d7a873a10d1b7d14a1b4abe9483f4ba8d71cd99
 SHA256: 175368bd12cc68b2f8b66ade87f9e5a0f712168f17bdd7dc291951c905e5494b
+
+Package: com.shtm.amplify
+Name: AmpLify
+Version: 1.1-0beta2
+Architecture: iphoneos-arm64
 Section: 微信插件
-Priority: optional
-Description: 微信优化的重制版，基于微信8.0.64+版本制作。
-Author: 热心网友
-Dev: 君临
-Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
-Name: WCRefine内部2.1-5beta1（免授权）
-
-Package: com.sbcpu.floating
-Version: 4.61
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2852
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/8acf4babdb0d42508f73b38bc53a0ad4 2.deb
-Size: 381562
-MD5sum: 7aecaccce3d3a0f1c8b86a3fadc78e18
-SHA1: e11cfc1b101b206fd7fb3d0a0f566789354571e7
-SHA256: 8aebbbadb840e00ba05de169f266d5b905e18e527547f3e0a7fa8c147c13134e
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.61
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/8acf4babdb0d42508f73b38bc53a0ad4.deb
-Size: 381562
-MD5sum: 7aecaccce3d3a0f1c8b86a3fadc78e18
-SHA1: e11cfc1b101b206fd7fb3d0a0f566789354571e7
-SHA256: 8aebbbadb840e00ba05de169f266d5b905e18e527547f3e0a7fa8c147c13134e
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.63
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.63roothide.deb
-Size: 378572
-MD5sum: a76bcba3c7ef4e033a37f848ac847db0
-SHA1: 0cf49b6884a5ae7879a5d52778418757b4915d5e
-SHA256: a78808039377397cf323d6b9a56b27632af0455146c5da886eeb888a39d5589a
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.63
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpuv-v4.63rootless.deb
-Size: 381858
-MD5sum: 31bb60e4bbf263f94e58de6eb4227303
-SHA1: 921eca8e9d0cebbf3d062f448dbe153be9122277
-SHA256: 5b3af4a17122748756e83740bf26f9a627eaf168e8c91b73eee11e580c8b7eff
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.64
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.64-roothide.deb
-Size: 378480
-MD5sum: c169665cc57a0e403faff4eba26cfef6
-SHA1: 437a996dece7aa99881f2c9a8bdfb53445fc110e
-SHA256: 54e35bb7bad578b5a3d36b2c1bbeb35eb963b069f4620dc015504c7022d83bdd
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【本次更新 V4.64】
-  - 修复自动清后台 bug
-  - 修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.64
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.64-rootless.deb
-Size: 381026
-MD5sum: edf97e52c0ab7914ff741367b5e8ac2a
-SHA1: f6cd4182cdc5cdefe164d376f02a0372bb3b4ee2
-SHA256: f2cb384204e411c37d0f85d24e36e8f34ba6435a67bff28bf4e73b4a91af63c6
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【本次更新 V4.64】
-  - 修复自动清后台 bug
-  - 修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.65
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.65-roothide.deb
-Size: 379458
-MD5sum: f55ac27d3e3360ae8f96a3eda5c30e47
-SHA1: 35b9463c62cb01dcad696d283cd6cc19aae3ff9c
-SHA256: 57ac5a8edad8888286cb52c7935a0adde106f6704ccb5f333647b3a240f0f82c
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【本次更新 V4.65】
-  - 修复系统设置里设置后又恢复默认 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.65
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.65-rootless.deb
-Size: 381004
-MD5sum: 3641551401a09d5fc2ce54b27e369f14
-SHA1: fdf462d073d363d3687ddec5f7b3a6886aa98a3d
-SHA256: 524f610436d66bddac01d3f3b0c5878594e811bd9f75f87fcd5fcd076b072435
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【本次更新 V4.65】
-  - 修复系统设置里设置后又恢复默认 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.66
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.66-roothide.deb
-Size: 380340
-MD5sum: b9843de10b85648a1bdcb562808c37e6
-SHA1: 8159b0fb74d5b636a2a8304e3f0172e809dc72de
-SHA256: 4f6de704c9a5a8f34cd5262d0d3edce23630f2b62b587ba3b2d2bf5ed4105c65
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【本次更新 V4.66】
-  - 新增设置：越狱源
- 【历史修复】
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.66
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.66-rootless.deb
-Size: 381258
-MD5sum: 09da8880a11936cf0f55c200a834bbc8
-SHA1: ee9d016c3953e18a7a98d65c2304f8f01cf9c6ec
-SHA256: 6bf525081a5854a558930f4826a26eb3d7c921a30090dfec577c68592396e2b0
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电与温控保护。
- 【本次更新 V4.66】
-  - 新增设置：越狱源
- 【历史修复】
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.70
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.70-rootless.deb
-Size: 384492
-MD5sum: 5a37dd6a7d829a03315f769f96f96849
-SHA1: f837f7ad94565d1907cb82c493322b76bb8493b2
-SHA256: f078d46ffe606549eb95654f7c597013195c62e6ae255ecc6df2b33eeca6c052
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.70】
-  - 新增智能温控限制充电
- 【历史更新】
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.70
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.70-roothide.deb
-Size: 384234
-MD5sum: 60ff96abfecf7c4956a3ad56054813cd
-SHA1: c4e5a61fe0b616650c95834769ad8d6d5173508f
-SHA256: fd11adebee347beac6ced9e615a1392a85cf4242622c7e3a56f14d931efb52e0
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.70】
-  - 新增智能温控限制充电
- 【历史更新】
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.71
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.71-rootless.deb
-Size: 383676
-MD5sum: 77d4c2a5de21dd797b74e54d121354b4
-SHA1: 09e756cd19855de61b88ac3ff8f143e4f9fc8948
-SHA256: dbdbfc74c076a3100c54bbf4379607e057b1a7cca3536d9aef24971d54f09cec
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.71】
-  - 修复已知 bug
- 【历史更新】
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.71
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.71-roothide.deb
-Size: 385152
-MD5sum: e026857f7c30b532997ed825ae5bd4db
-SHA1: a2e95860653e7eda987c4da8f23d53eb8ba7a9fe
-SHA256: 445a58ff3753d24bcaf6ffa597771016d371e8eb9094a4e33999a2b3c45b8c45
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.71】
-  - 修复已知 bug
- 【历史更新】
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.72
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.72-rootless.deb
-Size: 383918
-MD5sum: 366955dbbedab5f3c4a8de295dc5604a
-SHA1: 372ede94b0144023dfd40907c8b469ab124d563e
-SHA256: 41785ab9b90246b4088d0d90ed4ad92d6d6f99e879f7fbc3e0602086a8a807b5
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.72】
-  - 修复智能停充 bug
- 【历史更新】
-  - V4.71：修复已知 bug
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.72
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.72-roothide.deb
-Size: 385208
-MD5sum: 72abff638a282bf21c0362a96e9f2b82
-SHA1: 0065813a41b3956475fb1eba231bc04a46c0a41a
-SHA256: 7bf2794b3d665b4babc7171621df4aca4ba0a60e02f9c01e8d6319fc5a2c0401
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.72】
-  - 修复智能停充 bug
- 【历史更新】
-  - V4.71：修复已知 bug
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.73
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2852
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.73-roothide.deb
-Size: 382906
-MD5sum: 53c18a4d566ec0edf9d8ca54d2c1c165
-SHA1: a4bba27bf440d8f974b0ff0b75e03eb653fbe271
-SHA256: abba60cecd8949534f86de3dc1635513c0da718a50986676bd4ae9153f349b91
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.73】
-  - 回归双击全屏设置
- 【历史更新】
-  - V4.72：修复智能停充 bug
-  - V4.71：修复已知 bug
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.73
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.73-rootless.deb
-Size: 383858
-MD5sum: 44e0ccbcb3aaec099f8e2e7ac6fe3126
-SHA1: 20139d16a7e31218b2a11387303c1d8b44991383
-SHA256: 35af44bb52ec4dcdc15836eaacf41c49ad74d40982f9472ddb58f3e370970714
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.73】
-  - 回归双击全屏设置
- 【历史更新】
-  - V4.72：修复智能停充 bug
-  - V4.71：修复已知 bug
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.74
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.74-rootless.deb
-Size: 385938
-MD5sum: 3b32c3cd2032168701c29eb6f4f47d85
-SHA1: 9914dbeea5b90ef3bd09d5ee279004be39f05cfb
-SHA256: 28984f805291f2d3dcd7ed41bf4f3a8b98552b74e8e6a03d8771957afc59e914
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.74】
-  - 新增温控运行方式：极限满频
-  - 修复浮窗频率显示
-  - 频率实时刷新
- 【历史更新】
-  - V4.73：回归双击全屏设置
-  - V4.72：修复智能停充 bug
-  - V4.71：修复已知 bug
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原；新增"极限满频"运行方式
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.74
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2884
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.74-roothide.deb
-Size: 385814
-MD5sum: 2e6ce56bf521f97347d697ede656bbca
-SHA1: 19e6ec8d34bfea62f7394160642fbe3e6475bac4
-SHA256: d97337cca8164cdc36ade3788a012bf579b8cab315f38b690eae21abcc0dc506
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.74】
-  - 新增温控运行方式：极限满频
-  - 修复浮窗频率显示
-  - 频率实时刷新
- 【历史更新】
-  - V4.73：回归双击全屏设置
-  - V4.72：修复智能停充 bug
-  - V4.71：修复已知 bug
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原；新增"极限满频"运行方式
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.75
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 2888
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.75-rootless.deb
-Size: 390754
-MD5sum: f5acb94bad424700633b68edb4ab6e08
-SHA1: b778d8ee8aa633ed8a002de431a359a3a698c6a5
-SHA256: d119813d029388227eab7ccab598be99a8a0d7ab17caf19f8d8e632a214b4e89
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.75】
-  - 修复了一下 120 帧的 bug
- 【历史更新】
-  - V4.74：新增温控运行方式极限满频；修复浮窗频率显示；频率实时刷新
-  - V4.73：回归双击全屏设置
-  - V4.72：修复智能停充 bug
-  - V4.71：修复已知 bug
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原；支持极限满频运行方式
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 Rootless（arm64）版；RootHide（arm64e）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
-
-Package: com.sbcpu.floating
-Version: 4.75
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 2888
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/sbcpu-v4.75-roothide.deb
-Size: 387216
-MD5sum: 530326b3e0bb2789748d4d5a5087c504
-SHA1: b8ef842c47fd627950b3bfd75d0d6b78b4e84652
-SHA256: 78851e9d8e17cef881a5ebfc848155512370a7e9c4c7bd35aa81624a4f2a81db
-Section: Tweaks
-Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、真实电量、硬件温度与充放电电流，附带液态玻璃外观、智能充电、锁频段与温控保护。
- 【本次更新 V4.75】
-  - 修复了一下 120 帧的 bug
- 【历史更新】
-  - V4.74：新增温控运行方式极限满频；修复浮窗频率显示；频率实时刷新
-  - V4.73：回归双击全屏设置
-  - V4.72：修复智能停充 bug
-  - V4.71：修复已知 bug
-  - V4.70：新增智能温控限制充电
-  - V4.66：新增设置：莫忘越狱源
-  - V4.65：修复系统设置里设置后又恢复默认 bug
-  - V4.64：修复自动清后台 bug；修复下拉通知中心清后台 bug
- 【核心功能】
-  - CPU/FPS：实时查看 CPU 负载、物理频率与屏幕刷新率
-  - 锁频段：长按浮窗进入详情，点右上角"蜂窝详情"，在里面点选想要锁定的 CPU 频段即可；锁定低档位更省电，锁定高档位可满血发挥
-  - 电池/温度：读取真实电量、硬件级温度与充放电电流
-  - 通知与悬浮聊天：无缝显示微信/QQ 消息，点击直达聊天窗口
-  - 液态玻璃：浮窗材质可自定义强度、折射、厚度、高光、色散、折射率与渲染质量
-  - 充电管理：可手动阻止充电/外部供电；智能充电按上限停充、下限回充，支持保留外部电源与覆盖 OBC，保留满血快充
-  - CPUthermal 温控：高温自动降功耗、熄屏省电，温度恢复后自动还原；支持极限满频运行方式
- 【手势操作】
-  - 单击浮窗：展开胶囊 / 消息直达
-  - 双击浮窗：进入高级设置中心
-  - 长按浮窗：查看详细硬件状态（右上角"蜂窝详情"可锁频段）
-  - 拖动浮窗：自由移动并自动边缘吸附
- 【使用说明】
-  - 安装后请 Respring 一次
-  - 设置路径：设置 → SBCPU Floating（双击桌面浮窗也可进入高级设置）
-  - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
-  - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
-  - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
-Author: MoWang
-Name: SB CPU Floating
+Description: 微信美化插件
+Filename: debs/com.shtm.amplify_1.1-0beta2_iphoneos-arm64.deb
+Size: 514264
+MD5sum: 697790000817f82f91f8a9e2deeeaaa3
+SHA256: 443bc677961ba570bbe229e97fb555bfcba962eea2ea37a8981bebeb7bc3b222
+Maintainer: SHTM
+Author: SHTM
+Icon: file:///Library/PreferenceBundles/AmpLifySettings.bundle/icon.png
+Installed-Size: 2008
 
 Package: com.siwenjiajia.tweak.comm
+Name: 抖音优化（免授权）
 Version: 28.35
 Architecture: iphoneos-arm64
-Maintainer: personal
+Section: 抖音插件
 Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
-Conflicts: com.siwenjiajia.tweak.free
+Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
 Filename: debs/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb
 Size: 3587956
 MD5sum: 557cf40277104de011fb729f45380a66
-SHA1: 8f7ed16dc8bb9472035a3f7acadeb17931c3c653
 SHA256: 174c14a2a6b42799a9bcdbe1edb7961d9071e4c649e284d52e5581900b9cfeba
-Section: 抖音插件
-Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Conflicts: com.siwenjiajia.tweak.free
 Author: siwenjiajia
-Name: 抖音优化（免授权）
+Maintainer: personal
 
 Package: com.siwenjiajia.tweak.free
+Name: 抖音优化（免授权）
 Version: 28.17
 Architecture: iphoneos-arm64
-Maintainer: personal
+Section: 抖音插件
 Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
-Conflicts: com.siwenjiajia.tweak.comm
+Description: 抖音优化 破解版 28.17（免授权·精简版）。功能较少、联网轻，仅自用。
 Filename: debs/com.siwenjiajia.tweak.free_28.17_iphoneos-arm64.deb
 Size: 2894200
 MD5sum: c980747340cf89f3d04cead8f1d00d4e
-SHA1: 850cda4f2c6fadd0aea42e7f80d51991d53f5d69
 SHA256: 429871b1f4d7eed42b38c5e5ea3efc2089dca7d29a1829bdff097702ae4fd598
-Section: 抖音插件
-Description: 抖音优化 破解版 28.17（免授权·精简版）。功能较少、联网轻，仅自用。
+Conflicts: com.siwenjiajia.tweak.comm
 Author: siwenjiajia
-Name: 抖音优化（免授权）
+Maintainer: personal
 
-Package: com.susu.collection
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 520
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/com.susu.collection_1.1_iphoneos-arm64.deb
-Size: 56444
-MD5sum: 95cda364d5d23acbc886eac7e34c64f5
-SHA1: 1659e7d32782e4a0ce0aa6b57366048a3cc586ab
-SHA256: 45c644268c37c17b8f20213585527a84ed1d299bec051ffe49a8f9122bca5c48
-Section: Tweaks
-Description: 自用合集插件
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/SuCollection.png
-Name: SuCollection
+Package: com.snapbackup_3.6.5_iphoneos-arm64e
+Name: com.snapbackup_3.6.5_iphoneos-arm64e
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.snapbackup_3.6.5_iphoneos-arm64e
+Filename: debs/com.snapbackup_3.6.5_iphoneos-arm64e.deb
+Size: 1100928
+MD5sum: 145bbff8491fe3dc444a95a469d73f33
+SHA256: e33edf2f4c3f1faaeacff97ef31ceb11a9af0f1aa70f4725aa6b2af2e177cb36
 
-Package: com.susu.collection
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 520
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/com.susu.collection_1.1_iphoneos-arm64e.deb
-Size: 55236
-MD5sum: 84552e8897f3082013acdbd9cf6c20a7
-SHA1: b0fc3b55d81a5160e3bda27d595ac9a8c23d754e
-SHA256: 58c243865e6ad7140b929cb74664d37fb5d0797e1f8d15a34b6b3c45b00670f9
-Section: Tweaks
-Description: 自用合集插件
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/SuCollection.png
-Name: SuCollection
-
-Package: com.susu.snapper3.pictapro
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 180
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susu.snapper3.pictapro_1.0.1_iphoneos-arm64e.deb
-Size: 10368
-MD5sum: 4f5367c2cea15918afcbb227a810a5d5
-SHA1: d7e2aef88bfaed573479a2e349a4503e07e12980
-SHA256: a04fd7307f9c4e4201653f34bf1457609e2fbb0b435cfca567adc96970d94d4e
-Section: Tweaks
-Description: PictaPro适配 Snapper3 的插件
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/PictaPro.png
-Name: PictaPro
-
-Package: com.susu.snapper3.pictapro
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 180
-Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susu.snapper3.pictapro_1.0.1_iphoneos-arm64.deb
-Size: 10620
-MD5sum: 642e9176c818d33172e5a64406364120
-SHA1: db788e2d87875b5eb379ca0907701cce7ba80edb
-SHA256: d2c94af2fd040bc74674621dad7e701e15a992f3cc6569ce2c4ed1d93e31f5f4
-Section: Tweaks
-Description: PictaPro适配 Snapper3 的插件
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/PictaPro.png
-Name: PictaPro
-
-Package: com.susu.sumusicplayercc
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 628
-Depends: com.opa334.ccsupport
+Package: com.susu.sumusicplayercc_1.0.1_iphoneos-arm64
+Name: com.susu.sumusicplayercc_1.0.1_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.susu.sumusicplayercc_1.0.1_iphoneos-arm64
 Filename: debs/com.susu.sumusicplayercc_1.0.1_iphoneos-arm64.deb
 Size: 86752
 MD5sum: 139d5083cb7adb124547e4b89f64f7bf
-SHA1: 75cae2282ffc97fbd7b96deadd8f7714932e1b81
 SHA256: ba67757d51a1b7d73e30db031e9bb6e19506eaa1fb4b1770ff35583c390d6cf9
-Section: 控制中心
-Description: 控制中心播放器视频背景美化
-Author: 苏苏
-Icon: https://www.susubaby.top/images/sumusicplayercc.png
-Name: SuMusicPlayerCC
 
-Package: com.susudear.appdata
-Version: 1.3.6
+Package: com.susudear.screencore_1.1.8_iphoneos-arm64e
+Name: com.susudear.screencore_1.1.8_iphoneos-arm64e
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.susudear.screencore_1.1.8_iphoneos-arm64e
+Filename: debs/com.susudear.screencore_1.1.8_iphoneos-arm64e.deb
+Size: 440972
+MD5sum: 7a4dfacf6651b93c3d128f3dafb7dde6
+SHA256: 01333dcf8a0f11f7eca0e653e4e75e11350342e88ef080b0a1f81e929339a4bd
+
+Package: com.tencent.themebox
+Name: 主题盒子（免授权）
+Version: 2.3.6
 Architecture: iphoneos-arm64
-Maintainer: Fouad Raheb & SuSuDear
-Installed-Size: 1084
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.susudear.appdata_1.3.6_iphoneos-arm64.deb
-Size: 525586
-MD5sum: 8f5b23f1af3beda9d5d542f6d1e12428
-SHA1: 3526e0a83e2db2c9be8c8551a6d7c0be3e6bc8d7
-SHA256: 306730a5e20d4f827afc53618525d7baddfe2e68115b2f5a022eb31926d3470f
-Section: Tweaks
-Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
-Author: Fouad Raheb & SuSuDear
-Icon: https://repo.susubaby.cn/icons/AppData.png
-Name: AppData
-
-Package: com.susudear.appdata
-Version: 1.3.6
-Architecture: iphoneos-arm64e
-Maintainer: Fouad Raheb & SuSuDear
-Installed-Size: 1084
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.susudear.appdata_1.3.6_iphoneos-arm64e.deb
-Size: 524586
-MD5sum: 99e3de76a1e29c11b64575924a648bab
-SHA1: 42e9138c8a3df1610dad1d704cfd7854c1217526
-SHA256: 24ac7b15a612e5607aea43884b2cb6efe4a0f1d1dd740aaf3255c179db40f08c
-Section: Tweaks
-Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
-Author: Fouad Raheb & SuSuDear
-Icon: https://repo.susubaby.cn/icons/AppData.png
-Name: AppData
-
-Package: com.susudear.appdata
-Version: 1.4.1
-Architecture: iphoneos-arm64e
-Maintainer: Fouad Raheb & SuSuDear
-Installed-Size: 1084
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.susudear.appdata_1.4.1_iphoneos-arm64e.deb
-Size: 524778
-MD5sum: 46e3fda959f801c16c39ec9f2a49ecb1
-SHA1: 5f5a95609ce94d60e1244d49d59299549130c763
-SHA256: 6fa75747f09e84153a5f925f3fd507303afcb5e69eb281bdf6c0810a550d56e2
-Section: Tweaks
-Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
-Author: Fouad Raheb & SuSuDear
-Icon: https://repo.susubaby.cn/icons/AppData.png
-Name: AppData
-
-Package: com.susudear.appdata
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: Fouad Raheb & SuSuDear
-Installed-Size: 1084
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.susudear.appdata_1.4.1_iphoneos-arm64.deb
-Size: 525948
-MD5sum: 991a8860b3b6f80088d976c5701f459c
-SHA1: eb4d1b8d5657899e7f433ea151309bdbe29dea0d
-SHA256: ca2c4183ddd9e4d9fd7c1d6cf90a3c20315b9c42289dc2780301270cbb33af83
-Section: Tweaks
-Description: AppData 根据 Fouad Raheb 开源二改，默认上滑启动，无设置项，添加降级功能。
-Author: Fouad Raheb & SuSuDear
-Icon: https://repo.susubaby.cn/icons/AppData.png
-Name: AppData
-
-Package: com.susudear.crash
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2732
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: debs/com.susudear.crash_1.0.6_iphoneos-arm64.deb
-Size: 586256
-MD5sum: cdd9de935fce7a0c63ef1a33990fab5a
-SHA1: 9cf75aa59584da52b356b1d0abb5fdec6e21982e
-SHA256: e7fceebfa31a6cbdd2d94728e7d08aac3c91639ef345e2410d97aa56c28674b4
-Section: Tweaks
-Description: 轻量级崩溃日志查看器
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/SuCrash.png
-Name: SuSuCrash
-
-Package: com.susudear.crash
-Version: 1.0.6
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 2732
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: debs/com.susudear.crash_1.0.6_iphoneos-arm64e.deb
-Size: 587854
-MD5sum: 7e4dafdaa887960364c9507c983b9922
-SHA1: 1c2d3eab8b8f4b25774da78781a6c3e89b8a985a
-SHA256: a720af50baa036321c1789794b7827209fbb77bc7fa788f87f4b2a5836737b41
-Section: Tweaks
-Description: 轻量级崩溃日志查看器
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/SuCrash.png
-Name: SuSuCrash
-
-Package: com.susudear.screencore
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2540
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_1.0.7_iphoneos-arm64.deb
-Size: 374480
-MD5sum: 9ceaa80a029ca7bee7a3272e0c478327
-SHA1: 87e2c928ce1f000202f22bda1228a5571437da9c
-SHA256: ea36323370fb7ce08f9b663f311d9346c5c0448c43cdc6e6c9d113e1b3859bb7
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.0.7
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 2540
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_1.0.7_iphoneos-arm64e.deb
-Size: 370272
-MD5sum: bed6072b47b6bc9faac465b325f1fe3d
-SHA1: 503a4d4b6e0a3c4b208e4f12edb959277b06b4cb
-SHA256: 4a8606db21fc94bd13c58f9cbd8c1f3d54c245feb909d8d5141ade4aa0a6e7c4
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.0.7-1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2644
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_1.0.7-1_iphoneos-arm64.deb
-Size: 383310
-MD5sum: 749a66760ef92ac9f5b7f1a8d62bb6f5
-SHA1: 720adb2a78c8699df5de6d5b019526b066e9cee1
-SHA256: 41fcf0ed504a5ac0ae9f0b8ffae94e0a0b8571fc2253272f02463b1b3406b96a
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.0.7-1
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 2640
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_1.0.7-1_iphoneos-arm64e.deb
-Size: 381350
-MD5sum: e67e9e2f58df65aad1d92012c0a78bf7
-SHA1: e26864e6d7d14ca74ab8637fa260fbd40b86bb58
-SHA256: f250201fc2dece70fe6b9f154c54bad46bc83ef26beb96cfe18a8c598c2b3fe6
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.1.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 2720
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_1.1.1_iphoneos-arm64e.deb
-Size: 415588
-MD5sum: b055e8233d35c7a1dbff6386ad923b33
-SHA1: aedddc1541b51567fea7be6a4523689ef0fa5636
-SHA256: dd29d29976051746931734f80be262d1252075d7dbdd671d939b4342254ff59b
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2752
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_1.1.1_iphoneos-arm64.deb
-Size: 419878
-MD5sum: 78bbdf65a3c4834b6586492f14ce5575
-SHA1: d920811facc6d847fedd42cdb8a5c886f2c84242
-SHA256: 15cec854aa61c784fbaac0a88abb9c102146e4f04e4e6f0f208756e62684255b
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.1.2
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 2760
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_1.1.2_iphoneos-arm64e.deb
-Size: 419558
-MD5sum: 392a8961de8c346a6b85149247ad1b5c
-SHA1: 2e6a5361621f6fa1fb59aca38e546c2e4ecf3fd1
-SHA256: 7ba22da321144b3b1f6e16ddb22d2a70be5c864aa2cf918d914da955f08a7383
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2760
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/ScreenCore-1.1.2.deb
-Size: 418276
-MD5sum: e41980a06ec337a393217fb7bdddfc84
-SHA1: 1d4361ba4949e3e53fdd66d71cfe0224c3e0115b
-SHA256: 50cdb36db2e9e8964b0b8436203e459fea4abb078539cb067fcf4e267021e225
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2760
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/com.susudear.screencore_1.1.2_iphoneos-arm64.deb
-Size: 418276
-MD5sum: e41980a06ec337a393217fb7bdddfc84
-SHA1: 1d4361ba4949e3e53fdd66d71cfe0224c3e0115b
-SHA256: 50cdb36db2e9e8964b0b8436203e459fea4abb078539cb067fcf4e267021e225
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.screencore
-Version: 1.1.8
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 2836
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/ScreenCore-1.1.8.deb
-Size: 440414
-MD5sum: 401426796fa7a548fa161d451d65538a
-SHA1: 591736dee3aebac503e17d994098aa35be24e6b6
-SHA256: 4314a26f726d67819b077c4e0972f67040bf58ca4d2c9e54f989089b65ce67d7
-Section: Tweaks
-Description: 分屏而已
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore
-
-Package: com.susudear.sharingdalertwatchdog
-Version: 1.0.8
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 172
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/com.susudear.sharingdalertwatchdog_1.0.8_iphoneos-arm64e.deb
-Size: 11704
-MD5sum: e8e9e8ec350a6e89664228c2279a3aa8
-SHA1: ad0d3701c26c7d173f9f66c023e94de2446a78e3
-SHA256: 0f91d992e7e98a792a06c1b092cb21e2c7944960dab45fb968c7d23ebfc2ee66
-Section: Tweaks
-Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/airdrop.png
-Name: SharingdAlertWatchdog
-
-Package: com.susudear.sharingdalertwatchdog
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 172
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/com.susudear.sharingdalertwatchdog_1.0.8_iphoneos-arm64.deb
-Size: 11754
-MD5sum: af803b30bdceca5713d8d2eab05f0818
-SHA1: 95443e826905e4fe1811e8be9739d654c6c90ea7
-SHA256: a922d1c176df5869be7e21d37349c32e736748692ab2fa092b01d44427c42d66
-Section: Tweaks
-Description: 各位开发者是否遇到了 Airdrop 投送后，移动端无法出现菜单，界面卡住崩溃？那试试SharingdAlertWatchdog 吧，他或许可以解决你的困扰
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/airdrop.png
-Name: SharingdAlertWatchdog
-
-Package: com.susudear.stayshot
-Version: 0.5.2
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2324
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/com.susudear.stayshot_0.5.2_iphoneos-arm64.deb
-Size: 226294
-MD5sum: c83f34fb2aa225d6ca63b05448a1d335
-SHA1: dadfcd71ca6ba26b9f5f29ebfd21b16ce3199fd9
-SHA256: 6c84bcb4803caa6d85c4d7ca6bfc4b229055b41c8f95e742afbd0a31a80788d9
-Section: Tweaks
-Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
-
-Package: com.susudear.stayshot
-Version: 0.5.2
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 2324
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/com.susudear.stayshot_0.5.2_iphoneos-arm64e.deb
-Size: 226974
-MD5sum: 13606fdd6aaa3f7f92d35a4d9bb9d762
-SHA1: 8b2526fedc879f5a3a96711b89860ebabddbb458
-SHA256: dc3d920e7bc040b3ddf5bf294dc809f744dbdd353df4524a4cd1fa98a20e0887
-Section: Tweaks
-Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
-
-Package: com.susudear.stayshot
-Version: 0.5.3
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 2340
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/com.susudear.stayshot_0.5.3_iphoneos-arm64.deb
-Size: 228584
-MD5sum: be61341ccf776e9b601fc2a17e3e7b35
-SHA1: 07d139aef290a8d8485ce5d44909580e1eac726d
-SHA256: e71a5153ec09b4951d130531b8da9a73b8b2f2ef48163e00519ee98c9bae1876
-Section: Tweaks
-Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
-
-Package: com.susudear.stayshot
-Version: 0.5.3
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 2340
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
-Conflicts: com.jontelang.snapper3
-Replaces: com.jontelang.snapper3
-Provides: com.jontelang.snapper3 (= 1.2.1)
-Filename: debs/com.susudear.stayshot_0.5.3_iphoneos-arm64e.deb
-Size: 228710
-MD5sum: 7cd9cbf0448fda4ca3c7c57da8e7aae4
-SHA1: b67bd309ca327fd144bb3824a23a7775cd5bdc09
-SHA256: dc35e1ebf87668fc0288e38bc3d687d09785fd1193e047d849585781cdfa389a
-Section: Tweaks
-Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot
-Sileodepiction: https://repo.susubaby.cn/json/stayshot.json
-
-Package: com.susudear.stayshot.long-screenshot
-Version: 1.5.0
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 784
-Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), dev.theos.orion (>= 1.0.0)
-Filename: debs/com.susudear.stayshot.long-screenshot_1.5.0_iphoneos-arm64.deb
-Size: 156110
-MD5sum: 2895c02c0aaf8c23bb763a54588a07d8
-SHA1: 5f75abb8a41b46ddfa185920c437a43f58f06f43
-SHA256: 75cef11271d41803771fc0696345d8fef49de97efda7c8654efa604d6424122d
-Section: Tweaks
-Description: Long screenshot action and capture controller for StayShot.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Long Screenshot
-
-Package: com.susudear.stayshot.long-screenshot
-Version: 1.5.0
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 784
-Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), dev.theos.orion (>= 1.0.0)
-Filename: debs/com.susudear.stayshot.long-screenshot_1.5.0_iphoneos-arm64e.deb
-Size: 155890
-MD5sum: 54d410c2bf37a9023a9072bd4f336df4
-SHA1: 1c8e1b6b903a548ff41ddd170f41f2ee19782b1c
-SHA256: b3d56d35b65314cc7536453ac3ee6b233352a89680cd482104716656e24ea234
-Section: Tweaks
-Description: Long screenshot action and capture controller for StayShot.
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Long Screenshot
-
-Package: com.susudear.stayshot.markup
-Version: 1.6.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 640
-Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
-Filename: debs/com.susudear.stayshot.markup_1.6.1_iphoneos-arm64e.deb
-Size: 153344
-MD5sum: bbb33c0e1872c845ed10ce945dce8d6a
-SHA1: 2262300f152e7a6878e670938d8b0b11c366d242
-SHA256: 404464cabe970a1e13cc2d1b8202663f7fc933789fb13fa50cfafd91b45e5245
-Section: Tweaks
-Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Edit
-Sileodepiction: https://repo.susubaby.cn/json/stayshotedit.json
-
-Package: com.susudear.stayshot.markup
-Version: 1.6.1
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 640
-Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
-Filename: debs/com.susudear.stayshot.markup_1.6.1_iphoneos-arm64.deb
-Size: 152460
-MD5sum: 0524b3b2d6cb8cc3f4c6dfc244491296
-SHA1: 9776d5bc813f0137eea2fbc31d39dc2992fe6adc
-SHA256: 9ca6bb6dc4a4806a3aa1b0e544d86cbc7e6e05d5d6d6a3a82e8a47939c2e951a
-Section: Tweaks
-Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/StayShot.png
-Name: StayShot Edit
-Sileodepiction: https://repo.susubaby.cn/json/stayshotedit.json
-
-Package: com.susudear.susuocr
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 560
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.0_iphoneos-arm64e_roothide.deb
-Size: 68168
-MD5sum: 7b523e3397c05d38183e6812b53116c6
-SHA1: d92d66c4dc305c343a7b9b8880b89916d585c05d
-SHA256: 1efe6fb83b82e0f922a57cf0dff7e2ee4dc14fd411a59b2386c440b4b62f4d4f
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 560
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.0_iphoneos-arm64_rootless.deb
-Size: 67902
-MD5sum: 528e145afc7d2d41762d65458f3450ac
-SHA1: f33cfc369f472a38f36e93685132388cc19b0373
-SHA256: 246db27b8202269b98a7053a4288dfc71f605134d4380686599b0d1f9eb96f50
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 576
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.1_iphoneos-arm64e.deb
-Size: 71774
-MD5sum: d083a0068805a23683a46dc28ff50e1e
-SHA1: 8303606fdf2b30bcdadfd5c4fc88ed8d1d46b7e5
-SHA256: 6ed05ac9303c4097edca452d9761eaf62ad916abd9231567253fce81104d6f9f
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 576
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.1_iphoneos-arm64.deb
-Size: 71040
-MD5sum: 509cac16f2e251a38ef521bf44f2c80e
-SHA1: dd0534775df7958b5f10edbd38c04ab4c5c1aa59
-SHA256: 9516b27aef8ac6f72a9eff6254412cef70fa8cc08c4210cb2b3aa0c572033ae6
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 576
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.2_iphoneos-arm64.deb
-Size: 71752
-MD5sum: 2b120799be84d0dad16a3da65249cadf
-SHA1: fcdacd3a57c142197b40200ce9c2d287f6c50140
-SHA256: 8df1eab335036699eccf9c5abf5a6ce52759a587b46fdee472d54b52388fc821
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 576
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.2_iphoneos-arm64e.deb
-Size: 71756
-MD5sum: e2127cf348d161409f7632061deb7e1f
-SHA1: 8d2e08040c906cbd4dbbdad938f37c598d8397fa
-SHA256: 8eed1667c7f6972d30e07a3c8cbeae4410f99c524d29f07e546505ed2a0d0f07
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.22
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 792
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.susudear.susuocr_1.0.22_iphoneos-arm64e.deb
-Size: 126680
-MD5sum: 9891789692c710e0cdedd22e49dd4774
-SHA1: b6fd5f6340c569695051d9259ef4331deec64c76
-SHA256: 77f945bda8676707d9cdae38fda0b90cc8022a19b6f4827c22342fab6702825a
-Section: Tweaks
-Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.22
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 792
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.susudear.susuocr_1.0.22_iphoneos-arm64.deb
-Size: 126284
-MD5sum: cef41853faa25ba013304772d41e2187
-SHA1: cbe19b252f6b49a7f5fb9ca4599bd7d6916b1e93
-SHA256: 2c09a84f6e9f3496da346e9529a4c411612a867c5ec8c39da123ebc00fa47d4d
-Section: Tweaks
-Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.4
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.4_iphoneos-arm64e.deb
-Size: 76526
-MD5sum: 0d79ec469bf921a1bd92e9f100db9a50
-SHA1: d9f4987a6cca6a80060bffca15ac61d322fd915c
-SHA256: ea41b92ef342d7a575af4f83aded90b5c3704dc5af8f0d5463a03fd43886b092
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.4_iphoneos-arm64.deb
-Size: 77296
-MD5sum: aa33fac548f1161bf2973c6d316ef303
-SHA1: 56e89b62c44a81f0816c5c7dda622a3be75e47c2
-SHA256: 38bf6aa1e38957159d3479fe1fbcb362c46a1b0db263e8a3a686f279bb03fe78
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.5
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.5_iphoneos-arm64e.deb
-Size: 78994
-MD5sum: 4f9f90f3a665d8d5374d10dec795e8b4
-SHA1: a614d09764559acc3c4a3f6975ec8c1fbb3b26a0
-SHA256: 3d7fd8fbd948917fc5f5cb79e9dbdc43d7e9117d91a996d3400d78b3420ab451
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/com.susudear.susuocr_1.0.5_iphoneos-arm64.deb
-Size: 78862
-MD5sum: 6ebbbed27c980e2ccce36b362980d9b2
-SHA1: 1e3488aef0c023d56e717d56ac9a9142eb8ab3a3
-SHA256: bda821c13999b3b6c7f4afffd28e2e2e3d74e9a2d5306e84bf7511bb989d669a
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.susudear.susuocr_1.0.6_iphoneos-arm64.deb
-Size: 78836
-MD5sum: 08a5351b74bb938e851ea72b29b72c28
-SHA1: 5e493361dfc41055121362e8a0154fa84ed907ff
-SHA256: 6b30d956bc95616d37887f5a24505a12d4132f7c21fceca71ef45a147ba32668
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.6
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.susudear.susuocr_1.0.6_iphoneos-arm64e.deb
-Size: 78944
-MD5sum: 69d11722d12b8ebfbbd62cac6a0e9421
-SHA1: a18a067dbc62d9caa5e526650d0f4a076ee2773a
-SHA256: f351870365b91e8debd85465444a1313ba2d57ea4a01155ac44c8c030f8b3e8f
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.susuocr
-Version: 1.0.7
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 600
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.susudear.susuocr_1.0.7_iphoneos-arm64e.deb
-Size: 85120
-MD5sum: fb8992d2964ca9b57663c5051349c294
-SHA1: aabc946bb46db83ac6caf268c13ec2475220cb7a
-SHA256: 4e3fb3d64d5ec63fba8a2ae9d31041121c8078078fb27779687d4e3057cfc94d
-Section: Tweaks
-Description: 百度OCR识别提取文字，百度翻译，需要自备API，需要安装Snapper3插件，或不支持盗版。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/susuocr.png
-Name: SuSuOCR
-
-Package: com.susudear.themecore
-Version: 0.1.0
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 684
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.1.0_iphoneos-arm64.deb
-Size: 118644
-MD5sum: 4884ae2e9714b9773f6a769e53d9b490
-SHA1: 0e934402ef07b5ef5ba2d9c1cfa1a97153f6b38d
-SHA256: 6c8840e1b72f4e8f6b2158144cedc0600d141c5dccf0560354cc30cefbce03e8
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.1.0
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 684
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.1.0_iphoneos-arm64e.deb
-Size: 116924
-MD5sum: 413b8d51fdac0a2d1135a946e8660c62
-SHA1: c97bbb5122eb1455caf0d0dfb3fe3bc84e6d837f
-SHA256: 055c87ce9b42d22f9edeeae7c79a4ab5f227708c06eac3fed80ffd792d5b3a4c
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.2.0
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 684
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.2.0_iphoneos-arm64e.deb
-Size: 116788
-MD5sum: 7e7680675d00e47fac94f69197b103a9
-SHA1: beb5be266580d37da1fa8cdf8a2b8ed9fa3585db
-SHA256: 9839bc29a4c318634517f5177e8a31e60bc0980867958b03334f2eeb514ae72b
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.2.1
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 736
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.2.1_iphoneos-arm64.deb
-Size: 128972
-MD5sum: 927df20d098a3fda6de12d93caa2ff91
-SHA1: 9e810f167d966a4583854e403247b275f64b7e55
-SHA256: 2f7d55c6d309c93d94dd6b68466d9dd1b574172de917beb9aeb8c559f16ea45b
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.2.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 736
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.2.1_iphoneos-arm64e.deb
-Size: 126868
-MD5sum: 41e91d6f887501a549fe2d471951d7b0
-SHA1: 0acc623c6bf23a464ffd84497db4192004852e95
-SHA256: dba7c48afb089f9f82244d338b95519fcfc81a70d2793b5ad3ccdd6cc1a1ad9b
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.3
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 736
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/ThemeCore-0.3.deb
-Size: 125366
-MD5sum: d06b1451b2411af253214fc68219648d
-SHA1: 3ba418dccf52ac6678c05f2f560b06b313fbe570
-SHA256: 0e8656c5771e5a9f61bcd4661ed7dfc606f3cc2f649b4f23aad991e3b041ac57
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.3
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 736
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.3_iphoneos-arm64e.deb
-Size: 125366
-MD5sum: d06b1451b2411af253214fc68219648d
-SHA1: 3ba418dccf52ac6678c05f2f560b06b313fbe570
-SHA256: 0e8656c5771e5a9f61bcd4661ed7dfc606f3cc2f649b4f23aad991e3b041ac57
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.3
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 736
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.3_iphoneos-arm64.deb
-Size: 127196
-MD5sum: 3d63e574e5e802ff2296fe3821929f62
-SHA1: bf586d40383cbbd305774aa1aff3d94b1a5c9b60
-SHA256: 6313cd183ce227cec3e0eef89564f9f1772fbd7c2a0b3063427266a08a1d518d
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.5.0
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 736
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/ThemeCore-0.5.0.deb
-Size: 129302
-MD5sum: e4c9610b933e2b8202d434ec270ca59a
-SHA1: 9d453fe0f3c6de79f197c2868ba4dd1e45f57925
-SHA256: f5716bef079997f6f613f4e613d97417a76b695e965915669e6037866cad4c32
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.5.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSuDear
-Installed-Size: 736
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.5.1_iphoneos-arm64e.deb
-Size: 126894
-MD5sum: 031706c2277bb7b5ed5f14aa43061046
-SHA1: 67f07a640761c0fa6854a1a5a4f5d7df1127ddbb
-SHA256: 3ee4ad4b9e30829c6b2a479aba16e1a004897292cd7a8746c23d66f2b6bf7964
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
-
-Package: com.susudear.themecore
-Version: 0.5.1
-Architecture: iphoneos-arm64
-Maintainer: SuSuDear
-Installed-Size: 736
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.susudear.themecore_0.5.1_iphoneos-arm64.deb
-Size: 129376
-MD5sum: c0c905c43ba7fb1875bec27bd5663e1d
-SHA1: 917035097d7bd1934bb3c325ee4f46a30ae3e56a
-SHA256: 2ed8a829cf340493a6e90ddb9a3241d3ea42609c7657177953bfb78f6cb79eed
-Section: Tweaks
-Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
-Author: SuSuDear
-Icon: https://repo.susubaby.cn/icons/ThemeCore.png
-Name: ThemeCore
+Section: 微信插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Description: 微信主题盒子
+Filename: debs/com.tencent.themebox_2.3.6_iphoneos-arm64.deb
+Size: 7803500
+MD5sum: 1cf19643176e38e95a848b81655fd4f0
+SHA256: 1f9c90feca801d55295b7ecb817000f84186388efa95bde314a5222a7bb0488d
+Maintainer: admin@25mao.com
+Author: Mao
 
 Package: com.tsangbaby.kayoko
+Name: Kayoko
 Version: 4.8
 Architecture: iphoneos-arm64e
-Maintainer: Tsangbaby
-Installed-Size: 3156
+Section: 工具
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
 Filename: debs/com.tsangbaby.kayoko_4.8_iphoneos-arm64e.deb
 Size: 670848
 MD5sum: b5b42792fdb59a7eb302d62b0f5fd100
-SHA1: 7bb6b4bf05e30816c02b57e8ff980905fbf8a95a
 SHA256: 5369546bbdab0f4ed2e3eb7e03bd828fed26bc9da052fd8cd06b52753477f744
-Section: 工具
-Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
+Maintainer: Tsangbaby
 Author: Tsangbaby
 Icon: https://github.com/Tsangbaby/Kayoko/blob/main/Icon/kayoko.png
-Name: Kayoko
+Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Installed-Size: 3156
+
+Package: com.unknown.wuzeililiang_1.0_iphoneos-arm64e
+Name: com.unknown.wuzeililiang_1.0_iphoneos-arm64e
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.unknown.wuzeililiang_1.0_iphoneos-arm64e
+Filename: debs/com.unknown.wuzeililiang_1.0_iphoneos-arm64e.deb
+Size: 165460
+MD5sum: 5de2a2be3032a85da4055fd3e6082472
+SHA256: 30df28579a7bf6335136a24ff90845c2b2fd19292be08e7cb44cff9f24970448
+
+Package: com.wcglass.free
+Name: WCGlass（免授权）
+Version: 3.2.1
+Architecture: iphoneos-arm64e
+Section: 微信插件
+Depends: firmware (>= 15.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Description: WCGlass 微信液态玻璃（免授权·隐根版）。内置统一授权服务与热更新通道，仅自用。
+Filename: debs/com.wcglass.free_3.2.1_iphoneos-arm64e.deb
+Size: 19588328
+MD5sum: 8037c65543a314beb5deee65279592eb
+SHA256: d71ebe6337945d13a2f0630684e8c98947088daedf6ab4d34a467629954fd8c6
+Author: personal
+Maintainer: personal
 
 Package: com.wcliquidglass.free
+Name: 58微信液态玻璃（免授权）
 Version: 2.0.3
 Architecture: iphoneos-arm64e
-Maintainer: TLzypjy
+Section: 微信插件
 Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Description: 58微信液态玻璃（免授权）。微信界面液态玻璃风格美化，rootless 专用。内置本地公钥验签，无联网授权，仅自用。
 Filename: debs/com.wcliquidglass.free_2.0.3_iphoneos-arm64e.deb
 Size: 731228
 MD5sum: 65ca2e958bb6ff1f440839fe48634dfa
-SHA1: f35a2baf73b052d224984cf929a668c6c2a3de24
 SHA256: f1375dde9d2b32cbd8a36d3b0c3551bc7ebda14fa90f246eedc554a22e933281
-Section: 微信插件
-Description: 58微信液态玻璃（免授权）。微信界面液态玻璃风格美化，rootless 专用。内置本地公钥验签，无联网授权，仅自用。
+Maintainer: TLzypjy
 Author: TLzypjy
-Name: 58微信液态玻璃（免授权）
+
+Package: com.wcneo.free
+Name: WeChatNeo（免授权）
+Version: 1.0.8-3
+Architecture: iphoneos-arm64
+Section: 微信插件
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Description: WeChatNeo 微信美化全家桶（免授权）。主面板/截图工具/手势截图/头像自定义/主题色等。内置授权服务器与更新通道，仅自用。
+Filename: debs/com.wcneo.free_1.0.8-3_iphoneos-arm64.deb
+Size: 2906668
+MD5sum: d46c034f05628c003c9406741fef7a07
+SHA256: 0a3835b016ee58d275a1a732e23e5cdaa8f97a6dd493eeec335f59ff11306a63
+Author: personal
+Maintainer: personal
 
 Package: com.wkk.copylogx
+Name: CopylogX（wkk）
 Version: 1.1-9
 Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 1828
+Section: 工具
 Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Description: 一款可以拷贝文件/图片/文本/屏蔽越狱使用且支持 iOS15-17 Dopamine/relaxin 越狱的剪贴板
 Filename: debs/com.wkk.copylogx_1.1-9_iphoneos-arm64.deb
-Size: 273146
-MD5sum: a8efce01b508a9d6cdcc205278d3a2c0
-SHA1: 620ba22d0d33e0b6ea6ba72b1330a517cef2556c
-SHA256: 2c570e9c10a5d64c3adf51bdeb6180211e3fc3658488e9b0b4d82381bce121db
-Section: Tweaks
-Description: cool！
+Size: 273060
+MD5sum: 6cbf704c066237b2714c43fab0ab9cc7
+SHA256: 0968153d4adb849df9cd015d89faf879af5835fbf64431fee58b865fd3dcc959
+Maintainer: wkk
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: CopylogX
+Installed-Size: 1828
 
 Package: com.wkk.installedpackages
+Name: InstalledPackages（wkk）
 Version: 1.0-1
 Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 912
+Section: 工具
 Depends: firmware (>= 15.0)
+Description: 是否受够了进入Sileo时卸载已安装插件慢如蜗牛般的速度？这是一款独立的越狱插件包管理器，用于快速查看和卸载本机已安装的插件包。
+安装后会在桌面显示应用图标。
 Filename: debs/com.wkk.installedpackages_1.0-1_iphoneos-arm64.deb
 Size: 431928
 MD5sum: a8375463f23edef27aa6989f592d963b
-SHA1: ba9bd4e2cbc28aad8ab40cf9d7934c84f947d9d7
 SHA256: 9a90461dfa409e3e4b815bb0522799497c984d33be46c68cec8086f3b38dc4f2
-Section: 工具
 Priority: optional
-Homepage: https://github.com/roothide/Sileo-roothide
-Description: 是否受够了进入Sileo时卸载已安装插件慢如蜗牛般的速度？这是一款独立的越狱插件包管理器，用于快速查看和卸载本机已安装的插件包。
- 安装后会在桌面显示应用图标。
-Tag: purpose::application, compatible_min::ios15
+Maintainer: wkk
 Author: wkk
+Homepage: https://github.com/roothide/Sileo-roothide
+Tag: purpose::application, compatible_min::ios15
 Icon: file:///Applications/InstalledPackages.app/icon_large.png
-Name: InstalledPackages（wkk）
+Installed-Size: 912
+
+Package: com.wkk.keyboardx_1.0-6_iphoneos-arm64
+Name: com.wkk.keyboardx_1.0-6_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.wkk.keyboardx_1.0-6_iphoneos-arm64
+Filename: debs/com.wkk.keyboardx_1.0-6_iphoneos-arm64.deb
+Size: 64140
+MD5sum: 0e5eb8009b0fe227712648f91f8dc935
+SHA256: 815cd97ed2472352e486e7aaf211d90a6558e10219c59cc033dd3080beb9da7f
+
+Package: com.wkk.keyboardx
+Name: KeyboardX（wkk）
+Version: 1.1-6
+Architecture: iphoneos-arm64
+Section: 手势键盘
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Description: 键盘调整。
+Filename: debs/com.wkk.keyboardx_1.1-6_iphoneos-arm64.deb
+Size: 80056
+MD5sum: 7f08c48602b60c8473c738247fe71bd2
+SHA256: c1dbb513eae9695fc79f064df00bdfc7fc9963502f09bbff728b841a866230e9
+Maintainer: wkk
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Installed-Size: 616
 
 Package: com.wkk.onestepx
+Name: OneStepX（wkk）
 Version: 1.1-0
 Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 516
+Section: 工具
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 17.0)
+Description: 为 iPhone 操作按钮、锁屏按钮、桌面、底部与状态栏提供独立动作。
 Filename: debs/com.wkk.onestepx_1.1-0_iphoneos-arm64e.deb
 Size: 111816
 MD5sum: d16ac13e352b02bbb93e44798bff05c0
-SHA1: 3ec2ae580adcbea3c30da251620317daed8cd883
 SHA256: eebc660432e9af8a7e62ee520569387eefd1edd4ac248102449ea0ce14e3a338
-Section: 工具
-Description: 为 iPhone 操作按钮、锁屏按钮、桌面、底部与状态栏提供独立动作。
+Maintainer: wkk
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: OneStepX（wkk）
+Installed-Size: 516
 
-Package: com.ylr.wcfloatsplit
-Version: 3.0-5
+Package: com.wkk.systembox
+Name: SystemX（wkk）
+Version: 1.4-7
 Architecture: iphoneos-arm64
-Maintainer: ylr
-Installed-Size: 6236
-Depends: firmware (>= 15.0)
+Section: 系统美化
+Depends: mobilesubstrate, preferenceloader
+Description: cool
+Filename: debs/com.wkk.systembox_1.4-7_iphoneos-arm64.deb
+Size: 316342
+MD5sum: 5c4336f7239dd8596647d83ab1a3a390
+SHA256: 6d03a689be4241fdd4e07141e5ae0120ce699a571684bfed2df457a32fddfa0d
+Maintainer: wkk
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Installed-Size: 1572
+
+Package: com.wkk.wechatx
+Name: WeChatX（wkk）
+Version: 2.3-2
+Architecture: iphoneos-arm64
+Section: 微信插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Description: 一个新生代的插件，主打自由定义与实用为主，更多功能由群友集思广益，如果你想实现自己想要的功能，有更好的想法，欢迎来我的付费群玩。wx号：chn137
+Filename: debs/com.wkk.wechatx_2.3-2_iphoneos-arm64.deb
+Size: 2974286
+MD5sum: 730d38bfc5beef26b708b5e7d4921b44
+SHA256: bad828aac1303d8a376657c3727f1c53831eb19f86ed1970cff38cc87d5dcdd4
+Maintainer: wkk
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Installed-Size: 8376
+
+Package: com.ylr.wcfloatsplit_3.0-5_iphoneos-arm64
+Name: com.ylr.wcfloatsplit_3.0-5_iphoneos-arm64
+Version: 1.0
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: com.ylr.wcfloatsplit_3.0-5_iphoneos-arm64
 Filename: debs/com.ylr.wcfloatsplit_3.0-5_iphoneos-arm64.deb
 Size: 2346244
 MD5sum: 56642de3ee9db576e9edd8901d636003
-SHA1: a15b8c146b7aa7a5a59f946526450afc7e5ce00d
 SHA256: 73e07737f7de25ff5c52407138e7e52d13a614e2b99640dd9de3108d1868a6a4
+
+Package: netskao.wechatpurifications
+Name: 微信净化 2026.04
+Version: 2026.04
+Architecture: iphoneos-arm64e
 Section: 微信插件
-Description: WeChatOrbit
-Author: ylr
-Name: WeChatOrbit（免授权）
-
-Package: dylv.deepliquid
-Version: 0.1.93b
-Architecture: iphoneos-arm64e
-Maintainer: Ai
-Installed-Size: 5320
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Filename: debs/Ai液态玻璃_0.1.93barm64e.deb
-Size: 1753502
-MD5sum: 10f4b06fe418a291bedda0a12a1ca30d
-SHA1: a1e8b02a5b2bf2ddf17d1812ff39b5e8643e43d3
-SHA256: 88728c7328d486fff4e3d86d272807323ee6dcd50a165cf77c179fda97fc1973
-Section: Tweaks
-Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数量预算，告别发烫
-Author: Ai
-Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
-Name: Ai液态玻璃
-
-Package: dylv.sbliquidglass
-Version: 1.7.0
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 4132
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Filename: debs/sbliquidglassv0.1-rootless.deb
-Size: 1398210
-MD5sum: cd891fd57e7473bd15f0af28dfa0989a
-SHA1: 647ea170530da4098de03b7313df874d2408a8b8
-SHA256: 67879246bb644f195bda878b828906f243497c7c998a171c3e48f030acff3ebe
-Section: Tweaks
-Description: A staged Liquid Glass system UI tweak with a safe surface architecture.
-Author: MoWang
-Name: SBLiquidGlass
-
-Package: dylv.sbliquidglass
-Version: 1.7.0
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 4100
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Filename: debs/sbliquidglassv0.1-roothide.deb
-Size: 1396012
-MD5sum: 13cb80fc88a7a30f2f7f4664abc3e6c7
-SHA1: 54e50bc6349d56a3c58daaa4c9eacb54116d910a
-SHA256: 806fbd7dc9c10f184a382656f3cab7b6b98967031c911ea21dd8c61526a7fcd4
-Section: Tweaks
-Description: A staged Liquid Glass system UI tweak with a safe surface architecture.
-Author: MoWang
-Name: SBLiquidGlass
-
-Package: dylv.sbliquidglass
-Version: 1.8
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 4132
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Filename: debs/SBLiquidGlass-1.8-rootless.deb
-Size: 1397586
-MD5sum: c1ec43828f1b7a37527632215f632422
-SHA1: 2b5c973574b6981d9bc4e40046ddc227e9dd6b18
-SHA256: 9b476b5ede86f9f19928feb11bcf257530bd9492fb40d50aa507d8f361b331d3
-Section: Tweaks
-Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段渲染的液态玻璃材质，安全表层架构，全局生效。
- 【核心功能】
-  - 系统液态玻璃：为通知中心、控制中心、Dock、状态栏等系统界面套用 iOS 26 风格透明折射玻璃材质
-  - 安全表层架构：分层渲染，降低白屏/重启风险，稳定运行
-  - 多进程注入：覆盖 Backboardd、Dock 等多个系统进程，效果全局统一
- 【使用说明】
-  - 安装后请 Respring 一次（建议注销后观察是否稳定）
-  - 设置路径：设置 → SBLiquidGlass
-  - 本包为 Rootless（arm64）版
-Author: MoWang
-Name: SBLiquidGlass
-
-Package: dylv.sbliquidglass
-Version: 1.8
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 4100
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
-Filename: debs/SBLiquidGlass-1.8-roothide.deb
-Size: 1395254
-MD5sum: 3d440f2328257cb8534f55f8269a304a
-SHA1: e3295e497081dac033ac0d4d4b89c09143cf281b
-SHA256: ced0f46d9749fc452b7012a842412d1502d0e92e5eef3eb087e809706ccc612b
-Section: Tweaks
-Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段渲染的液态玻璃材质，安全表层架构，全局生效。
- 【核心功能】
-  - 系统液态玻璃：为通知中心、控制中心、Dock、状态栏等系统界面套用 iOS 26 风格透明折射玻璃材质
-  - 安全表层架构：分层渲染，降低白屏/重启风险，稳定运行
-  - 多进程注入：覆盖 Backboardd、Dock 等多个系统进程，效果全局统一
- 【使用说明】
-  - 安装后请 Respring 一次（建议注销后观察是否稳定）
-  - 设置路径：设置 → SBLiquidGlass
-  - 本包为 RootHide（arm64e）版
-Author: MoWang
-Name: SBLiquidGlass
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.13
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 616
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iya.banana.iphoneduoicon_0.1.13_iphoneos-arm64.deb
-Size: 81784
-MD5sum: 37453e37fa64259ae26ccb690d9ca85f
-SHA1: e491b75c04158245a367074351ba626cf5d9f0e7
-SHA256: 97da49d0b4e1704c66b33e0c72743303f525193dcb3f5edb172631248af62437
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.15
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 632
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iya.banana.iphoneduoicon_0.1.15_iphoneos-arm64.deb
-Size: 81542
-MD5sum: 0c922e3c9bde1348a8c9b64e2f87b4bb
-SHA1: 8264e2f038c6ac82acb86363165881cddccfec4b
-SHA256: da475c6acb5ffe7446fe773e945fa3f691ab48af07ad7f1bc818ab887d6f0f80
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.16
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 632
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iPhoneDuoIcon-0.1.16.deb
-Size: 84408
-MD5sum: 1d8b6a1531f91e7c114b763725a97841
-SHA1: aa44836cc7d1b577b512031848d3e95c0372dcca
-SHA256: 53b1f769ae3358e1e78ed175318d7f75968280ee927310702707d1d6e39b0c3d
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.16
-Architecture: iphoneos-arm64e
-Maintainer: Banana
-Installed-Size: 632
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iya.banana.iphoneduoicon_0.1.16_iphoneos-arm64e.deb
-Size: 860
-MD5sum: 8293d3e68d6e64a794c94bcdd06ed427
-SHA1: 123f361f1a4f6bb436a8fee0656384c71df500e2
-SHA256: 22475625e1415be6d3811b84466afae788280e343e435c824142797d97cd5fc0
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.17
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 632
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iPhoneDuoIcon-0.1.17.deb
-Size: 84650
-MD5sum: 0d10cecdab0fa1c8d7ce8f2f32823974
-SHA1: 3cf03a03697d19012dee86f2f13b3036ffa01a5f
-SHA256: a5c3cdf3971bbe3fc6f65b03ce3603948dce4ec3c81d49380ff581ecb61b6633
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.19
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 636
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iPhoneDuoIcon-0.1.19.deb
-Size: 88746
-MD5sum: 3aeddb7bda89a3f0ce78de4729b277ab
-SHA1: 5bf982b2e3be1dcb18049c4229571336728b1866
-SHA256: 1c1f2fe62881dc78c76a13153f8c1d537a9c74fb4bcfb95de89ef08cf0b9e281
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.20
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 700
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iPhoneDuoIcon-0.1.20.deb
-Size: 99126
-MD5sum: a8df30fdab83ab535a1a94417f3f6f1b
-SHA1: f55e685d80a72d8c2c02db3ca4f27814669460bf
-SHA256: ce2e307b3c3f92d643d4c6d24cfb41faa2f8ee660f71eba50b04971a4f53132c
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.21
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 728
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iPhoneDuoIcon-0.1.21.deb
-Size: 105204
-MD5sum: 7495b016c399d183a13c9d93ebe634d1
-SHA1: b38976ee157c9f0bceaba63d0845bbeedc074964
-SHA256: d67423c81189ed369305a6b47494bfc05978ee507202ba7f93694b0d6add04da
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.22
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 760
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iPhoneDuoIcon-0.1.22.deb
-Size: 117924
-MD5sum: c452540a6655b814e31f4106003c9e6d
-SHA1: 2f2020e3476ae5db02b2b1279b033d09313e4e07
-SHA256: 5a34978f72f183fcaed9439cc3c03b11160976457b36f21eca0abb1611194f6a
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.24
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 864
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iPhoneDuoIcon-0.1.24.deb
-Size: 148620
-MD5sum: ba61e9a07a0495ba046d56fe7356e99c
-SHA1: 3bd0f6b09e8ae451f23f48537368959e51ab8784
-SHA256: af6e345f031c6bdc4032a41f66314990ade423c577f3cb4bb2f128458958d932
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 0.1.6
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 556
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iya.banana.iphoneduoicon_0.1.6_iphoneos-arm64.deb
-Size: 67720
-MD5sum: 43affbeebf7f4960eb0da7d28aa3c1af
-SHA1: 23e4db8de92bee67161ac1b2f7cfbe6d2affdd0f
-SHA256: 52520e39b0b0a6d4507c7be740a446886a6341c6b1dc1d0c7363bd07c995e894
-Section: Tweaks
-Description: Combined battery, Wi-Fi and dual-line cellular status icon.
-Author: Banana
-Name: iPhoneDuoIcon
-
-Package: iya.banana.iphoneduoicon
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 2208
-Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/Lunora-1.0.0.deb
-Size: 395628
-MD5sum: 2cfd1e25409c1806fb45702c68bb0f80
-SHA1: 955c3feb9d13e5fda2fe254c9b4912bdeead091b
-SHA256: 1b20b8cc7c042bbf1c98c8a7aab96faae60b6491d0905debcda7fa805fc58a48
-Section: Tweaks
-Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Author: Banana
-Name: Lunora
-
-Package: iya.banana.iphoneduoicon
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 2524
-Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/Lunora-1.0.1.deb
-Size: 448206
-MD5sum: 9eb5ff3ce39024c82814ec61054b560c
-SHA1: fe832f9961eb54a77f66abf0f745ee6b48323c14
-SHA256: acfdd79f72447dc503919d5e471fb66d93e84374633251f2308e9c2a3999826d
-Section: Tweaks
-Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Author: Banana
-Name: Lunora
-
-Package: iya.banana.iphoneduoicon
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: Banana
-Installed-Size: 3184
-Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iya.banana.iphoneduoicon_1.0.2_iphoneos-arm64e (1).deb
-Size: 548178
-MD5sum: b7c83fd225b043ab336d949bf15370a9
-SHA1: 6f3a5981c831ef1896649ea54f151339e9a652d4
-SHA256: 515a06a041b2c17b06678ff25a803772396554c89694e64f2fbed468687b75ba
-Section: Tweaks
-Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Author: Banana
-Name: Lunora
-
-Package: iya.banana.iphoneduoicon
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: Banana
-Installed-Size: 3200
-Depends: firmware (>= 16.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
-Conflicts: com.82flex.singlevpn
-Filename: debs/iya.banana.iphoneduoicon_1.0.2_iphoneos-arm64.deb
-Size: 547814
-MD5sum: e4c53addf3e08fff17d9ecf305187607
-SHA1: 83d195cc336b8a48fdc0af6f5776ed40246bfb75
-SHA256: 5526cc0366b3e24cec78dbd33c97d11bdba4bbb7eac84222638e5451e4744c53
-Section: Tweaks
-Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
-Author: Banana
-Name: Lunora
-
-Package: iya.banana.jumpguard
-Version: 0.1.2
-Architecture: iphoneos-arm64e
-Maintainer: hades
-Installed-Size: 560
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Filename: debs/JumpGuard-0.1.2.deb
-Size: 66896
-MD5sum: 8f2461505dc9c4a62b4b852fc7d02fb3
-SHA1: 18d12de63116ac2a94ec670f5f5ff231675ddf34
-SHA256: ae21e54e432fafa72d6996d764085e26b2125e16d4db65af3904dbe5829040d9
-Section: Tweaks
-Description: Confirm or block cross-app launch requests on RootHide iOS.
-Author: hades
-Name: JumpGuard
-
-Package: iya.iapple.siri
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: Thijs mussig
-Installed-Size: 2252
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.yourcompany.liquidsiri
-Replaces: com.yourcompany.liquidsiri
-Filename: debs/LiquidSiri-1.1.3.deb
-Size: 986524
-MD5sum: 558324492bde647dca1dc35ff31ea8ef
-SHA1: 8d51e6806565b7b57bf4b74458d352d8fc6efeea
-SHA256: 13fca93f398ddc4d26ea3a7131f44ecd5d2c1e4b7ed8c852207415b20aebe439
-Section: Tweaks
-Description: Customize Siri with NewSiri edge lighting or the SiriAI glass interface.
-Author: Thijs mussig, Banana
-Name: LiquidSiri
-
-Package: local.notifybubbles
-Version: 0.4.1
-Architecture: iphoneos-arm64e
-Maintainer: NotifyBubbles
-Installed-Size: 436
-Depends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate, preferenceloader
-Filename: debs/local.notifybubbles_0.4.1_iphoneos-arm64e.deb
-Size: 38318
-MD5sum: 06b8a4d2bf168555d1bfd7f87dc2ac07
-SHA1: a8ced756d2c45a98764a4fa5e58facacacf43432
-SHA256: 93106c67a4170bbd112ed915c7035c7976469fcb40294543a8a05ca3fed67754
-Section: Tweaks
-Description: Notification bubbles for iOS 16 and Dopamine RootHide. Experimental first build.
-Author: NotifyBubbles
-Name: 通知悬浮气泡
-
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Description: 微信净化 2026.04 版本
+* 还原聊天本质，干净的微信给你
+* 2026 年基于 2023 年最终版重新编译，仅优化防止热更新导致的功能失效，未修复任何因微信版本更新出现的问题
+* 如需私有版(¥68.00)可联系 admin@initnil.com 进行了解
+Filename: debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
+Size: 7996412
+MD5sum: 0c1d1ae9cddaefd45b517ed4c8737468
+SHA256: 10a8ead9bf54dff054d00304f233037f2bb1c79ee01b77cab267a2541a397c76
+Author: Netskao
+Maintainer: BigBoss
+Installed-Size: 23256
+Conflicts: netskao.wechatpurification
+icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
+Pre-Depends: rootless-compat(>= 0.9)
