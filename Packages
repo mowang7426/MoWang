@@ -2045,22 +2045,6 @@ Author: MoWang
 Name: LockScreen Gradient Clock
 
 Package: com.minis.lockscreengradientclock
-Version: 1.7.6
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 756
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.minis.lockscreengradientclock_1.7.6_iphoneos-arm64.deb
-Size: 330094
-MD5sum: 88e4ddeef7a95cbe46ec32050ea0a218
-SHA1: 0ecb81f34a47bdca40ba1bf84285c40ef76dcf3c
-SHA256: d6b4e7323eafc067728b540c448a729857627ad93f496941a2ede467c5b028a0
-Section: Tweaks
-Description: 更新日期农历渐变效果开关
-Author: MoWang
-Name: LockScreen Gradient Clock
-
-Package: com.minis.lockscreengradientclock
 Version: 1.7.7
 Architecture: iphoneos-arm64
 Maintainer: MoWang
