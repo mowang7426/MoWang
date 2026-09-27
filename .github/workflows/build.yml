@@ -29,9 +29,8 @@ jobs:
 
       - name: 生成软件源索引
         run: |
-          cd debs
-          dpkg-scanpackages . /dev/null | gzip -9c > ../Packages.gz
-          dpkg-scanpackages . /dev/null > ../Packages
+          dpkg-scanpackages debs /dev/null | gzip -9c > Packages.gz
+          dpkg-scanpackages debs /dev/null > Packages
 
       - name: 生成 Release
         run: |
