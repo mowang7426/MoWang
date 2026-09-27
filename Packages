@@ -446,6 +446,38 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 Name: Bottom-x 悬浮球
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.crctdd.shorbar
+Version: 0.0.9
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.crctdd.shorbar_0.0.9_iphoneos-arm64.deb
+Size: 60174
+MD5sum: de9e81217316c898a8c58ef4054e15c6
+SHA1: a91f23c00ab315a54a0e238ae0389639e758d4da
+SHA256: 62c9d9c17cde7620f3e985db41394f71eab712765ab53ba7576e9d47f0771411
+Section: Tweaks
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Author: crctdd
+Name: ShortBar
+
+Package: com.crctdd.shorbar
+Version: 0.0.9
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.crctdd.shorbar_0.0.9_iphoneos-arm64e.deb
+Size: 60246
+MD5sum: 1005cd484a7ec8de74569310dba2de5c
+SHA1: eb8064619b996f88452c001f04183a5b4f8f95bb
+SHA256: 32ab05bb5dd8ec3120433973b9caf6cd9dd6d6ddac4c2c744f4fef45f02bc5b7
+Section: Tweaks
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Author: crctdd
+Name: ShortBar
+
 Package: com.crctdd.stayalivelite
 Version: 0.1.9
 Architecture: iphoneos-arm64
