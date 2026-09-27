@@ -1,1 +1,375 @@
 
+# -*- coding: utf-8 -*-
+"""
+Pythonista 一键更新 GitHub Pages 越狱源（容错版）
+==================================================
+用法：
+1. 在本脚本同目录建一个 debs/ 文件夹，把 .deb 包丢进去；
+2. 在下面 CONFIG 里填入你的 GitHub Personal Access Token；
+3. 运行本脚本。
+
+如果某些 .deb 是 xz 压缩、Pythonista 解不开，脚本会自动用文件名
+生成最小可用的包信息，照样能上传安装。
+想自定义包名/描述的话，在 debs/ 里放一个 packages.json：
+{
+  "xxx.deb": {"Name": "我的插件", "Version": "1.0.0", "Description": "说明", "Depends": ""}
+}
+"""
+
+import os
+import io
+import json
+import time
+import gzip
+import hashlib
+import datetime
+import tarfile
+import base64
+import urllib.parse
+import urllib.request
+import urllib.error
+
+try:
+    import lzma
+    HAVE_LZMA = True
+except ImportError:
+    HAVE_LZMA = False
+
+
+# ============================ CONFIG ============================
+GITHUB_USER   = "mowang7426"
+GITHUB_REPO   = "MoWang"        # 你的仓库名（不是 mowang7426.github.io）
+BRANCH        = ""              # 留空自动探测默认分支
+SOURCE_DIR    = ""              # 仓库根目录就是源根，留空即可
+DEB_SUBDIR    = "debs"
+REPO_NAME_CN  = "MoWang"
+GITHUB_TOKEN  = "在此填入你的GitHub_Token"
+# ===============================================================
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DEB_DIR    = os.path.join(SCRIPT_DIR, "debs")
+
+
+def repo_path(*parts):
+    """拼仓库内路径，自动去掉空段和多余斜杠。"""
+    return "/".join(p.strip("/") for p in parts if p and p.strip("/"))
+
+
+# ---------- .deb 解析 ----------
+def read_ar_members(data):
+    if data[:8] != b"!<arch>\n":
+        raise ValueError("不是有效的 .deb")
+    pos = 8
+    members = {}
+    while pos + 60 <= len(data):
+        header = data[pos:pos + 60]
+        name   = header[0:16].decode("ascii", "replace").strip()
+        size   = int(header[48:58].decode("ascii").strip())
+        pos += 60
+        content = data[pos:pos + size]
+        if name.endswith("/"):
+            name = name[:-1]
+        if name not in ("", "/", "//"):
+            members[name] = content
+        pos += size
+        if size % 2 == 1:
+            pos += 1
+    return members
+
+
+def try_extract_control(deb_bytes):
+    """成功返回 control 文本；失败返回 None（不抛异常）。"""
+    try:
+        members = read_ar_members(deb_bytes)
+    except Exception:
+        return None
+    control_blob = None
+    name = None
+    for n in members:
+        if n.startswith("control.tar"):
+            control_blob = members[n]
+            name = n
+            break
+    if control_blob is None:
+        return None
+
+    try:
+        if name.endswith(".xz"):
+            if not HAVE_LZMA:
+                return None
+            control_blob = lzma.decompress(control_blob)
+        elif name.endswith(".gz"):
+            control_blob = gzip.decompress(control_blob)
+        else:
+            return None
+    except Exception:
+        return None
+
+    try:
+        tf = tarfile.open(fileobj=io.BytesIO(control_blob))
+        for m in tf.getmembers():
+            if os.path.basename(m.name) == "control":
+                return tf.extractfile(m).read().decode("utf-8", "replace")
+    except Exception:
+        return None
+    return None
+
+
+def parse_control(text):
+    info = {}
+    last_key = None
+    for line in text.splitlines():
+        if line[:1] in (" ", "\t") and last_key:
+            info[last_key] += "\n" + line.strip()
+        elif ":" in line:
+            k, v = line.split(":", 1)
+            k = k.strip()
+            info[k] = v.strip()
+            last_key = k
+    return info
+
+
+# ---------- 手动覆盖（packages.json） ----------
+def load_overrides():
+    p = os.path.join(DEB_DIR, "packages.json")
+    if not os.path.isfile(p):
+        return {}
+    try:
+        with open(p, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"  (警告: packages.json 读取失败: {e})")
+        return {}
+
+
+# ---------- Packages 索引生成 ----------
+FIELD_ORDER = ["Package", "Name", "Version", "Architecture",
+               "Section", "Depends", "Description",
+               "Filename", "Size", "MD5sum", "SHA256"]
+
+
+def build_block(deb_path, deb_filename, overrides):
+    with open(deb_path, "rb") as f:
+        data = f.read()
+
+    ctrl_text = try_extract_control(data)
+    if ctrl_text:
+        info = parse_control(ctrl_text)
+        tag = "✓"
+    else:
+        # 解不开 → 用文件名兜底
+        stem = os.path.splitext(deb_filename)[0]
+        info = {
+            "Package":      stem,
+            "Name":         stem,
+            "Version":      "1.0",
+            "Architecture": "iphoneos-arm iphoneos-arm64 iphoneos-arm64e",
+            "Description":  stem,
+        }
+        tag = "⚠"
+
+    # 手动覆盖
+    ov = overrides.get(deb_filename, {})
+    for k, v in ov.items():
+        info[k] = v
+
+    info["Filename"] = f"{DEB_SUBDIR}/{deb_filename}"
+    info["Size"]     = str(len(data))
+    info["MD5sum"]   = hashlib.md5(data).hexdigest()
+    info["SHA256"]   = hashlib.sha256(data).hexdigest()
+
+    lines, seen = [], set()
+    for k in FIELD_ORDER:
+        if k in info:
+            lines.append(f"{k}: {info[k]}")
+            seen.add(k)
+    for k, v in info.items():
+        if k not in seen:
+            lines.append(f"{k}: {v}")
+    return "\n".join(lines), tag
+
+
+def build_packages_file(overrides):
+    debs = sorted(f for f in os.listdir(DEB_DIR)
+                   if f.endswith(".deb") and not f.startswith("."))
+    if not debs:
+        return "", []
+    blocks, tags = [], []
+    for d in debs:
+        block, tag = build_block(os.path.join(DEB_DIR, d), d, overrides)
+        blocks.append(block)
+        tags.append((d, tag))
+    return "\n\n".join(blocks) + "\n", tags
+
+
+def build_release_file():
+    now = datetime.datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S UTC")
+    text = (
+        f"Origin: {REPO_NAME_CN}\n"
+        f"Label: {REPO_NAME_CN}\n"
+        "Suite: stable\n"
+        "Version: 1.0\n"
+        "Codename: iphoneos\n"
+        "Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e\n"
+        f"Description: {REPO_NAME_CN} repo\n"
+        f"Date: {now}\n"
+    )
+    return text.encode("utf-8")
+
+
+# ---------- GitHub API ----------
+def _api(method, path, body=None, retries=3, _allow_sha_retry=True):
+    url = f"https://api.github.com/{path}"
+    headers = {
+        "Authorization": f"token {GITHUB_TOKEN}",
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "pythonista-repo-updater",
+    }
+    data = None
+    if body is not None:
+        data = json.dumps(body).encode("utf-8")
+        headers["Content-Type"] = "application/json"
+
+    last_err = None
+    for attempt in range(1, retries + 1):
+        req = urllib.request.Request(url, data=data, headers=headers, method=method)
+        try:
+            with urllib.request.urlopen(req, timeout=180) as resp:
+                raw = resp.read()
+                return json.loads(raw.decode("utf-8")) if raw else {}
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode("utf-8", "replace")
+            # 422 可能是 sha 过期，去掉 sha 重试一次
+            if e.code == 422 and _allow_sha_retry and body and "sha" in body:
+                print(f"    (422 错误，去掉 sha 重试)")
+                body.pop("sha", None)
+                data = json.dumps(body).encode("utf-8")
+                req = urllib.request.Request(url, data=data, headers=headers, method=method)
+                try:
+                    with urllib.request.urlopen(req, timeout=180) as resp:
+                        raw = resp.read()
+                        return json.loads(raw.decode("utf-8")) if raw else {}
+                except Exception as e2:
+                    last_err = e2
+                    if attempt < retries:
+                        time.sleep(2 * attempt)
+                        continue
+                    break
+            # 其他 4xx 不重试
+            if 400 <= e.code < 500 and e.code != 409:
+                raise RuntimeError(f"GitHub API {e.code}:\n{msg}")
+            last_err = RuntimeError(f"GitHub API {e.code}: {msg}")
+        except Exception as e:
+            last_err = e
+        if attempt < retries:
+            wait = 2 * attempt
+            print(f"    (网络错误，{wait}s 后重试 {attempt}/{retries-1})...")
+            time.sleep(wait)
+    raise last_err
+
+
+def remote_file_info(repo_path):
+    """返回远端文件的 (sha, size_bytes)；不存在返回 (None, None)。"""
+    p = f"repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{urllib.parse.quote(repo_path)}"
+    try:
+        info = _api("GET", p, retries=2)
+        return info.get("sha"), info.get("size")
+    except Exception:
+        return None, None
+
+
+def upload(repo_path, content_bytes, commit_msg):
+    # 断点续传：远端已有同大小的文件就跳过
+    sha, remote_size = remote_file_info(repo_path)
+    if remote_size == len(content_bytes):
+        print(f"    (已存在，跳过)")
+        return
+
+    body = {
+        "message": commit_msg,
+        "content": base64.b64encode(content_bytes).decode("ascii"),
+        "branch": BRANCH,
+    }
+    if sha:
+        body["sha"] = sha
+    p = f"repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{urllib.parse.quote(repo_path)}"
+    try:
+        _api("PUT", p, body, retries=3)
+    except Exception as e:
+        # 422/409 时可能是文件其实已经传成功了（网络断在响应阶段）
+        msg = str(e)
+        if "422" in msg or "409" in msg:
+            _, new_size = remote_file_info(repo_path)
+            if new_size == len(content_bytes):
+                print(f"    (检查后确认已上传成功，跳过)")
+                return
+        raise
+
+
+# ---------- 主流程 ----------
+def main():
+    global BRANCH
+    if not GITHUB_TOKEN or "在此填入" in GITHUB_TOKEN:
+        print("✗ 请先在脚本顶部 CONFIG 里填入你的 GitHub Personal Access Token")
+        return
+
+    # 探测仓库 + 默认分支
+    try:
+        info = _api("GET", f"repos/{GITHUB_USER}/{GITHUB_REPO}")
+    except Exception as e:
+        print(f"✗ 访问仓库失败: {e}")
+        print("  请检查:")
+        print("  1) 仓库是否存在: https://github.com/%s/%s" % (GITHUB_USER, GITHUB_REPO))
+        print("  2) Token 是否有 repo 权限、是否过期")
+        print("  3) 用户名/仓库名是否拼对")
+        return
+    detected = info.get("default_branch", "main")
+    if not BRANCH:
+        BRANCH = detected
+    print(f"仓库: {GITHUB_USER}/{GITHUB_REPO}  分支: {BRANCH}")
+
+    if not os.path.isdir(DEB_DIR):
+        os.makedirs(DEB_DIR)
+        print(f"已创建: {DEB_DIR}")
+        print("请把 .deb 放进去后重跑。")
+        return
+
+    overrides = load_overrides()
+    packages_text, tags = build_packages_file(overrides)
+    if not tags:
+        print(f"✗ {DEB_DIR} 里没有 .deb 文件")
+        return
+
+    print(f"找到 {len(tags)} 个 .deb 包:")
+    for fn, tag in tags:
+        note = "" if tag == "✓" else "  (xz 自动用文件名兜底,可在 packages.json 里改)"
+        print(f"  {tag} {fn}{note}")
+    print()
+
+    print("开始上传...")
+    for fn, _ in tags:
+        local = os.path.join(DEB_DIR, fn)
+        size_kb = os.path.getsize(local) / 1024
+        path = repo_path(SOURCE_DIR, DEB_SUBDIR, fn)
+        print(f"  ↑ {fn}  ({size_kb:.1f} KB)")
+        with open(local, "rb") as f:
+            upload(path, f.read(), f"Add {fn}")
+
+    p_packages = repo_path(SOURCE_DIR, "Packages")
+    p_gz      = repo_path(SOURCE_DIR, "Packages.gz")
+    p_release = repo_path(SOURCE_DIR, "Release")
+
+    print("  ↑ Packages")
+    upload(p_packages, packages_text.encode("utf-8"), "Update Packages")
+    print("  ↑ Packages.gz")
+    upload(p_gz, gzip.compress(packages_text.encode("utf-8")), "Update Packages.gz")
+    print("  ↑ Release")
+    upload(p_release, build_release_file(), "Update Release")
+
+    print()
+    print("✓ 全部完成！")
+    print(f"  源地址: https://{GITHUB_USER}.github.io/{SOURCE_DIR}/")
+
+
+if __name__ == "__main__":
+    main()
