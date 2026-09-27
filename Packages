@@ -87,6 +87,25 @@ Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Name: 全局水印Pro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.Axs.xmzs
+Version: 1.1-4C
+Architecture: iphoneos-arm64
+Maintainer: xmmm
+Installed-Size: 3728
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb
+Size: 1091608
+MD5sum: 8349817d3f3e4a0d935c64405f66b67c
+SHA1: bcc6b9659cde00cbe4eaa8b058ddbecebab51f81
+SHA256: ec9fda06272a8af6478dfdc3db90ee05e4a34fc664b5ae89b013e5867fcc6a19
+Section: 微信插件
+Priority: optional
+Description: 微信功能扩展
+Author: xmmm
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Name: 熊猫助手（免授权）
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
+
 Package: com.axs.duostatus
 Version: 5.2.0-101
 Architecture: iphoneos-arm64
