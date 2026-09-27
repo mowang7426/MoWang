@@ -69,6 +69,7 @@ if not entries:
 
 allowed = {"iphoneos-arm", "iphoneos-arm64", "iphoneos-arm64e"}
 seen = set()
+duplicate_keys = set()
 for e in entries:
     required = ("Package", "Version", "Architecture", "Filename", "Size", "SHA256")
     missing = [k for k in required if not e.get(k)]
@@ -84,12 +85,20 @@ for e in entries:
         raise SystemExit(f"❌ Packages 指向不存在的文件：{filename}")
     key = (e["Package"], e["Version"], e["Architecture"])
     if key in seen:
-        raise SystemExit(f"❌ 重复 Package/Version/Architecture：{key}")
+        # 同一 Package/Version/Architecture 的多个文件不属于“多版本”。
+        # APT 无法用版本号区分它们，因此这里只警告，不阻止整个仓库生成。
+        # 真正的降级支持由 dpkg-scanpackages -m 提供：不同 Version 会全部保留。
+        duplicate_keys.add(key)
     seen.add(key)
 
 print(f"✓ Packages 条目：{len(entries)}")
 print("✓ 所有 Filename 均存在")
 print("✓ 架构：" + ", ".join(sorted({e['Architecture'] for e in entries})))
+if duplicate_keys:
+    print("⚠ 检测到相同 Package/Version/Architecture 的多个文件（不阻止构建）：")
+    for key in sorted(duplicate_keys):
+        print("  - " + " / ".join(key))
+    print("  提示：真正的降级版本必须使用不同的 Version 字段；-m 已保留多版本。")
 PY
 
 # 5. 生成压缩索引
