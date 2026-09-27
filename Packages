@@ -2067,14 +2067,14 @@ Maintainer: MoWang
 Installed-Size: 756
 Depends: mobilesubstrate, preferenceloader
 Filename: debs/com.minis.lockscreengradientclock_1.7.6_iphoneos-arm64e.deb
-Size: 329716
-MD5sum: 5c7d95ff05e5e8cc138d755960aa0898
-SHA1: 96d33255b6c12a665c7013d77fe04ec704ada520
-SHA256: 9aceafe9519267f80c8167b972cff67572a0318ce996f01f734f78f4d98ac625
+Size: 329728
+MD5sum: a89a9fcab5d547d4f44ee368ff6712ce
+SHA1: ff3600e331d49520c15d51fd1c62b4fded49f16c
+SHA256: b43f6f7f6c874d3720b03195eed5ad964e7875808df573efb5693a9129a5abc5
 Section: Tweaks
 Description: 更新日期农历渐变效果开关
 Author: MoWang
-Name: LockScreen Gradient Clock
+Name: 88 液态锁屏时间渐变
 
 Package: com.minis.lockscreengradientclock
 Version: 1.7.7
