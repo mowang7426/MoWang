@@ -32,8 +32,14 @@ jobs:
           dpkg-scanpackages debs /dev/null | gzip -9c > Packages.gz
           dpkg-scanpackages debs /dev/null > Packages
 
-      - name: 生成 Release
+      - name: 生成 Release（含校验和）
         run: |
+          PKG_MD5=$(md5sum Packages | cut -d' ' -f1)
+          PKG_SIZE=$(stat -c%s Packages)
+          PKG_GZ_MD5=$(md5sum Packages.gz | cut -d' ' -f1)
+          PKG_GZ_SIZE=$(stat -c%s Packages.gz)
+          PKG_SHA256=$(sha256sum Packages | cut -d' ' -f1)
+          PKG_GZ_SHA256=$(sha256sum Packages.gz | cut -d' ' -f1)
           cat > Release << EOF
           Origin: MoWang
           Label: MoWang
@@ -42,6 +48,12 @@ jobs:
           Codename: iphoneos
           Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
           Description: MoWang repo
+          MD5Sum:
+           $PKG_MD5 $PKG_SIZE Packages
+           $PKG_GZ_MD5 $PKG_GZ_SIZE Packages.gz
+          SHA256:
+           $PKG_SHA256 $PKG_SIZE Packages
+           $PKG_GZ_SHA256 $PKG_GZ_SIZE Packages.gz
           EOF
 
       - name: 提交索引变更
