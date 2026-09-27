@@ -1,11 +1,11 @@
-Origin: MoWang
+Origin: mowang
 Label: 莫忘的专属源
 Suite: stable
 Version: 1.0
 Codename: iphoneos
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: MoWang 越狱源
+Description: mowang 越狱源
 
 MD5Sum:
  e1f97fd570fe0772527b6f9bdfd03453 1049 Packages
