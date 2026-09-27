@@ -2044,6 +2044,22 @@ Description: 更新时间预览，新增早晚时间切换预设，注：只适�
 Author: MoWang
 Name: LockScreen Gradient Clock
 
+Package: com.minis.lockscreengradientclock
+Version: 1.7.7
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 756
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_1.7.7_iphoneos-arm64e.deb
+Size: 333698
+MD5sum: 08f376069fa6a8d3cd191a88c89b1aa1
+SHA1: 311db18a4a520bd0cc5c5612dd634daac24a8700
+SHA256: e6afd07c76d138c886688f25c6b357fc0f0c3cc060aa3b8ae6e6778456651e84
+Section: Tweaks
+Description: 更新说明：修复注销后日期和农历不渐变
+Author: MoWang
+Name: 88 液态锁屏时间渐变
+
 Package: com.minis.rainbowkeyboard
 Version: 1.0.8
 Architecture: iphoneos-arm64
