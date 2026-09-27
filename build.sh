@@ -7,12 +7,12 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-ORIGIN="mowang"
+ORIGIN="MoWang"
 LABEL="莫忘的专属源"
 SUITE="stable"
 VERSION="1.0"
 CODENAME="iphoneos"
-DESCRIPTION="mowang 越狱源"
+DESCRIPTION="MoWang 越狱源"
 ARCHITECTURES="iphoneos-arm iphoneos-arm64 iphoneos-arm64e"
 
 for cmd in dpkg-scanpackages python3 gzip bzip2 xz; do
@@ -32,7 +32,7 @@ echo "支持架构：$ARCHITECTURES"
 echo
 
 # 1. 检查所有 deb
-if ! ./check-debs.sh; then
+if ! bash ./check-debs.sh; then
     echo "❌ deb 检查失败，停止生成索引。"
     exit 1
 fi
