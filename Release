@@ -1,22 +1,7 @@
-Origin: 莫忘
-Label: 莫忘的专属源
+Origin: MoWang
+Label: MoWang
 Suite: stable
 Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Components: main
-Description: MoWang 越狱源
-
-MD5Sum:
- 9e9c776e92d470d251a1accf5bc11478 28146 Packages
- 1044a0564d54bfd73eed689eeca88bcf 8926 Packages.gz
- d95d6b202ef66f64d19d95cbeb990f06 8701 Packages.bz2
- 1f77a2f9928571f450b767dac6b2f326 7928 Packages.xz
- ae08a7bfd448ee2b76fc6d71682bfe5d 8518 Packages.zst
-
-SHA256:
- 6ddf561bc1f1942813ceb385f9d4e27a26b04271f065e270ef5fc7b1eb4ff256 28146 Packages
- 08b25f9f1b2d2531a8c50cb2ffd44d83706b4899de5f9bf6dcc732f1b28e2aba 8926 Packages.gz
- 91ca5fc56c85680ce25f404f14953378b389271c0f60be6c2449d9dd14c75e35 8701 Packages.bz2
- 912ac7864e4558a71fe03e7a20af91b45a1ffb888606cee94f3ce29132be8b2f 7928 Packages.xz
- 4295344d19eccf2c5f051a150ca75bdc2a772e2124c17d7b413412a329ddcd81 8518 Packages.zst
+Codename: iphoneos
+Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Description: MoWang repo
