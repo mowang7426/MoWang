@@ -1321,6 +1321,22 @@ Name: LockScreen Gradient Clock
 
 Package: com.minis.lockscreengradientclock
 Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 684
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_1.6.0_iphoneos-arm64.deb
+Size: 299516
+MD5sum: 594b982669faab0f6086b07f6fbdad44
+SHA1: 5e8e0aeac07038216bbc0d49e79498abbafbe2ab
+SHA256: 93174a06b2b79cf935dea41d01672ff4220e0c8b637c235e9f691c5939201c79
+Section: Tweaks
+Description: 更新说明：新增预设功能，内有七八种内置预设 新增贴近壁纸取色 新增会变的钟，自行摸索
+Author: MoWang
+Name: LockScreen Gradient Clock
+
+Package: com.minis.lockscreengradientclock
+Version: 1.6.0
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
 Installed-Size: 684
