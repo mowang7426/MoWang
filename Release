@@ -1,13 +1,22 @@
 Origin: MoWang
-Label: MoWang
+Label: 莫忘的专属源
 Suite: stable
 Version: 1.0
 Codename: iphoneos
-Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Description: MoWang repo
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: MoWang 越狱源
+
 MD5Sum:
- c62fa6510ea7d446c144dbe59c6906fb 73843 Packages
- cce4e56be42def742f56feb103aa4a3a 27663 Packages.gz
+ e1f97fd570fe0772527b6f9bdfd03453 1049 Packages
+ 05018ad7c05070156bd768d2965cc0a7 559 Packages.gz
+ 51b0d32a55e0256295cfd2d6eafbb0a2 654 Packages.bz2
+ 69fc4e79e8d284196fa81b1b1a2f2ea0 584 Packages.xz
+ ef1653be4372307f021f7f7b973f92cb 548 Packages.zst
+
 SHA256:
- 90cc3847a672628a941385f6dd65b49958428e538bbdeb84c58d95cd1d20d825 73843 Packages
- 7c1ab8b2ec989273457a91e3cf4ed04ab6cff0a854bcfe04f2294b7fabcda7bc 27663 Packages.gz
+ f1828cf99bb9097020f0c9d6f7d25a7da16f10792a0123849378d95c36158d00 1049 Packages
+ 11fb1c524f8e4aaea6c98818126dc63fa0626516b4f313902c08229e5ee68f59 559 Packages.gz
+ cb68e4f864c7991acc9fc311637f81cd65f4a3521a9fc3253ff37d70ba1d63e2 654 Packages.bz2
+ e39daa31a939a3ba73c6f078c2facabc05790976b618301807e3525902f8c92c 584 Packages.xz
+ a90b73e37c45c993b7c12e37967ed137d920de693e2b775d73a47c6e8eed7695 548 Packages.zst

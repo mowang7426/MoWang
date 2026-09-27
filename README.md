@@ -1,73 +1,83 @@
-# jailbreak-repo — 我的越狱软件源
+# MoWang 越狱软件源
 
-在 GitHub Pages 上免费托管的 Cydia / Sileo 软件源（APT 仓库）。
-添加源地址后，越狱设备即可安装本源的插件。
+GitHub Pages 托管的 Cydia / Sileo APT 软件源。
 
-## 目录结构
+## 正确目录结构
 
+```text
+mowang/
+├── CydiaIcon.png
+├── Release
+├── Packages
+├── Packages.gz
+├── Packages.bz2
+├── Packages.xz
+├── Packages.zst
+├── build.sh
+├── check-debs.sh
+├── validate-repo.sh
+├── .github/workflows/build.yml
+└── debs/
+    ├── *.deb
+    └── ...
 ```
-jailbreak-repo/
-├── debs/                      # 放 .deb 插件包
-│   ├── com.example.hellotweak_1.0-1_iphoneos-arm.deb      # 示例包：rootful 版（可删除）
-│   └── com.example.hellotweak_1.0-1_iphoneos-arm64.deb    # 示例包：rootless/arm64 版（可删除）
-├── Packages                   # 包索引（含两种架构）
-├── Packages.gz / .bz2 / .xz   # 压缩索引
-├── Release                    # 源描述（含校验和）
-├── build.sh                   # 一键重建索引脚本
-└── .github/workflows/build.yml # 推送后自动重建（可选）
+
+**重要：所有 `.deb` 必须放在 `debs/` 目录。** `Packages` 中的 `Filename:` 会自动使用 `debs/<文件名>.deb`，不要手工编辑 `Packages`。
+
+## 发布到 GitHub Pages
+
+1. 将整个目录上传到 GitHub 仓库根目录。
+2. GitHub → Settings → Pages → Deploy from a branch → `main` → `/ (root)`。
+3. 等 Pages 部署完成后，在 Sileo 添加：
+
+```text
+https://mowang7426.github.io/mowang/
 ```
 
-## 首次部署（约 5 分钟）
+## 本地重建索引
 
-1. 在 GitHub 新建一个仓库（名字随意，本说明以 `jailbreak-repo` 为例），可见性选 **Public**。
-2. 把本目录里的**所有文件**上传到仓库：
-   - 网页端：仓库首页 → **Add file → Upload files**，把文件拖进去（要包含隐藏目录 `.github`）；
-   - 或电脑上用 git：
-     ```bash
-     git init
-     git add -A
-     git commit -m "init"
-     git branch -M main
-     git remote add origin https://github.com/你的用户名/jailbreak-repo.git
-     git push -u origin main
-     ```
-3. 打开仓库 **Settings → Pages**，Build and deployment 选 **Deploy from a branch**，分支选 `main`、目录选 `/ (root)`，保存。等待 1–2 分钟部署完成。
-4. 在已越狱的 iPhone 上：
-   - Cydia：底部 **Sources → Edit → Add**；
-   - Sileo：右上角 **+ → Add Source**。
-   输入（结尾带 `/`）：
-   ```
-   https://你的用户名.github.io/jailbreak-repo/
-   ```
-5. 看到 `com.example.hellotweak` 示例插件即为成功，可以删掉它。
-
-## 更新插件
-
-1. 把新的 `.deb` 放进 `debs/` 目录；
-2. 本地运行 `./build.sh` 重建索引（会自动重写 Packages 及 Release 校验和）；
-3. `git add -A && git commit -m "add tweak" && git push`。
-
-> 不想每次手动跑？仓库已内置 GitHub Actions：只要推送对 `debs/` 的修改，工作流会自动重建并提交索引。
-
-## 修改源信息
-
-编辑 `build.sh` 顶部的 `ORIGIN / LABEL / DESCRIPTION`，重新运行 `./build.sh` 即可（Release 会同步更新）。也可以直接改 `Release` 文件。
-
-## 可选：GPG 签名（推荐但非必需）
-
-防止源被篡改：
+把新的 `.deb` 放入 `debs/` 后运行：
 
 ```bash
-gpg --gen-key                      # 生成密钥（按提示操作）
-gpg -abs -o Release.gpg Release    # 签名 Release
-gpg --export --armor > apt-key.gpg # 公钥放到仓库根目录
+./build.sh
 ```
 
-用户首次添加源后，需要导入你的公钥 `apt-key.gpg` 才能通过签名校验。
+然后检查：
 
-## 注意事项
+```bash
+./validate-repo.sh
+```
 
-- **架构说明**：本源同时声明 `iphoneos-arm`（rootful）和 `iphoneos-arm64`（rootless），对应架构的包分别放在 `debs/` 中；添加插件时记得给两种架构各准备一个 `.deb`（架构写在包名里）。客户端会自动挑选匹配自己设备的架构。
-- **只放你自己开发或有授权分发的插件。** 收录盗版、破解应用违反 GitHub 服务条款，仓库会被下架、账号可能被封，并有法律风险。
-- GitHub Pages 适合个人小规模源；包很多、体积大时建议换自己的服务器或 Cloudflare Pages。
-- 源地址由 GitHub 用户名和仓库名决定，改名后地址会变，需重新添加。
+脚本会自动生成：
+
+- `Packages`
+- `Packages.gz`
+- `Packages.bz2`
+- `Packages.xz`
+- `Packages.zst`（系统有 zstd 时）
+- `Release`
+
+其中 `Release` 使用正确的 `Architectures:` 字段，并自动写入索引文件的 MD5/SHA256 校验值。
+
+## GitHub Actions
+
+`.github/workflows/build.yml` 会在 `debs/` 或构建脚本发生变化时自动重建索引并提交生成文件；也支持手动 `Run workflow`。
+
+## 当前架构
+
+```text
+iphoneos-arm
+iphoneos-arm64
+iphoneos-arm64e
+```
+
+仓库里的包会按照 `.deb` 控制信息中的 `Architecture` 自动索引。不同架构的同一个 Package/Version 可以同时存在，例如：
+
+```text
+com.minis.rainbowkeyboard 1.0.8 iphoneos-arm64
+com.minis.rainbowkeyboard 1.0.8 iphoneos-arm64e
+```
+
+## 注意
+
+只发布你自己开发或获得授权分发的插件。不要手工修改 `Packages` / `Release`；新增或删除 `.deb` 后重新运行 `build.sh` 即可。

@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# 本地/CI 软件源完整性检查，不修改仓库文件。
+set -euo pipefail
+cd "$(dirname "$0")"
+
+./check-debs.sh
+[ -f Release ] && [ -f Packages ] && [ -f Packages.gz ] && [ -f Packages.xz ]
+grep -q '^Architectures: ' Release
+grep -q '^SHA256:' Release
+
+grep '^Filename: ' Packages | while read -r _ path; do
+    [ -f "$path" ] || { echo "❌ 缺失：$path"; exit 1; }
+done
+
+python3 - <<'PY'
+from pathlib import Path
+import hashlib
+
+r = Path('Release').read_text()
+assert 'Architectures:' in r
+for name in ['Packages', 'Packages.gz', 'Packages.xz'] + (['Packages.bz2'] if Path('Packages.bz2').exists() else []) + (['Packages.zst'] if Path('Packages.zst').exists() else []):
+    data = Path(name).read_bytes()
+    for section, fn in [('MD5Sum:', hashlib.md5), ('SHA256:', hashlib.sha256)]:
+        start = r.index(section)
+        tail = r[start:].split('\n\n', 1)[0]
+        row = next((x.strip() for x in tail.splitlines()[1:] if x.strip().endswith(' '+name)), None)
+        assert row, f'{section} missing {name}'
+        digest, size, path = row.split()
+        assert path == name and int(size) == len(data)
+        assert digest == fn(data).hexdigest()
+print('✓ 软件源完整性检查通过')
+PY

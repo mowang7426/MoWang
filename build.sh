@@ -1,465 +1,187 @@
 #!/usr/bin/env bash
-
 # ============================================================
-# MoWang 越狱源索引生成脚本
-#
-# 功能：
-# 1. 保留同一个 Package 的多个历史版本，支持降级
-# 2. 支持 iphoneos-arm / iphoneos-arm64 / iphoneos-arm64e
-# 3. 生成 Packages
-# 4. 生成 Packages.gz / Packages.bz2 / Packages.xz
-# 5. 如果安装 zstd，则生成 Packages.zst
-# 6. 自动生成 Release
-# 7. 自动计算 MD5 / SHA256
-# 8. 检查重复 Package + Version + Architecture
-#
-# 使用：
-#   chmod +x build.sh
-#   ./build.sh
+# MoWang 越狱源索引生成器
+# 运行：./build.sh
+# 需要：dpkg-dev、python3、gzip、bzip2、xz；zstd 可选
 # ============================================================
-
 set -euo pipefail
-
 cd "$(dirname "$0")"
 
-# ============================================================
-# 源信息
-# ============================================================
-
-ORIGIN="莫忘"
+ORIGIN="MoWang"
 LABEL="莫忘的专属源"
+SUITE="stable"
+VERSION="1.0"
+CODENAME="iphoneos"
 DESCRIPTION="MoWang 越狱源"
-
-# 支持的架构
 ARCHITECTURES="iphoneos-arm iphoneos-arm64 iphoneos-arm64e"
 
-# ============================================================
-# 检查依赖
-# ============================================================
+for cmd in dpkg-scanpackages python3 gzip bzip2 xz; do
+    if ! command -v "$cmd" >/dev/null 2>&1; then
+        echo "❌ 缺少依赖：$cmd"
+        exit 1
+    fi
+done
 
-if ! command -v dpkg-scanpackages >/dev/null 2>&1; then
-    echo "❌ 错误：缺少 dpkg-scanpackages"
-    echo
-    echo "Debian / Ubuntu："
-    echo "sudo apt install dpkg-dev"
-    exit 1
-fi
+mkdir -p debs
 
-if ! command -v python3 >/dev/null 2>&1; then
-    echo "❌ 错误：缺少 python3"
-    exit 1
-fi
-
-if [ ! -d "debs" ]; then
-    echo "❌ 错误：找不到 debs/ 目录"
-    exit 1
-fi
-
-echo
 echo "=========================================="
 echo "        MoWang 越狱源索引生成器"
 echo "=========================================="
-echo
-echo "源名称：$LABEL"
-echo "Origin：$ORIGIN"
-echo "描述：$DESCRIPTION"
+echo "源：$LABEL"
 echo "支持架构：$ARCHITECTURES"
 echo
 
-# ============================================================
-# 1. 清理旧索引
-# ============================================================
-
-echo "=========================================="
-echo "[1/6] 清理旧索引"
-echo "=========================================="
-
-rm -f Packages
-rm -f Packages.gz
-rm -f Packages.bz2
-rm -f Packages.xz
-rm -f Packages.zst
-
-echo "✓ 已清理旧索引"
-echo
-
-# ============================================================
-# 2. 生成 Packages
-#
-# -m 非常重要
-#
-# 它允许同一个 Package 保留多个版本。
-#
-# 例如：
-#
-# com.sbcpu.floating
-#
-# 4.61
-# 4.63
-# 4.64
-# 4.65
-# 4.66
-# 4.70
-#
-# 这样才能支持用户降级。
-# ============================================================
-
-echo "=========================================="
-echo "[2/6] 生成 Packages"
-echo "=========================================="
-
-dpkg-scanpackages -m debs > Packages
-
-echo "✓ Packages 生成完成"
-echo "  大小：$(wc -c < Packages) bytes"
-echo
-
-# ============================================================
-# 3. 检查 Packages
-# ============================================================
-
-echo "=========================================="
-echo "[3/6] 检查 Packages"
-echo "=========================================="
-
-python3 <<'PY'
-from collections import defaultdict
-
-packages_file = "Packages"
-
-entries = []
-current = {}
-
-with open(
-    packages_file,
-    "r",
-    encoding="utf-8",
-    errors="replace"
-) as f:
-
-    for line in f:
-        line = line.rstrip("\n")
-
-        if line == "":
-            if "Package" in current:
-                entries.append(current)
-
-            current = {}
-            continue
-
-        if ": " in line:
-            key, value = line.split(": ", 1)
-            current[key] = value
-
-if current and "Package" in current:
-    entries.append(current)
-
-print(f"索引包条目：{len(entries)}")
-
-# ============================================================
-# 检查重复 Package + Version + Architecture
-# ============================================================
-
-seen = defaultdict(list)
-
-for entry in entries:
-
-    key = (
-        entry.get("Package", ""),
-        entry.get("Version", ""),
-        entry.get("Architecture", ""),
-    )
-
-    seen[key].append(
-        entry.get("Filename", "")
-    )
-
-duplicates = {
-    key: files
-    for key, files in seen.items()
-    if len(files) > 1
-}
-
-if duplicates:
-
-    print()
-    print("⚠️ 发现重复的 Package + Version + Architecture：")
-
-    for key, files in duplicates.items():
-
-        print()
-        print(
-            f"Package={key[0]}"
-            f" Version={key[1]}"
-            f" Architecture={key[2]}"
-        )
-
-        for filename in files:
-            print(f"  - {filename}")
-
-    print()
-    print(
-        "⚠️ 重复包不会阻止索引生成，"
-        "但建议检查 debs/ 目录。"
-    )
-
-else:
-
-    print(
-        "✓ 没有发现完全重复的 "
-        "Package + Version + Architecture"
-    )
-
-# ============================================================
-# 显示架构
-# ============================================================
-
-architectures = sorted(
-    {
-        entry.get("Architecture")
-        for entry in entries
-        if entry.get("Architecture")
-    }
-)
-
-print()
-print("索引中的实际架构：")
-
-for arch in architectures:
-    print(f"  - {arch}")
-
-# ============================================================
-# 检查 arm64e
-# ============================================================
-
-print()
-
-if "iphoneos-arm64e" in architectures:
-
-    print("✓ 已检测到 iphoneos-arm64e")
-
-else:
-
-    print("⚠️ 当前 Packages 中没有 iphoneos-arm64e 包")
-    print("如果你的 debs/ 中没有 arm64e 包，这是正常的。")
-
-PY
-
-echo
-
-# ============================================================
-# 4. 生成压缩索引
-# ============================================================
-
-echo "=========================================="
-echo "[4/6] 生成压缩索引"
-echo "=========================================="
-
-gzip -9c Packages > Packages.gz
-
-echo "✓ Packages.gz"
-
-bzip2 -9c Packages > Packages.bz2
-
-echo "✓ Packages.bz2"
-
-xz -9c Packages > Packages.xz
-
-echo "✓ Packages.xz"
-
-if command -v zstd >/dev/null 2>&1; then
-
-    zstd -19 -f Packages -o Packages.zst
-
-    echo "✓ Packages.zst"
-
-else
-
-    echo "ℹ 未安装 zstd，跳过 Packages.zst"
-
+# 1. 检查所有 deb
+if ! ./check-debs.sh; then
+    echo "❌ deb 检查失败，停止生成索引。"
+    exit 1
 fi
 
-echo
+# 2. 清理旧索引
+rm -f Packages Packages.gz Packages.bz2 Packages.xz Packages.zst Release
 
-# ============================================================
-# 5. 生成 Release
-# ============================================================
+# 3. 生成 Packages
+# -m 保留同一 Package 的多个版本；不同架构的同版本包也会分别保留。
+dpkg-scanpackages -m debs > Packages
 
-echo "=========================================="
-echo "[5/6] 生成 Release"
-echo "=========================================="
+# 4. 严格检查 Packages 中的 Filename 是否真实存在
+python3 <<'PY'
+from pathlib import Path
 
-python3 - "$ORIGIN" "$LABEL" "$DESCRIPTION" "$ARCHITECTURES" <<'PY'
+packages = Path("Packages")
+text = packages.read_text(encoding="utf-8", errors="replace")
+entries = []
+current = {}
+for line in text.splitlines():
+    if not line.strip():
+        if current:
+            entries.append(current)
+        current = {}
+        continue
+    if ": " in line:
+        k, v = line.split(": ", 1)
+        current[k] = v
+if current:
+    entries.append(current)
 
-import hashlib
-import os
-import sys
+if not entries:
+    raise SystemExit("❌ Packages 为空：debs/ 中没有可索引的 .deb")
 
-origin = sys.argv[1]
-label = sys.argv[2]
-description = sys.argv[3]
-architectures = sys.argv[4]
+allowed = {"iphoneos-arm", "iphoneos-arm64", "iphoneos-arm64e"}
+seen = set()
+for e in entries:
+    required = ("Package", "Version", "Architecture", "Filename", "Size", "SHA256")
+    missing = [k for k in required if not e.get(k)]
+    if missing:
+        raise SystemExit(f"❌ Packages 条目缺字段：{missing} / {e}")
+    arch = e["Architecture"]
+    if arch not in allowed:
+        raise SystemExit(f"❌ 发现不支持的架构：{arch} ({e['Package']})")
+    filename = e["Filename"]
+    if filename.startswith("/") or ".." in Path(filename).parts:
+        raise SystemExit(f"❌ 非法 Filename：{filename}")
+    if not Path(filename).is_file():
+        raise SystemExit(f"❌ Packages 指向不存在的文件：{filename}")
+    key = (e["Package"], e["Version"], e["Architecture"])
+    if key in seen:
+        raise SystemExit(f"❌ 重复 Package/Version/Architecture：{key}")
+    seen.add(key)
 
-# ------------------------------------------------------------
-# Release 中需要记录的文件
-# ------------------------------------------------------------
+print(f"✓ Packages 条目：{len(entries)}")
+print("✓ 所有 Filename 均存在")
+print("✓ 架构：" + ", ".join(sorted({e['Architecture'] for e in entries})))
+PY
 
-files = [
-    "Packages",
-    "Packages.gz",
-    "Packages.bz2",
-    "Packages.xz",
-]
+# 5. 生成压缩索引
+# Sileo/APT 常用 gzip/xz；bz2/zstd 一并保留以兼容不同客户端。
+gzip -9c Packages > Packages.gz
+bzip2 -9c Packages > Packages.bz2
+xz -9c Packages > Packages.xz
+if command -v zstd >/dev/null 2>&1; then
+    zstd -19 -q -f Packages -o Packages.zst
+fi
 
-if os.path.isfile("Packages.zst"):
+# 6. 生成 Release，并把所有索引文件的校验值写进去
+python3 - <<'PY'
+from hashlib import md5, sha256
+from pathlib import Path
+
+origin = "MoWang"
+label = "莫忘的专属源"
+suite = "stable"
+version = "1.0"
+codename = "iphoneos"
+description = "MoWang 越狱源"
+architectures = "iphoneos-arm iphoneos-arm64 iphoneos-arm64e"
+
+files = ["Packages", "Packages.gz", "Packages.bz2", "Packages.xz"]
+if Path("Packages.zst").is_file():
     files.append("Packages.zst")
 
-# ------------------------------------------------------------
-# 基础信息
-# ------------------------------------------------------------
-
 lines = [
-    "Origin: " + origin,
-    "Label: " + label,
-    "Suite: stable",
-    "Version: 1.0",
-    "Codename: ios",
-
-    # 注意：
-    # 正确字段必须是 Architectures
-    # 不能写成 ArchiArchitectures
-    "Architectures: " + architectures,
-
+    f"Origin: {origin}",
+    f"Label: {label}",
+    f"Suite: {suite}",
+    f"Version: {version}",
+    f"Codename: {codename}",
+    f"Architectures: {architectures}",
     "Components: main",
-    "Description: " + description,
+    f"Description: {description}",
     "",
     "MD5Sum:",
 ]
+for name in files:
+    data = Path(name).read_bytes()
+    lines.append(f" {md5(data).hexdigest()} {len(data)} {name}")
+lines += ["", "SHA256:"]
+for name in files:
+    data = Path(name).read_bytes()
+    lines.append(f" {sha256(data).hexdigest()} {len(data)} {name}")
+Path("Release").write_text("\n".join(lines) + "\n", encoding="utf-8")
+PY
 
-# ------------------------------------------------------------
-# MD5
-# ------------------------------------------------------------
+# 7. 最终一致性验证
+python3 <<'PY'
+from pathlib import Path
+import hashlib
 
-for filename in files:
+release = Path("Release").read_text(encoding="utf-8")
+assert "\nArchitectures: " in release, "Release 缺少 Architectures"
+assert "\nArchitecture: " not in release, "Release 错误使用单数 Architecture"
 
-    with open(filename, "rb") as f:
-        data = f.read()
+sections = {"MD5Sum:": {}, "SHA256:": {}}
+section = None
+for line in release.splitlines():
+    if line in sections:
+        section = line
+        continue
+    if section and line.startswith(" "):
+        parts = line.strip().split()
+        if len(parts) == 3:
+            digest, size, name = parts
+            sections[section][name] = (digest, int(size))
 
-    md5 = hashlib.md5(data).hexdigest()
+files = ["Packages", "Packages.gz", "Packages.bz2", "Packages.xz"]
+if Path("Packages.zst").exists():
+    files.append("Packages.zst")
+for name in files:
+    p = Path(name)
+    data = p.read_bytes()
+    if sections["MD5Sum:"][name] != (hashlib.md5(data).hexdigest(), len(data)):
+        raise SystemExit(f"❌ MD5 校验失败：{name}")
+    if sections["SHA256:"][name] != (hashlib.sha256(data).hexdigest(), len(data)):
+        raise SystemExit(f"❌ SHA256 校验失败：{name}")
+    print(f"✓ Release 校验：{name}")
 
-    lines.append(
-        " %s %d %s"
-        % (
-            md5,
-            len(data),
-            filename,
-        )
-    )
-
-# ------------------------------------------------------------
-# SHA256
-# ------------------------------------------------------------
-
-lines.append("")
-lines.append("SHA256:")
-
-for filename in files:
-
-    with open(filename, "rb") as f:
-        data = f.read()
-
-    sha256 = hashlib.sha256(data).hexdigest()
-
-    lines.append(
-        " %s %d %s"
-        % (
-            sha256,
-            len(data),
-            filename,
-        )
-    )
-
-# ------------------------------------------------------------
-# 写入 Release
-# ------------------------------------------------------------
-
-with open(
-    "Release",
-    "w",
-    encoding="utf-8"
-) as f:
-
-    f.write(
-        "\n".join(lines) + "\n"
-    )
-
-print("✓ Release 生成完成")
-
+print("✓ Release 使用正确的 Architectures 字段")
+print("✓ 所有 Release 校验值正确")
 PY
 
 echo
-
-# ============================================================
-# 6. 最终检查
-# ============================================================
-
 echo "=========================================="
-echo "[6/6] 最终检查"
-echo "=========================================="
-
-echo
-echo "---------- Release ----------"
-
-cat Release
-
-echo
-echo "---------- 文件检查 ----------"
-
-for file in \
-    Packages \
-    Packages.gz \
-    Packages.bz2 \
-    Packages.xz \
-    Release
-do
-
-    if [ -f "$file" ]; then
-        echo "✓ $file"
-    else
-        echo "❌ 缺少 $file"
-        exit 1
-    fi
-
-done
-
-if [ -f Packages.zst ]; then
-    echo "✓ Packages.zst"
-fi
-
-echo
-echo "---------- Architectures 检查 ----------"
-
-if grep -q '^Architectures:' Release; then
-    echo "✓ Architectures 字段正确"
-else
-    echo "❌ Release 缺少 Architectures"
-    exit 1
-fi
-
-if grep -q '^ArchiArchitectures:' Release; then
-    echo "❌ 发现错误字段 ArchiArchitectures"
-    exit 1
-fi
-
-if grep -q 'iphoneos-arm64e' Release; then
-    echo "✓ Release 包含 iphoneos-arm64e"
-else
-    echo "❌ Release 缺少 iphoneos-arm64e"
-    exit 1
-fi
-
-echo
-echo "=========================================="
-echo "        ✓ 软件源索引生成成功"
+echo "        ✓ 软件源生成完成"
 echo "=========================================="
 echo
+printf '%s\n' "源目录：$(pwd)" "包数量：$(grep -c '^Package: ' Packages)" "根目录文件：" 
+ls -lh Packages Packages.gz Packages.bz2 Packages.xz Release 2>/dev/null
+[ -f Packages.zst ] && ls -lh Packages.zst
