@@ -5,3 +5,9 @@ Version: 1.0
 Codename: iphoneos
 Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Description: MoWang repo
+MD5Sum:
+ c62fa6510ea7d446c144dbe59c6906fb 73843 Packages
+ cce4e56be42def742f56feb103aa4a3a 27663 Packages.gz
+SHA256:
+ 90cc3847a672628a941385f6dd65b49958428e538bbdeb84c58d95cd1d20d825 73843 Packages
+ 7c1ab8b2ec989273457a91e3cf4ed04ab6cff0a854bcfe04f2294b7fabcda7bc 27663 Packages.gz
