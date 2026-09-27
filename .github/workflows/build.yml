@@ -1,8 +1,14 @@
-name: Auto Upload Deb
+name: Build MoWang Repo
 
 on:
   push:
     branches: [main]
+    paths:
+      - 'debs/**'
+      - 'build.sh'
+      - 'check-debs.sh'
+      - 'validate-repo.sh'
+      - '.github/workflows/build.yml'
   workflow_dispatch:
 
 permissions:
@@ -12,52 +18,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Install tools
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y dpkg-dev
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y dpkg-dev bzip2 xz-utils zstd
 
-      - name: 同步远端
+      - name: Build repository indexes
+        run: ./build.sh
+
+      - name: Validate repository
+        run: ./validate-repo.sh
+
+      - name: Commit generated indexes
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
-
-      - name: 生成软件源索引
-        run: |
-          dpkg-scanpackages debs /dev/null | gzip -9c > Packages.gz
-          dpkg-scanpackages debs /dev/null > Packages
-
-      - name: 生成 Release（含校验和）
-        run: |
-          PKG_MD5=$(md5sum Packages | cut -d' ' -f1)
-          PKG_SIZE=$(stat -c%s Packages)
-          PKG_GZ_MD5=$(md5sum Packages.gz | cut -d' ' -f1)
-          PKG_GZ_SIZE=$(stat -c%s Packages.gz)
-          PKG_SHA256=$(sha256sum Packages | cut -d' ' -f1)
-          PKG_GZ_SHA256=$(sha256sum Packages.gz | cut -d' ' -f1)
-          cat > Release << EOF
-          Origin: MoWang
-          Label: MoWang
-          Suite: stable
-          Version: 1.0
-          Codename: iphoneos
-          Architecture: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-          Description: MoWang repo
-          MD5Sum:
-           $PKG_MD5 $PKG_SIZE Packages
-           $PKG_GZ_MD5 $PKG_GZ_SIZE Packages.gz
-          SHA256:
-           $PKG_SHA256 $PKG_SIZE Packages
-           $PKG_GZ_SHA256 $PKG_GZ_SIZE Packages.gz
-          EOF
-
-      - name: 提交索引变更
-        run: |
-          git add Packages Packages.gz Release
-          git commit -m "chore: rebuild repository indexes" || echo "No changes to commit"
-          git push
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Packages Packages.gz Packages.bz2 Packages.xz Packages.zst Release
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "build: regenerate repository indexes"
+            git push
+          fi
