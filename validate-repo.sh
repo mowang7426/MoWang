@@ -3,7 +3,7 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-./check-debs.sh
+bash ./check-debs.sh
 [ -f Release ] && [ -f Packages ] && [ -f Packages.gz ] && [ -f Packages.xz ]
 grep -q '^Architectures: ' Release
 grep -q '^SHA256:' Release
