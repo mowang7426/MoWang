@@ -21,6 +21,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y dpkg-dev
 
+      - name: 同步远端
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
+
       - name: 生成软件源索引
         run: |
           cd debs
@@ -41,9 +47,6 @@ jobs:
 
       - name: 提交索引变更
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add Packages Packages.gz Release
           git commit -m "chore: rebuild repository indexes" || echo "No changes to commit"
           git push
