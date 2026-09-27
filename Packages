@@ -202,6 +202,65 @@ Icon: https://axs66.github.io/pro/icon/keyboardtools.png
 Name: KeyboardTools
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
 
+Package: com.axs.snapper3tag
+Version: 5.2.0-326
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhini000@163.com>
+Installed-Size: 1052
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.axs.snapper3tag_5.2.0-326_iphoneos-arm64e.deb
+Size: 607086
+MD5sum: d9f7044e76071e2c3ab954a112b32d4f
+SHA1: f597c6068b2d02e963b73f3acf94f09ea43b0590
+SHA256: 9efea4b6265d8bf828ca1c7ead86c62dfb8636ef2f0e8c951a6294da178863ab
+Section: 工具
+Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + OCR识别 + 翻译 + AI互译 + AI问答 + Sileo长按翻译，修复了原snapper3主体插件第7个图标遮挡一半的bug；将菜单工具栏最后一个“关闭”图标进行固定，增加滑动视觉效果。
+ * 一、【自定义图标】
+ * 创建 "/var/mobile/Axs/Snapper3图标/自定义文件夹" ，放入以下对应素材，即可替换默认图标：
+ *   标记    ：tag.png   / tag_menu.png
+ *   长截图  ：long.png  / long_menu.png
+ *   ocr识别 ：ocr.png   / ocr_menu.png
+ *   翻译    ：trans.png / trans_menu.png
+ *   Ai互译  ：huyi.png  / huyi_menu.png
+ *   Ai回答  ：wenda.png / wenda_menu.png
+ * 二、【截图标记】
+ * 颜色选择：红/黄/蓝/绿/白/黑等6种颜色；
+ * 箭头标记：手指拖拽绘制方向箭头；
+ * 自由画线：手指跟随绘制任意曲线；
+ * 文字标注：点击图片任意位置弹出输入框与键盘，输入文字落点标注，支持字号滑条实时调节；
+ * 矩形图标：点击1次是矩形框选+点击2次是矩形填充；
+ * 圆形图标：点击1次是圆形框选+点击2次是圆形填充；
+ * 高亮图标：点击1次是高亮框选+点击2次是半透明填充；
+ * 马赛克图标：网格分块打码，颗粒固定细腻；
+ * 撤回操作：一键撤销上一步标注；
+ * 删除操作：一键删除所有标注；
+ * 保存相册：渲染并写入系统相册；
+ * 复制剪贴板：一键复制标注后截图；
+ * 三、【长截图 Pro】
+ * 两种模式可选：滚动拼接/ 一键到底；
+ * 智能帧匹配，自动拼接；
+ * 支持保存到相册、复制到剪贴板；
+ * 四、【OCR识别】
+ * 使用 PaddleOCR模型识别截图文字；
+ * 半屏浮层展示，支持涂抹选择、一键复制；
+ * 需自备API Token。
+ * 五、【翻译】
+ * 百度翻译 API，自动检测语言双向翻译；
+ * 支持图片翻译和文本翻译两种通道；
+ * 半屏浮层展示，支持涂抹选择、一键复制；
+ * 需自备百度开发者信息中的 AppID 和 密钥。
+ * 六、【Ai互译+问答】
+ * 支持中英文互译和中文问答；
+ * 半屏浮层展示，支持涂抹选择、一键复制；
+ * 需自备阿里云 API Key。
+ * 七、【长按音量-冻结】
+ * 开启后，长按音量减键约0.2秒即可调出Snapper3冻结模式，适合无手势（不开启悬浮球/手势）的用户，用物理按键直接使用本插件全部标注功能。
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Name: Snapper3 Expand
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
+
 Package: com.be-huge.floating-view
 Version: 1.6.0-6
 Architecture: iphoneos-arm64e
@@ -3069,6 +3128,22 @@ Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、�
 Author: MoWang
 Name: SB CPU Floating
 
+Package: com.siwenjiajia.tweak.free
+Version: 28.17
+Architecture: iphoneos-arm64
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.comm
+Filename: debs/com.siwenjiajia.tweak.free_28.17_iphoneos-arm64.deb
+Size: 2894200
+MD5sum: c980747340cf89f3d04cead8f1d00d4e
+SHA1: 850cda4f2c6fadd0aea42e7f80d51991d53f5d69
+SHA256: 429871b1f4d7eed42b38c5e5ea3efc2089dca7d29a1829bdff097702ae4fd598
+Section: 抖音插件
+Description: 抖音优化 破解版 28.17（免授权·精简版）。功能较少、联网轻，仅自用。
+Author: siwenjiajia
+Name: 抖音优化（免授权）
+
 Package: com.susu.collection
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -4086,6 +4161,23 @@ Tag: purpose::application, compatible_min::ios15
 Author: wkk
 Icon: file:///Applications/InstalledPackages.app/icon_large.png
 Name: Sileo插件管理器
+
+Package: com.wkk.onestepx
+Version: 1.1-0
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 17.0)
+Filename: debs/com.wkk.onestepx_1.1-0_iphoneos-arm64e.deb
+Size: 111816
+MD5sum: d16ac13e352b02bbb93e44798bff05c0
+SHA1: 3ec2ae580adcbea3c30da251620317daed8cd883
+SHA256: eebc660432e9af8a7e62ee520569387eefd1edd4ac248102449ea0ce14e3a338
+Section: 工具
+Description: 为 iPhone 操作按钮、锁屏按钮、桌面、底部与状态栏提供独立动作。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: OneStepX（wkk）
 
 Package: dylv.deepliquid
 Version: 0.1.93b
