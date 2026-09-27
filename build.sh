@@ -7,12 +7,12 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-ORIGIN="MoWang"
+ORIGIN="mowang"
 LABEL="莫忘的专属源"
 SUITE="stable"
 VERSION="1.0"
 CODENAME="iphoneos"
-DESCRIPTION="MoWang 越狱源"
+DESCRIPTION="mowang 越狱源"
 ARCHITECTURES="iphoneos-arm iphoneos-arm64 iphoneos-arm64e"
 
 for cmd in dpkg-scanpackages python3 gzip bzip2 xz; do
