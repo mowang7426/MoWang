@@ -2060,6 +2060,22 @@ Description: 更新日期农历渐变效果开关
 Author: MoWang
 Name: 88 液态锁屏时间渐变
 
+Package: com.minis.lockscreengradientclock
+Version: 1.7.7
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 756
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_1.7.7_iphoneos-arm64e.deb
+Size: 333302
+MD5sum: 7869832e1616b52f54a73e352fb72c6d
+SHA1: 236e2c6759a00ecbdbe461d5d1614c06822a932e
+SHA256: dd60bca5e45821ecf9714ec75f88a8d275ae2281786e135d4398e258773e0197
+Section: Tweaks
+Description: 更新说明：修复注销后日期和农历不渐变
+Author: MoWang
+Name: 88 液态锁屏时间渐变
+
 Package: com.minis.rainbowkeyboard
 Version: 1.0.8
 Architecture: iphoneos-arm64
