@@ -1009,6 +1009,38 @@ Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Author: crctdd
 Name: ShortBar
 
+Package: com.crctdd.shorbar
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.crctdd.shorbar_1.0.0_iphoneos-arm64e.deb
+Size: 60046
+MD5sum: 367482414172b3319da2dd4fac10ea97
+SHA1: de8812ddcb958c790e53458edc8531bfa6336ddb
+SHA256: 082ab776f55c41cd319c4d1b51f50bdf1ab94b55b6c820b9786773c14da03192
+Section: Tweaks
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Author: crctdd
+Name: ShortBar
+
+Package: com.crctdd.shorbar
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.crctdd.shorbar_1.0.0_iphoneos-arm64.deb
+Size: 59996
+MD5sum: d669c22f3e66188a05fe8a8ac138f97c
+SHA1: 28538c944d95f0c2c4d1fd583ed6b7cd72a544ab
+SHA256: 4584aca0f449a05763c8d06298c639d27950b27df24ff70f3b1133a639ec5bcf
+Section: Tweaks
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Author: crctdd
+Name: ShortBar
+
 Package: com.crctdd.stayalivelite
 Version: 0.1.7
 Architecture: iphoneos-arm64e
@@ -1652,6 +1684,42 @@ Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132
 Name: CPU智能温控
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.huayuarc.cputhermalpro
+Version: 1.6.2-137
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 1880
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.huayuarc.cputhermalpro_1.6.2-137_iphoneos-arm64.deb
+Size: 134904
+MD5sum: 0fd8ecffcfed2a1c7aaccb57cf974b3d
+SHA1: 3d83b6c0bc073c803759bdd0bf60f6df19ee2d6f
+SHA256: 4f952509e919128a9a3a3317295c0acc3f1f0cdc0747ca78442861d00908b3b1
+Section: Tweaks
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU 解除温控
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.cputhermalpro
+Version: 1.6.2-137
+Architecture: iphoneos-arm64e
+Maintainer: Huayuarc
+Installed-Size: 1880
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.huayuarc.cputhermalpro_1.6.2-137_iphoneos-arm64e.deb
+Size: 129308
+MD5sum: d989bb4acb2a8679c5abe4e44dce0697
+SHA1: e248a1ecb57e7a8ddb653057fb13e5ed0fd21ebf
+SHA256: 01c811068caae828bcd47ba4eacc28cd0dc57f934e63d90c885c92134e2a1b88
+Section: Tweaks
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz。
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Name: CPU 解除温控
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.huayuarc.picturemodule16
 Version: 1.3.2
 Architecture: iphoneos-arm64
@@ -1824,6 +1892,23 @@ Size: 4391588
 MD5sum: cabb83f827fb9e8c1b595c5f078c78df
 SHA1: 1092ec5c29cdf7fb94912272cf4f8ded97df6901
 SHA256: 8228e6d26143f1c03d7d94d4ebcf03cb100c8abafb6a41c294888eb62ed13078
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
+Version: 11.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 20276
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/com.iosdump.shellx_11.0_iphoneos-arm64.deb
+Size: 4475604
+MD5sum: 13b4651dca4380ae5568d5b80b06d023
+SHA1: c0dd5b2e46ec9a25598272e9924a46225aa9b5fe
+SHA256: a8b17da88d60a0f3476a6ddcf14517fcee722b931f5cf952bbb95c23fcea1fbe
 Section: Tweaks
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
 Author: iosdump
