@@ -5653,6 +5653,23 @@ Name: Lunora
 
 Package: iya.banana.iphoneduoicon
 Version: 1.0.6~beta3
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 3984
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/iya.banana.iphoneduoicon_1.0.6~beta3_iphoneos-arm64.deb
+Size: 682196
+MD5sum: 61bb90d996b4c217b118ea99d3c4f4b6
+SHA1: 8f52afc7eb6e9d935557a97f972c86f61228bd10
+SHA256: fefe20bd7f2938407c6dab8654c7872edfb97e1b3d5a35c2f7b4a68789276205
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
+Package: iya.banana.iphoneduoicon
+Version: 1.0.6~beta3
 Architecture: iphoneos-arm64e
 Maintainer: Banana
 Installed-Size: 3984
