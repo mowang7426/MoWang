@@ -1882,6 +1882,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Author: iosdump
 Name: SHELLX
 
+Package: com.jl.liquidglass
+Version: 0.1.6.56
+Architecture: iphoneos-arm64
+Maintainer: jl
+Installed-Size: 5936
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/com.jl.liquidglass_0.1.6.56_iphoneos-arm64.deb
+Size: 3309156
+MD5sum: 372b2964ac1639881073287687135033
+SHA1: 7c4dda9338616317f27dd2d5c874b5d0227496c5
+SHA256: d316f306ececb634cc778c1cf03f16fe2c5c895ca64c98f610ade25065e28711
+Section: Tweaks
+Description: 仿iOS26液态玻璃效果，支持锁屏、控制中心、通知中心、标签栏、0耗电（听说效果还不错，没用过）
+Author: jl
+Icon: https://winaviation.github.io/repo/depictions/jl.liquidass/icon.png
+Name: 58 液态玻璃
+
 Package: com.liquidui.liquidui
 Version: 1.78
 Architecture: iphoneos-arm64e
