@@ -1932,6 +1932,23 @@ Author: iosdump
 Name: SHELLX
 
 Package: com.iosdump.shellx
+Version: 11.0
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 20276
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: debs/com.iosdump.shellx_11.0_iphoneos-arm.deb
+Size: 4481252
+MD5sum: 5403db2055b7c07794d2b99df3f6b353
+SHA1: a2732cd2adeaf2ec39c99bddac62e9d7cd763db6
+SHA256: 55f465f3d16dd6a3e0f5bc5f03e3a580a2b3fa0864011005f39e52280f25ea2c
+Section: Tweaks
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Author: iosdump
+Name: SHELLX
+
+Package: com.iosdump.shellx
 Version: 3.1.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
