@@ -945,6 +945,38 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 Name: Bottom-x 悬浮球
 Sileodepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.crctdd.mobileslideshowhook
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64.deb
+Size: 31942
+MD5sum: a4a2d353e1cd54c54f184791ee41010b
+SHA1: 10232b15eb7eb151db4edc00e68b21824f123e39
+SHA256: 667d5cbd95e85af20b743c3ef9d14f0d2db42f1b79734e9ce518d9cd76a16436
+Section: Tweaks
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Author: crctdd
+Name: 系统相册视频进度条
+
+Package: com.crctdd.mobileslideshowhook
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64e.deb
+Size: 31938
+MD5sum: 0f73596973877a7305956c4fe83059e5
+SHA1: 67f442d19169e16222d52316f092ca088e4a7a37
+SHA256: 65d7edf17f07184e69dfb91e79fa14ec82afcbb4019955b319afd22ea4be9732
+Section: Tweaks
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Author: crctdd
+Name: 系统相册视频进度条
+
 Package: com.crctdd.shorbar
 Version: 0.0.9
 Architecture: iphoneos-arm64
@@ -1898,6 +1930,41 @@ Description: 仿iOS26液态玻璃效果，支持锁屏、控制中心、通知�
 Author: jl
 Icon: https://winaviation.github.io/repo/depictions/jl.liquidass/icon.png
 Name: 58 液态玻璃
+
+Package: com.layii.ccrnd
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: LaYii
+Installed-Size: 344
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/com.layii.ccrnd_0.1.0_iphoneos-arm64e.deb
+Size: 30624
+MD5sum: 5471899dc6dfd7d5c37029f92fa9ca3d
+SHA1: a693da850511246cb4b2684179b2036b2382d640
+SHA256: 26d5f3cdd3a2824bf0f935f7de26c6e92f0bf8ba4611eec480736555898d1053
+Section: Tweaks
+Description: 去除录屏延迟，并可实时配置控制中心收起行为
+Author: LaYii
+Icon: https://huayuarc.github.io/icon/luzhi.jpg
+Name: 去除录屏延迟
+
+Package: com.layii.ccrnd
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: LaYii
+Installed-Size: 344
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/com.layii.ccrnd_0.1.0_iphoneos-arm64.deb
+Size: 31080
+MD5sum: b1cb0a594f4d5663cfe0d8390500edef
+SHA1: a1b9c4885f397a84971846bcb7ec0dc9d1f95725
+SHA256: a4202cb81749d0898c7b3ce249b7de5359ba91a5da310a26055876ed8276ddcd
+Section: Tweaks
+Description: 去除录屏延迟，并可实时配置控制中心收起行为
+Author: LaYii
+Icon: https://huayuarc.github.io/icon/luzhi.jpg
+Name: 去除录屏延迟
 
 Package: com.liquidui.liquidui
 Version: 1.78
