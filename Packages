@@ -5857,6 +5857,46 @@ Description: Customizable glass status bar capsules with weather, media, notific
 Author: Banana
 Name: Lunora
 
+Package: iya.banana.iphoneduoicon
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: Banana
+Installed-Size: 4680
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Replaces: com.ryannair05.audiosnapshotserver2
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Filename: debs/iya.banana.iphoneduoicon_1.0.8_iphoneos-arm64.deb
+Size: 762288
+MD5sum: 03f547f96da7dbadd2a310e6428fa7b5
+SHA1: edee01dfd6130b1065f2ab890d6b461b3d71a723
+SHA256: 18038147e63a04ff9626e240168f2f187e36b8ac3ebe96a44e89cea59fd8a577
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
+Package: iya.banana.iphoneduoicon
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: Banana
+Installed-Size: 4664
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn, com.ryannair05.audiosnapshotserver2
+Breaks: com.ryannair05.libmitsuha6 (<< 2.0)
+Replaces: com.ryannair05.audiosnapshotserver2
+Provides: com.ryannair05.audiosnapshotserver2 (= 2.1+lunora1)
+Filename: debs/iya.banana.iphoneduoicon_1.0.8_iphoneos-arm64e.deb
+Size: 756832
+MD5sum: d3f9749a1504302bf9e87cb0ed6cccad
+SHA1: 0c92787367635a9b1fcbb3f9ad4aea6ed34885fc
+SHA256: 0c4ceefa08ecd9ade4230bd74a7981bcc10803bdbb168be5d5ff3f3a1cb50cf9
+Section: Tweaks
+Description: Customizable glass status bar capsules with weather, media, notifications and mini Dock.
+Author: Banana
+Name: Lunora
+
 Package: iya.banana.jumpguard
 Version: 0.1.2
 Architecture: iphoneos-arm64e
