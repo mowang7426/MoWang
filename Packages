@@ -3138,6 +3138,22 @@ Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.rainbowkeyboard
+Version: 1.2.5
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 1032
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.rainbowkeyboard_1.2.5_iphoneos-arm64e.deb
+Size: 730918
+MD5sum: a7a194905634819f9de561b246bb2087
+SHA1: a9e0bfa5b2cf1747d06e9abdd461460b2cfad2df
+SHA256: 43a7db1d2a7ab4449ab9b15a39316c2737de1a2366b71eb207179882a91aeb5d
+Section: Tweaks
+Description: 本次更新修复发光键帽阴影
+Author: MoWang
+Name: 彩虹键盘光效
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
