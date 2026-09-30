@@ -431,6 +431,50 @@ SHA256: 200979191864fdf881ffb00c2322a41a1fa4e596c145e86b9d8ab0d48d292632
 Description: A狗动态岛（ios16dao）激活码生成器。生成 18 位激活码，纯本地计算、不联网。
 Name: A狗动态岛激活码生成器
 
+Package: com.axs.ipslog
+Version: 5.2.0-11
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 664
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.ipslog_5.2.0-11_iphoneos-arm64.deb
+Size: 86284
+MD5sum: 3a42d3a44122ce23c9fa091fe2c30dca
+SHA1: 2948fbd9b0136bf2cf8618ec2ad79fc42a839ece
+SHA256: 0797a9d18032a707c3e0ecd169c5a6c2075c8e6fa7ccd6029306bf7ab93b082c
+Section: Axs-Tweaks
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+ * 新崩溃未读数角标提醒（可关闭）
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Name: IPSLog
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
+Package: com.axs.ipslog
+Version: 5.2.0-11
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 664
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.ipslog_5.2.0-11_iphoneos-arm64e.deb
+Size: 86198
+MD5sum: cf4e1cec3c41f691275a9b1b94175e3f
+SHA1: 09e82219c6c5f2058e8c848bcc2ee084344ada21
+SHA256: 6a1e85016388f5e8b21be03578b9c8990d367ca4f679306e4577bab8e8096c14
+Section: Axs-Tweaks
+Description: 设置内一键查看与分析设备上的 .ips 崩溃日志，快速定位崩溃原因。
+ * 崩溃日志查看器：按进程聚合、按时间倒序、关键字搜索
+ * 解析异常类型 / 异常码 / 触发线程 / 崩溃堆栈 / 二进制映像
+ * 支持查看完整原文、复制任意字段、分享导出、删除单条与清空
+ * 新崩溃未读数角标提醒（可关闭）
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Name: IPSLog
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
 Package: com.axs.keyboardtools
 Version: 5.2.0-85
 Architecture: iphoneos-arm64
