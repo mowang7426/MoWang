@@ -420,6 +420,17 @@ Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 Name: A狗150动态岛（免授权）
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.axs.ios16dao.keygen
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Filename: debs/com.axs.ios16dao.keygen_1.0.0_iphoneos-arm64.deb
+Size: 5498
+MD5sum: b7c8924634136934273758cb3de89244
+SHA1: 01da0f5d6eb379ac5e82cb29c89b359d82ff16d7
+SHA256: 200979191864fdf881ffb00c2322a41a1fa4e596c145e86b9d8ab0d48d292632
+Description: A狗动态岛（ios16dao）激活码生成器。生成 18 位激活码，纯本地计算、不联网。
+Name: A狗动态岛激活码生成器
+
 Package: com.axs.keyboardtools
 Version: 5.2.0-85
 Architecture: iphoneos-arm64
@@ -614,6 +625,21 @@ Section: 系统美化
 Description: 灵动岛背景？
 Author: 冰蓝
 Name: 冰蓝灵动岛背景（免授权）
+
+Package: com.binglan.dynamicfx
+Version: 1.0.7-1
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.binglan.dynamicfx_1.0.7-1_iphoneos-arm64.deb
+Size: 115730
+MD5sum: f60e610d77936683eb9acbec793853f6
+SHA1: 9cc7e4e9a01cea31464de81c02ea514df7a0f5b9
+SHA256: a4f4cddc832b9ec7e82709703614e13218a5e1ff978205e4a8ec77b41f7e82a2
+Section: 工具
+Description: 灵动岛背景美化插件
+Author: 冰蓝
+Name: 灵动岛背景（免授权）
 
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
