@@ -3186,6 +3186,38 @@ Description: 本次更新修复发光键帽阴影
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.rainbowkeyboard
+Version: 1.2.52
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 944
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.rainbowkeyboard_1.2.52_iphoneos-arm64e.deb
+Size: 670680
+MD5sum: 47f8cab4882cbb5b386fbfe7e9a2d162
+SHA1: ae1a4b381ea2b47bd52511cf551a7f9c8f937ed5
+SHA256: 7a199714d2296f1dc6f9b8e259e3df8d6adc1545c8c0b435b26300c9add60338
+Section: Tweaks
+Description: 更新：此版本为安全版，已禁用主题功能，只适合装 1.2.5 出现卡屏卡死状态安装，不卡的直接用 1.2.5 就行，不用更新
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.2.52
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 1328
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.rainbowkeyboard_1.2.52_iphoneos-arm64.deb
+Size: 804704
+MD5sum: 9d3568d4ba853d41e33d52c1ac8b4937
+SHA1: 050550cb5eac86777222531f6ba7562958541e0d
+SHA256: 1b5e740ae1846c2bfc6803e44566ae9ca93ef0232bf72f7eaf1afc684469a2c1
+Section: Tweaks
+Description: 更新：此版本为安全版，已禁用主题功能，只适合装 1.2.5 出现卡屏卡死状态安装，不卡的直接用 1.2.5 就行，不用更新
+Author: MoWang
+Name: 彩虹键盘光效
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
