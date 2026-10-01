@@ -2626,38 +2626,6 @@ Author: MoWang
 Name: 88 液态锁屏时间渐变
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 1344
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.minis.rainbowkeyboard_1.0_iphoneos-arm64.deb
-Size: 811876
-MD5sum: 0323c748c4840de90b224cfc69785c6a
-SHA1: 32a6ee97226ae89af4b9078215721d7b17170bc8
-SHA256: e3fbee649119b419b8d35d0a28dffe06b68d9424f83f4ea4d041d2d943fdc2f1
-Section: Tweaks
-Description: 修复渐变表情 bug
-Author: MoWang
-Name: 彩虹键盘光效（安全版）
-
-Package: com.minis.rainbowkeyboard
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 944
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.minis.rainbowkeyboard_1.0_iphoneos-arm64e.deb
-Size: 674302
-MD5sum: c12a6327b4448d8d998e1fefadc35790
-SHA1: c9aa85ab8fe4a452432572b511d10f960b37237d
-SHA256: 4dfe8fd69cc0075366fb8b630fc8bafb49e1a162fd4a10b6e1670dc28df9795f
-Section: Tweaks
-Description: 修复渐变表情 bug
-Author: MoWang
-Name: 彩虹键盘光效（安全版）
-
-Package: com.minis.rainbowkeyboard
 Version: 1.0.8
 Architecture: iphoneos-arm64
 Maintainer: MoWang
@@ -3404,6 +3372,38 @@ Section: Tweaks
 Description: 第三方键盘按键发光效果插件
 Author: MoWang
 Name: KBGlow
+
+Package: com.mowang.rainbowkeyboard
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 944
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.mowang.rainbowkeyboard_1.0_iphoneos-arm64e.deb
+Size: 674302
+MD5sum: ba81a7d33e962c1bd288fa31243c3d4e
+SHA1: c81f4e14b922f31a219afbbf390a4af7e0eccb85
+SHA256: 98fc9e91d72b89ff460e096ac6f697c17a6d73245d180dc50c77aa05dedc169f
+Section: Tweaks
+Description: 修复渐变表情 bug
+Author: MoWang
+Name: 彩虹键盘光效（安全版）
+
+Package: com.mowang.rainbowkeyboard
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 1344
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.mowang.rainbowkeyboard_1.0_iphoneos-arm64.deb
+Size: 811876
+MD5sum: 8ab5c24c774f581fc9b7e7fdaccf6cc5
+SHA1: 6a273f894f5a93215d2f290dbe538e150aedd9e5
+SHA256: 7b7c53387dd82b624dd5cd546806257b89f27ae29cf61f423b5f8094cc98f8f2
+Section: Tweaks
+Description: 修复渐变表情 bug
+Author: MoWang
+Name: 彩虹键盘光效（安全版）
 
 Package: com.nx.stheno
 Version: 0.1.23-1
