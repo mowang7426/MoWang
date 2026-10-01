@@ -3250,6 +3250,38 @@ Description: 更新：此版本为安全版，已禁用主题功能，只适合�
 Author: MoWang
 Name: 彩虹键盘光效
 
+Package: com.minis.rainbowkeyboard
+Version: 1.2.6
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 1028
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.rainbowkeyboard_1.2.6_iphoneos-arm64.deb
+Size: 733986
+MD5sum: f4bae438268c094c7e5c935a0c746f55
+SHA1: c9121ca09ebe1d8d4e367ae7549e80ba1d37625f
+SHA256: fc87a581b2319ff7f53e5ab01b3128283bd0c0d9743f58a73b2d75d45e139262
+Section: Tweaks
+Description: 修复表情渐变 bug
+Author: MoWang
+Name: 彩虹键盘光效
+
+Package: com.minis.rainbowkeyboard
+Version: 1.2.6
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 1044
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.rainbowkeyboard_1.2.6_iphoneos-arm64e.deb
+Size: 735062
+MD5sum: b996bb5faa82bfe5f04a9375171d7055
+SHA1: f4a206ae9e7a50ab8a927ca03d12493921d852ee
+SHA256: 644f0aaad5d3671305ee7d593e997adbab7cb252a95d5cd188626aabd4b07236
+Section: Tweaks
+Description: 修复表情渐变 bug
+Author: MoWang
+Name: 彩虹键盘光效
+
 Package: com.mlgm.idata
 Version: 1.2.1
 Architecture: iphoneos-arm64
