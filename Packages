@@ -1553,6 +1553,38 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.crctdd.stayalivelite
+Version: 0.3.6
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 840
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/StayAlive Lite-0.3.6-iphoneos-arm64e.deb
+Size: 122824
+MD5sum: a4db97c22ac94308f2277169c5cdacd2
+SHA1: 50f3131ea16b5c802b1f3596f0b4e70bfd3121cf
+SHA256: 18c8ae379364124a709d08f50ede4a5a7764ba57e1d7c14d431bcf04fef50381
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
+Package: com.crctdd.stayalivelite
+Version: 0.3.6
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 1688
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/StayAlive Lite-0.3.6-iphoneos-arm64.deb
+Size: 179658
+MD5sum: 66c7a0d0de7b84b291f78998904c3f72
+SHA1: ee35a07de6be050361139d0e74e43eb61011c8e3
+SHA256: a46a5c554ea525d44ab14a372612e7eacd6f3fea5a902aaec185c4d7dd8451dd
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
 Package: com.go.mango
 Version: 1.0-Beta6-1
 Architecture: iphoneos-arm64e
@@ -6434,6 +6466,64 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
 Name: 微信净化 2026.04
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
 
+Package: wiki.qaq.inspector
+Version: 0.6.3
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 20740
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/Inspector-0.6.3-iphoneos-arm64.deb
+Size: 6982180
+MD5sum: c2ef943d5a51116590a370a25047ca17
+SHA1: c4853146e2d06fddb3d90874a944191e6b22a9cf
+SHA256: 1feccad6dc8c17870cfddac7b650bb3df803efab64894601bffd624e286b9554
+Section: Utilities
+Priority: optional
+Description: Live process inspector for rootless jailbreaks
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Inspector/
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Name: Inspector
+Sileodepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+
+Package: wiki.qaq.inspector
+Version: 0.6.3
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 20740
+Depends: firmware (>= 13.0), uikittools, launchctl
+Filename: debs/Inspector-0.6.3-iphoneos-arm64e.deb
+Size: 6985550
+MD5sum: 796f7ea777e305ad2058c3215fa09c09
+SHA1: fa142910586c584863d0919b8ca2b002da965b80
+SHA256: eab15179a1d95b537eacd4841c70a2ce4d387d8af7795cb0e9444c9029bdb798
+Section: Utilities
+Priority: optional
+Description: Live process inspector for roothide jailbreaks
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depiction: https://owngoal-dev.github.io/Inspector/
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Name: Inspector
+Sileodepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+
 Package: wiki.qaq.irisin
 Version: 4.5.14
 Architecture: iphoneos-arm64
@@ -6527,6 +6617,58 @@ Section: Applications
 Priority: optional
 Homepage: https://github.com/Lakr233/Irisin
 Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.irisin
+Version: 4.5.18
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18328
+Depends: firmware (>= 16.0)
+Filename: debs/Irisin-4.5.18-iphoneos-arm64.deb
+Size: 5521184
+MD5sum: 28e4209bf7da2961c4f3831e9ae758a5
+SHA1: f163c401fcbae33176d21083f70259ae817da9de
+SHA256: 0b6178889b193dc482c1d5001e0e4fe05ac000809cb773dc09d6f88152579847
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+Depiction: https://lakr233.github.io/Irisin/
+Icon: https://lakr233.github.io/Irisin/icon.png
+Name: Irisin
+Sileodepiction: https://lakr233.github.io/Irisin/depiction.json
+
+Package: wiki.qaq.irisin
+Version: 4.5.18
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 18328
+Depends: firmware (>= 16.0)
+Filename: debs/Irisin-4.5.18-iphoneos-arm64e.deb
+Size: 5521256
+MD5sum: 4fe001997328925535997e05dda35e38
+SHA1: 8bb3ad1437666ba75f3ce4fefd297831d9bba9ce
+SHA256: 5ce7a50d95307edafda69f9f7782f58d90ce6ea1556579abbadeb133a4dbb869
+Section: Applications
+Priority: optional
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
  Browse your repositories, install and remove packages, keep tweaks updated
  and read every depiction, on iPhone and iPad. The app runs without root;
  installs go through a small on-demand root daemon whose helper installs
