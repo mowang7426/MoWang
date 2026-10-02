@@ -3487,6 +3487,38 @@ Description: 自动扫描、分类和分析 iOS .ips 日志
 Author: MoWang
 Name: AI 日志分析
 
+Package: com.mowang.crashanalyzer
+Version: 1.1.6
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 260
+Depends: preferenceloader
+Filename: debs/com.mowang.crashanalyzer_1.1.6_iphoneos-arm64e.deb
+Size: 119928
+MD5sum: 963c47b80d42191790fe6a0726c929d3
+SHA1: ea7933c502155be57e088daac5762292a0802e9f
+SHA256: f1934882e413d0d382fe0c1d32257bd2a7a00edbf8a4fa152362c01dbcbcd74a
+Section: Utilities
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Author: MoWang
+Name: AI 日志分析
+
+Package: com.mowang.crashanalyzer
+Version: 1.1.6
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 260
+Depends: preferenceloader
+Filename: debs/com.mowang.crashanalyzer_1.1.6_iphoneos-arm64.deb
+Size: 120068
+MD5sum: 858821f4946731a17eba9d92f84e0e50
+SHA1: ba1df113628af94a99a1ba65a4bf3e48c1a97c8a
+SHA256: 9c617e6667cc9722b9033064b0f5b34b9eef0469e2d9f3476a67124f1f487f21
+Section: Utilities
+Description: 自动扫描、分类和分析 iOS .ips 日志
+Author: MoWang
+Name: AI 日志分析
+
 Package: com.mowang.kbglow
 Version: 1.0.3
 Architecture: iphoneos-arm64e
@@ -4532,6 +4564,38 @@ Description: 实时悬浮窗硬件监控：CPU 负载与频率、屏幕 FPS、�
   - 建议先连接有线充电器再启用智能停充，无线充电不执行智能停充
   - 值守进程 SBCPUChargeDaemon 由 launchd 常驻，请勿手动重复启动
   - 本包为 RootHide（arm64e）版；标准 Rootless（arm64）请安装对应版本
+Author: MoWang
+Name: SB CPU Floating
+
+Package: com.sbcpu.floating
+Version: 4.78
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 2924
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.sbcpu.floating_4.78_iphoneos-arm64e.deb
+Size: 952640
+MD5sum: 6977bd15052b5e1768e0e406c94e5852
+SHA1: bf2317f71551f378f6b44d9b7bfe03d7f2b5f21a
+SHA256: 502873044dd60537a9e4046fde653a6a7c586310b154c3c9c58921f67939a509
+Section: Tweaks
+Description: 新增智能切换，新增夜间分时充电，新增吸附顶部状态栏
+Author: MoWang
+Name: SB CPU Floating
+
+Package: com.sbcpu.floating
+Version: 4.78
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 2924
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.sbcpu.floating_4.78_iphoneos-arm64.deb
+Size: 960128
+MD5sum: 74de48b91305e1a065970cd11fc43eb5
+SHA1: 1159ae4c4959f2bacc7c3673cbf37d2c5e8f37b5
+SHA256: 7afad080ee5fedb951c1a2e5657b880e9b1e2c18b2a4caa6d4aa9eff877cb23e
+Section: Tweaks
+Description: 新增智能切换，新增夜间分时充电，新增吸附顶部状态栏
 Author: MoWang
 Name: SB CPU Floating
 
