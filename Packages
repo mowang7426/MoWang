@@ -2239,6 +2239,22 @@ Description: iOS 14-17 控制中心背景自定义
 Author: iosdump
 Name: CustomCCBg
 
+Package: com.iosdump.customccbg
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.customccbg_0.0.3_iphoneos-arm64e.deb
+Size: 47740
+MD5sum: f54186316bf22dd144cc879aa41e272b
+SHA1: 1bb8452618cc0f49871a05e8db5a3e91a9a9b2f8
+SHA256: 940a9c3bedd726cb427e4ba4bf388a70234ca5a548e3a155eaccc1f6acadb135
+Section: Tweaks
+Description: iOS 14-17 控制中心背景自定义
+Author: iosdump
+Name: CustomCCBg
+
 Package: com.iosdump.shellx
 Version: 10.0.0
 Architecture: iphoneos-arm64
